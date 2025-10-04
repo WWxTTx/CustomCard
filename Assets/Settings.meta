@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+<<<<<<< HEAD
+guid: a8f0850cdcdf06c4fb0f85fd51ed94d5
+=======
+<<<<<<<< HEAD:Assets/Game/GameScript.meta
+guid: 68f7a10d23502e54a9d548a02a6fe12d
+========
+guid: 4f2fd863fc3adfb4f9deacde12a80a1d
+>>>>>>>> f05da8c21b48bb8725f920b445c2e03e3984ad77:Assets/Settings.meta
+>>>>>>> f05da8c21b48bb8725f920b445c2e03e3984ad77
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
