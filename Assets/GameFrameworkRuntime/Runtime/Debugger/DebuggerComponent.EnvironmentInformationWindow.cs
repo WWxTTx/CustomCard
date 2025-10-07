@@ -11,24 +11,12 @@ using UnityEngine;
 using UnityEngine.Rendering;
 #endif
 
-namespace UnityGameFramework.Runtime
+namespace GameFramework.Runtime
 {
     public sealed partial class DebuggerComponent : GameFrameworkComponent
     {
         private sealed class EnvironmentInformationWindow : ScrollableDebuggerWindowBase
         {
-            private BaseComponent m_BaseComponent = null;
-
-            public override void Initialize(params object[] args)
-            {
-                m_BaseComponent = GameEntry.GetComponent<BaseComponent>();
-                if (m_BaseComponent == null)
-                {
-                    Log.Fatal("Base component is invalid.");
-                    return;
-                }
-            }
-
             protected override void OnDrawScrollableWindow()
             {
                 GUILayout.Label("<b>Environment Information</b>");

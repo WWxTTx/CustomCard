@@ -7,7 +7,7 @@
 
 using GameFramework;
 
-namespace UnityGameFramework.Runtime
+namespace GameFramework.Runtime
 {
     /// <summary>
     /// System.UInt64 变量类。

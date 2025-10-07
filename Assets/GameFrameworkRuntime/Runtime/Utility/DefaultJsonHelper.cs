@@ -9,7 +9,7 @@ using GameFramework;
 using System;
 using UnityEngine;
 
-namespace UnityGameFramework.Runtime
+namespace GameFramework.Runtime
 {
     /// <summary>
     /// 默认 JSON 函数集辅助器。

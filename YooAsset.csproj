@@ -61,19 +61,9 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.2.6f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultWebServerFileSystem\Operation\internal\LoadWebServerPackageManifestOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\Utility\CRC32Algorithm.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourcePackage\BundleInfo.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourceManager\Provider\RawFileProvider.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\WebGame\Operation\LoadWebAssetBundleOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourcePackage\Operation\ClearCacheFilesOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\Utility\BufferReader.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourceManager\Handle\HandleFactory.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\BundleResult\RawBundleResult\Operation\RawBundleLoadSubAssetsOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultWebServerFileSystem\Operation\DWSFSInitializeOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\DefaultCacheFileSystem.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourceManager\Operation\UnloadAllAssetsOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\BundleResult\RawBundleResult\RawBundleResult.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\Operation\FSClearCacheFilesOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\Operation\internal\ClearAllCacheManifestFilesOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\FileSystemParameters.cs" />
@@ -82,56 +72,28 @@
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourcePackage\Interface\IPlayMode.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourceManager\ResourceManager.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultEditorFileSystem\DefaultEditorFileSystemDefine.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\BundleResult\VirtualBundleResult\VirtualBundleResult.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\Operation\FSRequestPackageVersionOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultUnpackFileSystem\DefaultUnpackRemoteServices.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourcePackage\PackageManifest.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultWebServerFileSystem\Operation\DWSFSLoadBundleOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\WebGame\Operation\RequestWebPackageVersionOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\Operation\internal\DownloadCenterOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\Operation\FSLoadBundleOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\EOverwriteInstallClearMode.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourcePackage\PackageAsset.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\PackageInvokeBuilder\PackageInvokeBuildResult.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultBuildinFileSystem\Operation\internal\RequestBuildinPackageVersionOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\DownloadSystem\Operation\Internal\UnityWebFileRequestOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultEditorFileSystem\Operation\internal\LoadEditorPackageManifestOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\Services\IManifestProcessServices.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\Elements\RecordFileElement.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\DiagnosticSystem\RemoteDebuggerDefine.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\BundleResult\VirtualBundleResult\Operation\VirtualBundleLoadSubAssetsOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultEditorFileSystem\Operation\internal\DownloadVirutalBundleOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultWebServerFileSystem\DefaultWebServerFileSystem.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourceManager\Provider\SubAssetsProvider.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultBuildinFileSystem\Operation\internal\LoadBuildinPackageManifestOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\Operation\FSLoadSceneOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourcePackage\PlayMode\EditorSimulateModeHelper.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\EFileClearMode.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourcePackage\Operation\InitializationOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultWebServerFileSystem\Operation\internal\LoadWebServerCatalogFileOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultBuildinFileSystem\DefaultBuildinFileSystem.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\BundleResult\AssetBundleResult\Operation\AssetBundleLoadSceneOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\Operation\internal\UnityDownloadNormalFileOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\Services\IWebDecryptionServices.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\Operation\internal\UnityDownloadResumeFileOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\Operation\internal\ClearAllCacheBundleFilesOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourcePackage\Operation\Internal\DeserializeManifestOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\DownloadSystem\Operation\Internal\UnityWebDataRequestOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\OperationSystem\AsyncOperationBase.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultWebServerFileSystem\Operation\DWSFSRequestPackageVersionOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourcePackage\PackageBundle.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\ApplicationFootPrint.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\BundleResult\AssetBundleResult\Operation\AssetBundleLoadSubAssetsOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\OperationSystem\GameAsyncOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\DiagnosticSystem\DebugPackageData.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\DownloadSystem\Operation\Internal\UnityWebTextRequestOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\PackageInvokeBuilder\PackageInvokeBuildParam.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultBuildinFileSystem\DefaultBuildinFileCatalog.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourceManager\Provider\CompletedProvider.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourceManager\Operation\UnloadSceneOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\BundleResult\RawBundleResult\Operation\RawBundleLoadAssetOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\DownloadSystem\Operation\Internal\UnityWebCacheRequestOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourceManager\Operation\Internal\LoadBundleFileOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultWebServerFileSystem\Operation\internal\RequestWebServerPackageHashOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\Operation\internal\ClearUnusedCacheBundleFilesOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\BundleResult\VirtualBundleResult\Operation\VirtualBundleLoadSceneOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\BundleResult\RawBundleResult\Operation\RawBundleLoadAllAssetsOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\Services\IDecryptionServices.cs" />
@@ -139,118 +101,166 @@
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultEditorFileSystem\Operation\DEFSRequestPackageVersionOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\BundleResult\BundleResult.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\OperationSystem\OperationSystem.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\Operation\internal\DownloadPackageManifestOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourcePackage\ResourcePackage.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\DownloadSystem\Operation\Internal\UnityVirtualBundleRequestOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultBuildinFileSystem\CatalogDefine.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\DownloadSystem\DownloadDefine.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\Operation\internal\DownloadPackageBundleOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\Services\IManifestRestoreServices.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultUnpackFileSystem\DefaultUnpackFileSystem.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourcePackage\Operation\DestroyOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\Services\IRemoteServices.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\DownloadSystem\WebRequestCounter.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourceManager\Handle\AllAssetsHandle.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\Operation\FSLoadPackageManifestOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\Operation\internal\DownloadPackageHashOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\Settings\YooAssetSettings.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\WebGame\Operation\LoadWebEncryptAssetBundleOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\Operation\internal\VerifyTempFileOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\DiagnosticSystem\DebugBundleInfo.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\DownloadSystem\Operation\Internal\UnityAssetBundleRequestOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\EFileVerifyLevel.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\WebGame\Operation\RequestWebPackageHashOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourcePackage\ManifestTools.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultEditorFileSystem\Operation\DEFSInitializeOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\FileVerifyHelper.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\DiagnosticSystem\DebugReport.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\BundleResult\VirtualBundleResult\Operation\VirtualBundleLoadAllAssetsOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourcePackage\PackageDetail.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\YooAssetsExtension.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultBuildinFileSystem\Operation\DBFSLoadBundleOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\DiagnosticSystem\RemoteCommand.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourceManager\Provider\AssetProvider.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\Utility\YooUtility.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourceManager\DownloadStatus.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourceManager\Provider\ProviderOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourceManager\Operation\InstantiateOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourcePackage\Operation\PreDownloadContentOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\Operation\internal\RequestRemotePackageVersionOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\Utility\BufferWriter.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\Operation\internal\LoadCachePackageHashOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourcePackage\EFileNameStyle.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\BundleResult\AssetBundleResult\Operation\AssetBundleLoadAllAssetsOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\Operation\internal\VerifyCacheFilesOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\WebGame\Operation\LoadWebPackageManifestOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultEditorFileSystem\Operation\DEFSLoadBundleOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\Operation\FSInitializeFileSystemOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\Elements\TempFileElement.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourceManager\Handle\AssetHandle.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultBuildinFileSystem\Operation\internal\RequestBuildinPackageHashOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourcePackage\ManifestDefine.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\Operation\internal\ClearUnusedCacheManifestFilesOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\Operation\FSLoadAssetOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\Assembly\AssemblyInfo.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\FileSystemParametersDefine.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\InitializeParameters.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultBuildinFileSystem\Operation\DBFSRequestPackageVersionOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultBuildinFileSystem\DefaultBuildinFileSystemDefine.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourcePackage\PlayMode\PlayModeImpl.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourcePackage\Operation\DownloaderOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\DownloadSystem\DownloadSystemHelper.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\Operation\FSLoadSubAssetsOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultWebServerFileSystem\Operation\internal\LoadWebServerPackageManifestOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\Utility\CRC32Algorithm.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourcePackage\BundleInfo.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourceManager\Provider\RawFileProvider.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\WebGame\Operation\LoadWebAssetBundleOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourcePackage\Operation\ClearCacheFilesOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\BundleResult\RawBundleResult\Operation\RawBundleLoadSubAssetsOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\DefaultCacheFileSystem.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourceManager\Operation\UnloadAllAssetsOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\BundleResult\RawBundleResult\RawBundleResult.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\BundleResult\VirtualBundleResult\VirtualBundleResult.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourcePackage\PackageManifest.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultWebServerFileSystem\Operation\DWSFSLoadBundleOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\WebGame\Operation\RequestWebPackageVersionOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\Operation\internal\DownloadCenterOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\EOverwriteInstallClearMode.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourcePackage\PackageAsset.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\Elements\RecordFileElement.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultEditorFileSystem\Operation\internal\DownloadVirutalBundleOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourceManager\Provider\SubAssetsProvider.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\Operation\FSLoadSceneOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourcePackage\PlayMode\EditorSimulateModeHelper.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\EFileClearMode.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourcePackage\Operation\InitializationOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\DiagnosticSystem\RemotePlayerConnection.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultWebServerFileSystem\Operation\internal\LoadWebServerCatalogFileOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultBuildinFileSystem\DefaultBuildinFileSystem.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\BundleResult\AssetBundleResult\Operation\AssetBundleLoadSceneOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\Services\IWebDecryptionServices.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourcePackage\Operation\Internal\DeserializeManifestOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\DownloadSystem\Operation\Internal\UnityWebDataRequestOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\OperationSystem\AsyncOperationBase.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultWebServerFileSystem\Operation\DWSFSRequestPackageVersionOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\BundleResult\AssetBundleResult\Operation\AssetBundleLoadSubAssetsOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\OperationSystem\GameAsyncOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\PackageInvokeBuilder\PackageInvokeBuildParam.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultBuildinFileSystem\DefaultBuildinFileCatalog.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourceManager\Operation\UnloadSceneOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\BundleResult\RawBundleResult\Operation\RawBundleLoadAssetOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourceManager\Operation\Internal\LoadBundleFileOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\Operation\internal\ClearUnusedCacheBundleFilesOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\DiagnosticSystem\RemoteDebuggerInRuntime.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\DiagnosticSystem\DebugOperationInfo.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\Operation\internal\DownloadPackageManifestOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourcePackage\ResourcePackage.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultBuildinFileSystem\CatalogDefine.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\DownloadSystem\DownloadDefine.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\Services\IManifestRestoreServices.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourcePackage\Operation\DestroyOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\Services\IRemoteServices.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\BundleResult\AssetBundleResult\AssetBundleResult.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\BundleResult\AssetBundleResult\Operation\AssetBundleLoadAssetOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultWebRemoteFileSystem\DefaultWebRemoteFileSystem.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourcePackage\Operation\UpdatePackageManifestOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\Settings\YooAssetSettings.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\WebGame\Operation\LoadWebEncryptAssetBundleOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultEditorFileSystem\DefaultEditorFileSystem.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\Operation\internal\VerifyTempFileOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\DownloadSystem\Operation\Internal\UnityAssetBundleRequestOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultBuildinFileSystem\Operation\internal\CopyBuildinFileOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourceManager\Provider\AllAssetsProvider.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultBuildinFileSystem\Operation\DBFSLoadPackageManifestOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\Operation\internal\UnityDownloadLocalFileOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultUnpackFileSystem\DefaultUnpackFileSystemDefine.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\EFileVerifyLevel.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\WebGame\Operation\RequestWebPackageHashOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\Operation\DCFSLoadBundleOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\DownloadSystem\Operation\Internal\UnityWebRequestOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourcePackage\ManifestTools.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultEditorFileSystem\Operation\DEFSInitializeOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\FileVerifyHelper.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\BundleResult\VirtualBundleResult\Operation\VirtualBundleLoadAllAssetsOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourcePackage\PackageDetail.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultEditorFileSystem\Operation\internal\LoadEditorPackageVersionOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\YooAssetsExtension.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultWebServerFileSystem\Operation\DWSFSLoadPackageManifestOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\Elements\VerifyFileElement.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\Operation\internal\ClearCacheBundleFilesByTagsOperaiton.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultWebRemoteFileSystem\Operation\DWRFSRequestPackageVersionOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultBuildinFileSystem\Operation\DBFSLoadBundleOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\BundleResult\RawBundleResult\Operation\RawBundleLoadSceneOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourcePackage\EBuildBundleType.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourceManager\Provider\AssetProvider.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\Operation\FSLoadAllAssetsOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\YooAssetsDriver.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\Operation\internal\SearchCacheFilesOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\WebGame\Operation\LoadWebNormalAssetBundleOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourceManager\Provider\SceneProvider.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\Settings\YooAssetSettingsData.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\Utility\YooUtility.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourceManager\DownloadStatus.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\DefaultCacheFileSystemDefine.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourceManager\Provider\ProviderOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourceManager\Operation\InstantiateOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\Services\ICopyLocalFileServices.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourcePackage\Operation\PreDownloadContentOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultBuildinFileSystem\CatalogTools.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\Operation\internal\RequestRemotePackageVersionOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\Utility\BufferWriter.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\Operation\internal\LoadCachePackageHashOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultEditorFileSystem\Operation\DEFSLoadPackageManifestOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultWebRemoteFileSystem\Operation\DWRFSLoadPackageManifestOperation.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\DiagnosticSystem\DebugProviderInfo.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourcePackage\Operation\RequestPackageVersionOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourceManager\Handle\SubAssetsHandle.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourcePackage\EFileNameStyle.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\BundleResult\AssetBundleResult\Operation\AssetBundleLoadAllAssetsOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultBuildinFileSystem\Operation\internal\LoadBuildinCatalogFileOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\Operation\internal\VerifyCacheFilesOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\Operation\DCFSRequestPackageVersionOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\WebGame\Operation\LoadWebPackageManifestOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\Services\IEncryptionServices.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\Utility\YooLogger.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourceManager\Operation\UnloadUnusedAssetsOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultEditorFileSystem\Operation\DEFSLoadBundleOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\Operation\FSInitializeFileSystemOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\Operation\internal\UnityDownloadFileOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\Elements\TempFileElement.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\EFileVerifyResult.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourceManager\Handle\AssetHandle.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourcePackage\Interface\IBundleQuery.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultBuildinFileSystem\Operation\DBFSInitializeOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultBuildinFileSystem\Operation\internal\RequestBuildinPackageHashOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourcePackage\ManifestDefine.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\YooAssets.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\Operation\internal\ClearUnusedCacheManifestFilesOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\Operation\FSLoadAssetOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\BundleResult\VirtualBundleResult\Operation\VirtualBundleLoadAssetOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultWebRemoteFileSystem\Operation\DWRFSInitializeOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultWebServerFileSystem\Operation\internal\RequestWebServerPackageVersionOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourcePackage\AssetInfo.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\DiagnosticSystem\RemoteEditorConnection.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\PackageInvokeBuilder\PackageInvokeBuilder.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultWebRemoteFileSystem\Operation\DWRFSLoadBundleOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\Assembly\AssemblyInfo.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\FileSystemParametersDefine.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\InitializeParameters.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultEditorFileSystem\Operation\internal\LoadEditorPackageHashOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultBuildinFileSystem\Operation\DBFSRequestPackageVersionOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourceManager\Handle\SceneHandle.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\OperationSystem\EOperationStatus.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\Operation\DCFSInitializeOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultBuildinFileSystem\DefaultBuildinFileSystemDefine.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourcePackage\PlayMode\PlayModeImpl.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\Operation\internal\LoadCachePackageManifestOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\ResourcePackage\Operation\DownloaderOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\Operation\FSDownloadFileOperation.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\DefaultCacheFileSystem\Operation\DCFSLoadPackageManifestOperation.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\DownloadSystem\DownloadSystemHelper.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\FileSystem\Operation\FSLoadSubAssetsOperation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\GameFrameworkRuntime\Runtime\YooAsset\YooAsset.asmdef" />
@@ -764,8 +774,12 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Cecil.Awesome">
+      <HintPath>Library\PackageCache\com.unity.entities@f6e02210e263\Unity.Entities.CodeGen\Unity.Cecil.Awesome.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
-      <HintPath>Library\PackageCache\com.unity.collections@d49facba0036\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="nunit.framework">
@@ -777,11 +791,15 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="System.IO.Hashing">
-      <HintPath>Library\PackageCache\com.unity.collections@d49facba0036\Unity.Collections.Tests\System.IO.Hashing\System.IO.Hashing.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.Tests\System.IO.Hashing\System.IO.Hashing.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="LZ4">
       <HintPath>Library\PackageCache\com.code-philosophy.hybridclr@01754c8fb47b\Plugins\LZ4.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@74deb55db2a0\Runtime\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mono.Cecil">
@@ -793,7 +811,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>Library\PackageCache\com.unity.collections@d49facba0036\Unity.Collections.Tests\System.Runtime.CompilerServices.Unsafe\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.Tests\System.Runtime.CompilerServices.Unsafe\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Android.Types">

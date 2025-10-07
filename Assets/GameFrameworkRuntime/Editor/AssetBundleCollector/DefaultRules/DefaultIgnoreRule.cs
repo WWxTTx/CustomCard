@@ -23,6 +23,10 @@ namespace YooAsset.Editor
         /// </summary>
         public bool IsIgnore(AssetInfo assetInfo)
         {
+            // 热更DLL文件不能忽略
+            if (assetInfo.AssetPath.Contains(".dll.byte"))
+                return false;
+
             if (assetInfo.AssetPath.StartsWith("Assets/") == false && assetInfo.AssetPath.StartsWith("Packages/") == false)
             {
                 UnityEngine.Debug.LogError($"Invalid asset path : {assetInfo.AssetPath}");

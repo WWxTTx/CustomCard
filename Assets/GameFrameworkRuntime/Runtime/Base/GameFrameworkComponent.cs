@@ -7,11 +7,12 @@
 
 using UnityEngine;
 
-namespace UnityGameFramework.Runtime
+namespace GameFramework.Runtime
 {
     /// <summary>
     /// 游戏框架组件抽象类。
     /// </summary>
+    [DisallowMultipleComponent]
     public abstract class GameFrameworkComponent : MonoBehaviour
     {
         /// <summary>

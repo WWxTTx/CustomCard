@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Diagnostics;
 using System.Collections;
 using System.Collections.Generic;
@@ -53,6 +53,11 @@ namespace YooAsset
                 _driver.AddComponent<YooAssetsDriver>();
                 UnityEngine.Object.DontDestroyOnLoad(_driver);
                 YooLogger.Log($"{nameof(YooAssets)} initialize !");
+
+#if DEBUG
+                // 添加远程调试脚本
+                _driver.AddComponent<RemoteDebuggerInRuntime>();
+#endif
 
                 OperationSystem.Initialize();
             }
@@ -252,6 +257,21 @@ namespace YooAsset
                 YooLogger.Warning($"MaxTimeSlice minimum value is 10 milliseconds.");
             }
             OperationSystem.MaxTimeSlice = milliseconds;
+        }
+        #endregion
+
+        #region 调试信息
+        internal static DebugReport GetDebugReport()
+        {
+            DebugReport report = new DebugReport();
+            report.FrameCount = Time.frameCount;
+
+            foreach (var package in _packages)
+            {
+                var packageData = package.GetDebugPackageData();
+                report.PackageDatas.Add(packageData);
+            }
+            return report;
         }
         #endregion
     }

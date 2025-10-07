@@ -4,6 +4,7 @@
     "references": [
         "YooAsset",
         "Unity.ScriptableBuildPipeline",
+        "HybridCLR.Editor",
         "Unity.ScriptableBuildPipeline.Editor"
     ],
     "includePlatforms": [

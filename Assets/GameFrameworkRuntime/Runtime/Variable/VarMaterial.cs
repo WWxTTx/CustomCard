@@ -8,7 +8,7 @@
 using GameFramework;
 using UnityEngine;
 
-namespace UnityGameFramework.Runtime
+namespace GameFramework.Runtime
 {
     /// <summary>
     /// UnityEngine.Material 变量类。

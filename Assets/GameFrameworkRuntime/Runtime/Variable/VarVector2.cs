@@ -8,7 +8,7 @@
 using GameFramework;
 using UnityEngine;
 
-namespace UnityGameFramework.Runtime
+namespace GameFramework.Runtime
 {
     /// <summary>
     /// UnityEngine.Vector2 变量类。

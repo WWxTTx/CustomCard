@@ -11,13 +11,11 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace UnityGameFramework.Runtime
+namespace GameFramework.Runtime
 {
     /// <summary>
     /// 对象池组件。
     /// </summary>
-    [DisallowMultipleComponent]
-    [AddComponentMenu("Game Framework/Object Pool")]
     public sealed class ObjectPoolComponent : GameFrameworkComponent
     {
         private IObjectPoolManager m_ObjectPoolManager = null;
@@ -43,7 +41,7 @@ namespace UnityGameFramework.Runtime
             m_ObjectPoolManager = GameFrameworkEntry.GetModule<IObjectPoolManager>();
             if (m_ObjectPoolManager == null)
             {
-                Log.Fatal("Object pool manager is invalid.");
+                Debug.Log("Object pool manager is invalid.");
                 return;
             }
         }
@@ -1017,7 +1015,7 @@ namespace UnityGameFramework.Runtime
         /// </summary>
         public void Release()
         {
-            Log.Info("Object pool release...");
+            Debug.Log("Object pool release...");
             m_ObjectPoolManager.Release();
         }
 
@@ -1026,7 +1024,7 @@ namespace UnityGameFramework.Runtime
         /// </summary>
         public void ReleaseAllUnused()
         {
-            Log.Info("Object pool release all unused...");
+            Debug.Log("Object pool release all unused...");
             m_ObjectPoolManager.ReleaseAllUnused();
         }
     }

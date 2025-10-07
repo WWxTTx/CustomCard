@@ -5,7 +5,7 @@
 // Feedback: mailto:ellan@gameframework.cn
 //------------------------------------------------------------
 
-namespace UnityGameFramework.Runtime
+namespace GameFramework.Runtime
 {
     public sealed partial class DebuggerComponent : GameFrameworkComponent
     {

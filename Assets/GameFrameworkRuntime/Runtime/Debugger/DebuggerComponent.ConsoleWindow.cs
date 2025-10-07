@@ -11,7 +11,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace UnityGameFramework.Runtime
+namespace GameFramework.Runtime
 {
     public sealed partial class DebuggerComponent : GameFrameworkComponent
     {
@@ -398,7 +398,7 @@ namespace UnityGameFramework.Runtime
             {
                 if (results == null)
                 {
-                    Log.Error("Results is invalid.");
+                    Debug.LogError("Results is invalid.");
                     return;
                 }
 
@@ -413,13 +413,13 @@ namespace UnityGameFramework.Runtime
             {
                 if (results == null)
                 {
-                    Log.Error("Results is invalid.");
+                    Debug.LogError("Results is invalid.");
                     return;
                 }
 
                 if (count <= 0)
                 {
-                    Log.Error("Count is invalid.");
+                    Debug.LogError("Count is invalid.");
                     return;
                 }
 

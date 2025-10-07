@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 
@@ -174,5 +175,39 @@ namespace YooAsset
         {
             _finishCallback = callback;
         }
+
+        #region 调试信息
+        internal static List<DebugOperationInfo> GetDebugOperationInfos(string packageName)
+        {
+            List<DebugOperationInfo> result = new List<DebugOperationInfo>(_operations.Count);
+            foreach (var operation in _operations)
+            {
+                if (operation.PackageName == packageName)
+                {
+                    var operationInfo = GetDebugOperationInfo(operation);
+                    result.Add(operationInfo);
+                }
+            }
+            return result;
+        }
+        internal static DebugOperationInfo GetDebugOperationInfo(AsyncOperationBase operation)
+        {
+            var operationInfo = new DebugOperationInfo();
+            operationInfo.OperationName = operation.GetType().Name;
+            operationInfo.OperationDesc = operation.GetOperationDesc();
+            operationInfo.Priority = operation.Priority;
+            operationInfo.Progress = operation.Progress;
+            operationInfo.BeginTime = operation.BeginTime;
+            operationInfo.ProcessTime = operation.ProcessTime;
+            operationInfo.Status = operation.Status.ToString();
+            operationInfo.Childs = new List<DebugOperationInfo>(operation.Childs.Count);
+            foreach (var child in operation.Childs)
+            {
+                var childInfo = GetDebugOperationInfo(child);
+                operationInfo.Childs.Add(childInfo);
+            }
+            return operationInfo;
+        }
+        #endregion
     }
 }

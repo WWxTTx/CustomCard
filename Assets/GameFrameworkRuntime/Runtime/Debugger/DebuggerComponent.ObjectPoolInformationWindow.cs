@@ -9,7 +9,7 @@ using GameFramework;
 using GameFramework.ObjectPool;
 using UnityEngine;
 
-namespace UnityGameFramework.Runtime
+namespace GameFramework.Runtime
 {
     public sealed partial class DebuggerComponent : GameFrameworkComponent
     {
@@ -22,7 +22,7 @@ namespace UnityGameFramework.Runtime
                 m_ObjectPoolComponent = GameEntry.GetComponent<ObjectPoolComponent>();
                 if (m_ObjectPoolComponent == null)
                 {
-                    Log.Fatal("Object pool component is invalid.");
+                    Debug.Log("Object pool component is invalid.");
                     return;
                 }
             }

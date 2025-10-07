@@ -59,70 +59,87 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.2.6f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.2.6f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.2.6f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
+    <Analyzer Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.entities@f6e02210e263\Unity.Entities\SourceGenerators\AspectGenerator.dll" />
+    <Analyzer Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.entities@f6e02210e263\Unity.Entities\SourceGenerators\JobEntityGenerator.dll" />
+    <Analyzer Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.entities@f6e02210e263\Unity.Entities\SourceGenerators\SystemGenerator.dll" />
+    <Analyzer Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.entities@f6e02210e263\Unity.Entities\SourceGenerators\Unity.Entities.Analyzer.dll" />
+    <Analyzer Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.entities@f6e02210e263\Unity.Entities\SourceGenerators\SystemGenerator.LambdaJobs.dll" />
+    <Analyzer Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.entities@f6e02210e263\Unity.Entities\SourceGenerators\SystemGenerator.SystemAPI.QueryBuilder.dll" />
+    <Analyzer Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.entities@f6e02210e263\Unity.Entities\SourceGenerators\SystemGenerator.SystemAPI.dll" />
+    <Analyzer Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.entities@f6e02210e263\Unity.Entities\SourceGenerators\SystemGenerator.SystemAPI.Query.dll" />
+    <Analyzer Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.entities@f6e02210e263\Unity.Entities\SourceGenerators\SystemGenerator.Common.dll" />
+    <Analyzer Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.entities@f6e02210e263\Unity.Entities\SourceGenerators\Common.dll" />
+    <Analyzer Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.entities@f6e02210e263\Unity.Entities\SourceGenerators\SystemGenerator.EntityQueryBulkOperations.dll" />
+    <Analyzer Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.entities@f6e02210e263\Unity.Entities\SourceGenerators\Unity.Entities.Analyzer.CodeFixes.dll" />
+    <Analyzer Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\NetCodeSourceGenerator.dll" />
+    <Analyzer Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\NetCodeAnalyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Game\GameScript\Runtime\EventDefine\BattleEventDefine.cs" />
-    <Compile Include="Assets\Game\GameScript\Runtime\EventDefine\SceneEventDefine.cs" />
-    <Compile Include="Assets\Game\GameScript\Runtime\BattleLogic\BattleRoom.cs" />
-    <Compile Include="Assets\Game\GameScript\Runtime\WindowLogic\UIHomeWindow.cs" />
-    <Compile Include="Assets\Game\GameScript\Runtime\PatchLogic\FsmNode\FsmDownloadPackageOver.cs" />
-    <Compile Include="Assets\Game\GameScript\Runtime\BattleLogic\EntityEffect.cs" />
-    <Compile Include="Assets\Game\GameScript\Runtime\PatchLogic\FsmNode\FsmClearCacheBundle.cs" />
-    <Compile Include="Assets\Game\GameScript\Runtime\Behaviour\BackgroundScroller.cs" />
-    <Compile Include="Assets\Game\GameScript\Runtime\PatchLogic\PatchOperation.cs" />
-    <Compile Include="Assets\Game\GameScript\Runtime\PatchLogic\FsmNode\FsmDownloadPackageFiles.cs" />
-    <Compile Include="Assets\Game\GameScript\Runtime\PatchLogic\FsmNode\FsmStartGame.cs" />
-    <Compile Include="Assets\Game\GameScript\Runtime\GameLogic\GameManager.cs" />
-    <Compile Include="Assets\Game\GameScript\Runtime\WindowLogic\UILoadingWindow.cs" />
-    <Compile Include="Assets\Game\GameScript\Runtime\GameLogic\SceneHome.cs" />
-    <Compile Include="Assets\Game\GameScript\Runtime\BattleLogic\EntityBullet.cs" />
+    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueFloatUnquantized.NetCodeSourceGenerator.additionalfile" />
+    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueUInt.NetCodeSourceGenerator.additionalfile" />
+    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueDoubleUnquantized.NetCodeSourceGenerator.additionalfile" />
+    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueBool.NetCodeSourceGenerator.additionalfile" />
+    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueFloat2.NetCodeSourceGenerator.additionalfile" />
+    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\GhostComponentSerializer.NetCodeSourceGenerator.additionalfile" />
+    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueUShort.NetCodeSourceGenerator.additionalfile" />
+    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueFloat4Unquantized.NetCodeSourceGenerator.additionalfile" />
+    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\FixedList\GhostFixedListCommandHelper.NetCodeSourceGenerator.additionalfile" />
+    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueQuaternion.NetCodeSourceGenerator.additionalfile" />
+    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueFloat3.NetCodeSourceGenerator.additionalfile" />
+    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueFloat3Unquantized.NetCodeSourceGenerator.additionalfile" />
+    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueFloat2Unquantized.NetCodeSourceGenerator.additionalfile" />
+    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\FixedList\GhostFixedListContainer.NetCodeSourceGenerator.additionalfile" />
+    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\InputSynchronization.NetCodeSourceGenerator.additionalfile" />
+    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueFixedString64Bytes.NetCodeSourceGenerator.additionalfile" />
+    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueEntity.NetCodeSourceGenerator.additionalfile" />
+    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueFixedString4096Bytes.NetCodeSourceGenerator.additionalfile" />
+    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueSByte.NetCodeSourceGenerator.additionalfile" />
+    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueFixedString32Bytes.NetCodeSourceGenerator.additionalfile" />
+    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueDouble.NetCodeSourceGenerator.additionalfile" />
+    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\FixedList\GhostFixedListElement.NetCodeSourceGenerator.additionalfile" />
+    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\FixedList\GhostFixedListSnapshotHelpers.NetCodeSourceGenerator.additionalfile" />
+    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueFixedString512Bytes.NetCodeSourceGenerator.additionalfile" />
+    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueULong.NetCodeSourceGenerator.additionalfile" />
+    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\FixedList\GhostSnapshotFixedList.NetCodeSourceGenerator.additionalfile" />
+    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\CommandDataSerializer.NetCodeSourceGenerator.additionalfile" />
+    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueNetworkEndpoint.NetCodeSourceGenerator.additionalfile" />
+    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueShort.NetCodeSourceGenerator.additionalfile" />
+    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\GhostComponentSerializerRegistrationSystem.NetCodeSourceGenerator.additionalfile" />
+    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueByte.NetCodeSourceGenerator.additionalfile" />
+    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueLong.NetCodeSourceGenerator.additionalfile" />
+    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueQuaternionUnquantized.NetCodeSourceGenerator.additionalfile" />
+    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueInt.NetCodeSourceGenerator.additionalfile" />
+    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\RpcCommandSerializer.NetCodeSourceGenerator.additionalfile" />
+    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueFixedString128Bytes.NetCodeSourceGenerator.additionalfile" />
+    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueFloat.NetCodeSourceGenerator.additionalfile" />
+    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueNetworkTick.NetCodeSourceGenerator.additionalfile" />
+    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueFloat4.NetCodeSourceGenerator.additionalfile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\GameFrameworkRuntime\HotUpdate\PatchEventDefine.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\HotUpdate\FsmNode\FsmClearCacheBundle.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\HotUpdate\FsmNode\FsmDownloadPackageFiles.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\HotUpdate\FsmNode\FsmRequestPackageVersion.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\HotUpdate\FsmNode\FsmCreateDownloader.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\HotUpdate\Launch.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\HotUpdate\FsmNode\FsmUpdatePackageManifest.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\HotUpdate\PatchWindow.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\HotUpdate\UserEventDefine.cs" />
     <Compile Include="Assets\Other\Obfuz\GeneratedEncryptionVirtualMachine.cs" />
-    <Compile Include="Assets\Game\GameScript\Runtime\BattleLogic\EntityAsteroid.cs" />
-    <Compile Include="Assets\Game\GameScript\Runtime\PatchLogic\PatchWindow.cs" />
-    <Compile Include="Assets\Game\GameScript\Runtime\EventDefine\UserEventDefine.cs" />
-    <Compile Include="Assets\Game\GameScript\Runtime\BattleLogic\EntityPlayer.cs" />
-    <Compile Include="Assets\Game\GameScript\Runtime\WindowLogic\UIBattleWindow.cs" />
-    <Compile Include="Assets\Game\GameScript\Runtime\PatchLogic\FsmNode\FsmRequestPackageVersion.cs" />
-    <Compile Include="Assets\Game\GameScript\Runtime\EventDefine\PatchEventDefine.cs" />
-    <Compile Include="Assets\Game\GameScript\Runtime\PatchLogic\FsmNode\FsmCreateDownloader.cs" />
-    <Compile Include="Assets\Game\GameScript\Runtime\WindowLogic\UIAboutWindow.cs" />
-    <Compile Include="Assets\Game\GameScript\Runtime\BattleLogic\EntityEnemy.cs" />
-    <Compile Include="Assets\Game\GameScript\Runtime\PatchLogic\FsmNode\FsmInitializePackage.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\HotUpdate\FsmNode\FsmInitializePackage.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\HotUpdate\FsmNode\FsmDownloadPackageOver.cs" />
     <Compile Include="Assets\Other\AOTGenericReferences.cs" />
-    <Compile Include="Assets\Game\GameScript\Runtime\PatchLogic\FsmNode\FsmUpdatePackageManifest.cs" />
-    <Compile Include="Assets\Game\GameScript\Runtime\Boot.cs" />
-    <Compile Include="Assets\Game\GameScript\Runtime\GameLogic\SceneBattle.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\HotUpdate\ConstStrings.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\HotUpdate\PatchOperation.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\link.xml" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
-    <None Include="Assets\Settings\AssetBundleCollectorConfig.xml" />
+    <None Include="Assets\Game\GameSetting\AssetBundleCollectorConfig.xml" />
     <None Include="Assets\Game\link.xml" />
     <None Include="Assets\Game\GameRes\Shader\UnlitShader.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
     <None Include="Assets\Game\GameRes\UIFont\LICENSE.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\Other\Obfuz\SymbolObfus\symbol-mapping.xml" />
-    <None Include="Assets\TextMesh Pro\Fonts\3500.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
-    <None Include="Assets\Other\link.xml" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\Resources\StarfieldShader.shader" />
+    <None Include="Assets\Game\GameSetting\link.xml" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -613,8 +630,12 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.XRModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Cecil.Awesome">
+      <HintPath>Library\PackageCache\com.unity.entities@f6e02210e263\Unity.Entities.CodeGen\Unity.Cecil.Awesome.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
-      <HintPath>Library\PackageCache\com.unity.collections@d49facba0036\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="nunit.framework">
@@ -626,11 +647,15 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="System.IO.Hashing">
-      <HintPath>Library\PackageCache\com.unity.collections@d49facba0036\Unity.Collections.Tests\System.IO.Hashing\System.IO.Hashing.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.Tests\System.IO.Hashing\System.IO.Hashing.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="LZ4">
       <HintPath>Library\PackageCache\com.code-philosophy.hybridclr@01754c8fb47b\Plugins\LZ4.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@74deb55db2a0\Runtime\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mono.Cecil">
@@ -642,7 +667,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>Library\PackageCache\com.unity.collections@d49facba0036\Unity.Collections.Tests\System.Runtime.CompilerServices.Unsafe\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.Tests\System.Runtime.CompilerServices.Unsafe\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Android.Types">
@@ -1153,92 +1178,88 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    <Reference Include="Unity.Transforms">
+      <HintPath>Library\ScriptAssemblies\Unity.Transforms.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Extensions">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Extensions.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+    <Reference Include="Unity.Entities">
+      <HintPath>Library\ScriptAssemblies\Unity.Entities.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.NetCode.Editor.Drawers">
+      <HintPath>Library\ScriptAssemblies\Unity.NetCode.Editor.Drawers.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    <Reference Include="Unity.NetCode">
+      <HintPath>Library\ScriptAssemblies\Unity.NetCode.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Entities.Graphics">
+      <HintPath>Library\ScriptAssemblies\Unity.Entities.Graphics.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Collections">
-      <HintPath>Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.GPUDriven.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.GPUDriven.Runtime.dll</HintPath>
+    <Reference Include="Unity.Multiplayer.PlayMode.Analytics.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.PlayMode.Analytics.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.ScriptableBuildPipeline">
       <HintPath>Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Mathematics">
-      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Obfuz.Editor">
-      <HintPath>Library\ScriptAssemblies\Obfuz.Editor.dll</HintPath>
+    <Reference Include="Unity.Networking.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Networking.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Obfuz.Runtime">
       <HintPath>Library\ScriptAssemblies\Obfuz.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Multiplayer.Center.Common">
-      <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.Center.Common.dll</HintPath>
+    <Reference Include="Unity.Entities.Editor.Properties">
+      <HintPath>Library\ScriptAssemblies\Unity.Entities.Editor.Properties.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Burst">
-      <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+    <Reference Include="PPv2URPConverters">
+      <HintPath>Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="HybridCLR.Runtime">
-      <HintPath>Library\ScriptAssemblies\HybridCLR.Runtime.dll</HintPath>
+    <Reference Include="Unity.Scenes.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Scenes.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Multiplayer.PlayMode.Scenarios.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.PlayMode.Scenarios.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="HybridCLR.Editor">
       <HintPath>Library\ScriptAssemblies\HybridCLR.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="PPv2URPConverters">
-      <HintPath>Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
+    <Reference Include="Unity.Multiplayer.PlayMode.Editor.Bridge">
+      <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.PlayMode.Editor.Bridge.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime.Shared">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.Shared.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Multiplayer.Center.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.Center.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.2D.Runtime">
@@ -1253,20 +1274,140 @@
       <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+    <Reference Include="Unity.Entities.Graphics.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Entities.Graphics.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Burst.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Rendering.LightTransport.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.Rendering.LightTransport.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Mathematics.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Entities.UI.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Entities.UI.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Rendering.LightTransport.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rendering.LightTransport.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Entities.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Entities.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Entities.UI">
+      <HintPath>Library\ScriptAssemblies\Unity.Entities.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.NetCode.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.NetCode.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Transforms.Hybrid">
+      <HintPath>Library\ScriptAssemblies\Unity.Transforms.Hybrid.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Scenes">
+      <HintPath>Library\ScriptAssemblies\Unity.Scenes.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Profiling.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.Profiling.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Networking.Transport">
+      <HintPath>Library\ScriptAssemblies\Unity.Networking.Transport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.GPUDriven.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.GPUDriven.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Obfuz.Editor">
+      <HintPath>Library\ScriptAssemblies\Obfuz.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Extensions.Hybrid">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Extensions.Hybrid.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Serialization">
+      <HintPath>Library\ScriptAssemblies\Unity.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Multiplayer.PlayMode.Configurations.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.PlayMode.Configurations.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.NetCode.Authoring.Hybrid">
+      <HintPath>Library\ScriptAssemblies\Unity.NetCode.Authoring.Hybrid.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="HybridCLR.Runtime">
+      <HintPath>Library\ScriptAssemblies\HybridCLR.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Entities.Hybrid">
+      <HintPath>Library\ScriptAssemblies\Unity.Entities.Hybrid.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Entities.Hybrid.HybridComponents">
+      <HintPath>Library\ScriptAssemblies\Unity.Entities.Hybrid.HybridComponents.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Multiplayer.Playmode">
+      <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.Playmode.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Entities.Build">
+      <HintPath>Library\ScriptAssemblies\Unity.Entities.Build.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Rendering.LightTransport.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.Rendering.LightTransport.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
@@ -1277,12 +1418,20 @@
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Deformations">
+      <HintPath>Library\ScriptAssemblies\Unity.Deformations.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Collections.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Collections.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Rendering.LightTransport.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Rendering.LightTransport.Editor.dll</HintPath>
+    <Reference Include="Unity.Serialization.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Serialization.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.NetCode.Hybrid">
+      <HintPath>Library\ScriptAssemblies\Unity.NetCode.Hybrid.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor.Shared">
@@ -1297,16 +1446,8 @@
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="UnityGameFramework.Runtime.csproj">
-      <Project>{BB303E6D-29EE-B10A-1B60-42AE80D96C58}</Project>
-      <Name>UnityGameFramework.Runtime</Name>
-    </ProjectReference>
     <ProjectReference Include="GameFramework.csproj">
       <Project>{DE2F4901-E635-CE16-3850-209A2B6D3489}</Project>
       <Name>GameFramework</Name>
@@ -1315,17 +1456,25 @@
       <Project>{64A6DE0C-CBE7-E055-1D75-C215AAD25F6D}</Project>
       <Name>UniTask.TextMeshPro</Name>
     </ProjectReference>
+    <ProjectReference Include="HotUpdate.csproj">
+      <Project>{BC3EE3E7-53DC-46AF-01BE-245E76D30C86}</Project>
+      <Name>HotUpdate</Name>
+    </ProjectReference>
     <ProjectReference Include="YooAsset.Editor.csproj">
       <Project>{F1135DCA-B57D-0028-6D12-E324DFB46612}</Project>
       <Name>YooAsset.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="UniFramework.Machine.csproj">
-      <Project>{7FB3283F-0109-F561-932C-D78A43FB3390}</Project>
-      <Name>UniFramework.Machine</Name>
-    </ProjectReference>
     <ProjectReference Include="UniTask.DOTween.csproj">
       <Project>{410A254F-568B-9DD8-7982-71D4F0B2D3AE}</Project>
       <Name>UniTask.DOTween</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameFramework.Runtime.csproj">
+      <Project>{A2B118D7-E71F-F80F-581B-83BF12F5E873}</Project>
+      <Name>GameFramework.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.Addressables.csproj">
+      <Project>{86427439-9D86-5904-6E41-A274C5C1B329}</Project>
+      <Name>UniTask.Addressables</Name>
     </ProjectReference>
     <ProjectReference Include="UniTask.Linq.csproj">
       <Project>{849968EC-90A4-82B7-8075-41BDEA4D5BA2}</Project>
@@ -1335,21 +1484,9 @@
       <Project>{22B8CC11-A136-3B29-28BF-0264B3AA2134}</Project>
       <Name>UniTask</Name>
     </ProjectReference>
-    <ProjectReference Include="UniFramework.Utility.csproj">
-      <Project>{A5AA45AD-0BED-F9DF-EAE3-84C9D0A78788}</Project>
-      <Name>UniFramework.Utility</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniTask.Addressables.csproj">
-      <Project>{86427439-9D86-5904-6E41-A274C5C1B329}</Project>
-      <Name>UniTask.Addressables</Name>
-    </ProjectReference>
     <ProjectReference Include="YooAsset.csproj">
       <Project>{9A36A97C-83BA-BE07-C259-157BD16F9A69}</Project>
       <Name>YooAsset</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniFramework.Event.csproj">
-      <Project>{06090F42-5940-A396-2C48-F0D9329A761C}</Project>
-      <Name>UniFramework.Event</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

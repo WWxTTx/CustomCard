@@ -5,7 +5,9 @@
 // Feedback: mailto:ellan@gameframework.cn
 //------------------------------------------------------------
 
-namespace UnityGameFramework.Runtime
+using UnityEngine;
+
+namespace GameFramework.Runtime
 {
     public sealed partial class DebuggerComponent : GameFrameworkComponent
     {
@@ -21,7 +23,7 @@ namespace UnityGameFramework.Runtime
             {
                 if (updateInterval <= 0f)
                 {
-                    Log.Error("Update interval is invalid.");
+                    Debug.LogError("Update interval is invalid.");
                     return;
                 }
 
@@ -39,7 +41,7 @@ namespace UnityGameFramework.Runtime
                 {
                     if (value <= 0f)
                     {
-                        Log.Error("Update interval is invalid.");
+                        Debug.LogError("Update interval is invalid.");
                         return;
                     }
 

@@ -382,5 +382,52 @@ namespace YooAsset
                 SceneHandles.Remove(sceneHandle);
             }
         }
+
+        #region 调试信息
+        internal List<DebugProviderInfo> GetDebugProviderInfos()
+        {
+            List<DebugProviderInfo> result = new List<DebugProviderInfo>(ProviderDic.Count);
+            foreach (var provider in ProviderDic.Values)
+            {
+                DebugProviderInfo providerInfo = new DebugProviderInfo();
+                providerInfo.AssetPath = provider.MainAssetInfo.AssetPath;
+                providerInfo.SpawnScene = provider.SpawnScene;
+                providerInfo.BeginTime = provider.BeginTime;
+                providerInfo.LoadingTime = provider.ProcessTime;
+                providerInfo.RefCount = provider.RefCount;
+                providerInfo.Status = provider.Status.ToString();
+                providerInfo.DependBundles = provider.GetDebugDependBundles();
+                result.Add(providerInfo);
+            }
+            return result;
+        }
+        internal List<DebugBundleInfo> GetDebugBundleInfos()
+        {
+            List<DebugBundleInfo> result = new List<DebugBundleInfo>(LoaderDic.Values.Count);
+            foreach (var bundleLoader in LoaderDic.Values)
+            {
+                var packageBundle = bundleLoader.LoadBundleInfo.Bundle;
+                var bundleInfo = new DebugBundleInfo();
+                bundleInfo.BundleName = packageBundle.BundleName;
+                bundleInfo.RefCount = bundleLoader.RefCount;
+                bundleInfo.Status = bundleLoader.Status.ToString();
+                bundleInfo.ReferenceBundles = FilterReferenceBundles(packageBundle);
+                result.Add(bundleInfo);
+            }
+            return result;
+        }
+        internal List<string> FilterReferenceBundles(PackageBundle packageBundle)
+        {
+            // 注意：引用的资源包不一定在内存中，所以需要过滤
+            var referenceBundles = packageBundle.GetDebugReferenceBundles();
+            List<string> result = new List<string>(referenceBundles.Count);
+            foreach (var bundleName in referenceBundles)
+            {
+                if (LoaderDic.ContainsKey(bundleName))
+                    result.Add(bundleName);
+            }
+            return result;
+        }
+        #endregion
     }
 }

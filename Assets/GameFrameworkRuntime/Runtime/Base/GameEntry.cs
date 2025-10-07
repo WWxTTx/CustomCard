@@ -11,7 +11,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace UnityGameFramework.Runtime
+namespace GameFramework.Runtime
 {
     /// <summary>
     /// 游戏入口。
@@ -19,11 +19,6 @@ namespace UnityGameFramework.Runtime
     public static class GameEntry
     {
         private static readonly GameFrameworkLinkedList<GameFrameworkComponent> s_GameFrameworkComponents = new GameFrameworkLinkedList<GameFrameworkComponent>();
-
-        /// <summary>
-        /// 游戏框架所在的场景编号。
-        /// </summary>
-        internal const int GameFrameworkSceneId = 0;
 
         /// <summary>
         /// 获取游戏框架组件。
@@ -84,24 +79,13 @@ namespace UnityGameFramework.Runtime
         /// <param name="shutdownType">关闭游戏框架类型。</param>
         public static void Shutdown(ShutdownType shutdownType)
         {
-            Log.Info("Shutdown Game Framework ({0})...", shutdownType);
-            BaseComponent baseComponent = GetComponent<BaseComponent>();
-            if (baseComponent != null)
-            {
-                baseComponent.Shutdown();
-                baseComponent = null;
-            }
+            Debug.Log($"Shutdown Game Framework ({shutdownType})...");
 
             s_GameFrameworkComponents.Clear();
 
-            if (shutdownType == ShutdownType.None)
-            {
-                return;
-            }
-
             if (shutdownType == ShutdownType.Restart)
             {
-                SceneManager.LoadScene(GameFrameworkSceneId);
+                SceneManager.LoadScene(0);
                 return;
             }
 
@@ -123,7 +107,7 @@ namespace UnityGameFramework.Runtime
         {
             if (gameFrameworkComponent == null)
             {
-                Log.Error("Game Framework component is invalid.");
+                Debug.LogError("Game Framework component is invalid.");
                 return;
             }
 
@@ -134,7 +118,7 @@ namespace UnityGameFramework.Runtime
             {
                 if (current.Value.GetType() == type)
                 {
-                    Log.Error("Game Framework component type '{0}' is already exist.", type.FullName);
+                    Debug.LogError($"Game Framework component type '{type.FullName}' is already exist.");
                     return;
                 }
 

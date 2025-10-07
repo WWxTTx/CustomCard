@@ -102,4 +102,19 @@ namespace YooAsset.Editor
             return Path.GetExtension(data.AssetPath) == ".shadervariants";
         }
     }
+
+    [DisplayName("收集代码")]
+    public class CollectDlls : IFilterRule
+    {
+        public string FindAssetType
+        {
+            get { return EAssetSearchType.All.ToString(); }
+        }
+
+        public bool IsCollectAsset(FilterRuleData data)
+        {
+            Debug.Log(data.AssetPath + " : " + Path.GetExtension(data.AssetPath));
+            return Path.GetExtension(data.AssetPath) == ".byte";
+        }
+    }
 }

@@ -10,7 +10,7 @@ using ICSharpCode.SharpZipLib.GZip;
 using System;
 using System.IO;
 
-namespace UnityGameFramework.Runtime
+namespace GameFramework.Runtime
 {
     /// <summary>
     /// 默认压缩解压缩辅助器。

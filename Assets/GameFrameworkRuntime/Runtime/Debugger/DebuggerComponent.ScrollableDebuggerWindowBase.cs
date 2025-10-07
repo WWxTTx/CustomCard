@@ -9,7 +9,7 @@ using GameFramework;
 using GameFramework.Debugger;
 using UnityEngine;
 
-namespace UnityGameFramework.Runtime
+namespace GameFramework.Runtime
 {
     public sealed partial class DebuggerComponent : GameFrameworkComponent
     {

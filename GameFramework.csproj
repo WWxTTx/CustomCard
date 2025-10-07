@@ -61,100 +61,55 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.2.6f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\GameFramework\Base\GameFrameworkLinkedList.cs" />
-    <Compile Include="Assets\GameFramework\Base\TaskPool\TaskInfo.cs" />
-    <Compile Include="Assets\GameFramework\ObjectPool\ObjectBase.cs" />
-    <Compile Include="Assets\GameFramework\DataNode\DataNodeManager.cs" />
     <Compile Include="Assets\GameFramework\Utility\Utility.Encryption.cs" />
-    <Compile Include="Assets\GameFramework\Base\GameFrameworkModule.cs" />
-    <Compile Include="Assets\GameFramework\Network\NetworkConnectedEventArgs.cs" />
-    <Compile Include="Assets\GameFramework\Network\NetworkManager.ConnectState.cs" />
-    <Compile Include="Assets\GameFramework\Network\NetworkManager.NetworkChannelBase.cs" />
-    <Compile Include="Assets\GameFramework\Base\EventPool\EventPool.Event.cs" />
-    <Compile Include="Assets\GameFramework\ObjectPool\IObjectPoolManager.cs" />
     <Compile Include="Assets\GameFramework\Base\Version\Version.cs" />
-    <Compile Include="Assets\GameFramework\Fsm\IFsmManager.cs" />
-    <Compile Include="Assets\GameFramework\Utility\Utility.Text.ITextHelper.cs" />
+    <Compile Include="Assets\GameFramework\ReferencePool\IReference.cs" />
     <Compile Include="Assets\GameFramework\Utility\Utility.Assembly.cs" />
+    <Compile Include="Assets\GameFramework\Base\GameFrameworkMultiDictionary.cs" />
+    <Compile Include="Assets\GameFramework\ObjectPool\ObjectInfo.cs" />
+    <Compile Include="Assets\GameFramework\ObjectPool\ObjectPoolManager.cs" />
+    <Compile Include="Assets\GameFramework\Utility\Utility.Text.cs" />
+    <Compile Include="Assets\GameFramework\Utility\Utility.Compression.cs" />
+    <Compile Include="Assets\GameFramework\Utility\Utility.cs" />
+    <Compile Include="Assets\GameFramework\Utility\Utility.Marshal.cs" />
+    <Compile Include="Assets\GameFramework\Base\GameFrameworkException.cs" />
+    <Compile Include="Assets\GameFramework\Base\Variable\GenericVariable.cs" />
+    <Compile Include="Assets\GameFramework\ObjectPool\ObjectPoolManager.ObjectPool.cs" />
+    <Compile Include="Assets\GameFramework\Utility\Utility.Json.IJsonHelper.cs" />
+    <Compile Include="Assets\GameFramework\ObjectPool\ObjectPoolManager.Object.cs" />
+    <Compile Include="Assets\GameFramework\Base\DataStruct\TypeNamePair.cs" />
+    <Compile Include="Assets\GameFramework\Utility\Utility.Converter.cs" />
+    <Compile Include="Assets\GameFramework\Debugger\IDebuggerWindowGroup.cs" />
+    <Compile Include="Assets\GameFramework\Base\GameFrameworkEntry.cs" />
+    <Compile Include="Assets\GameFramework\Base\Log\GameFrameworkLog.cs" />
+    <Compile Include="Assets\GameFramework\ReferencePool\ReferencePoolInfo.cs" />
+    <Compile Include="Assets\GameFramework\Debugger\IDebuggerManager.cs" />
+    <Compile Include="Assets\GameFramework\Base\GameFrameworkLinkedList.cs" />
+    <Compile Include="Assets\GameFramework\ObjectPool\ObjectBase.cs" />
+    <Compile Include="Assets\GameFramework\Base\GameFrameworkModule.cs" />
+    <Compile Include="Assets\GameFramework\ObjectPool\IObjectPoolManager.cs" />
+    <Compile Include="Assets\GameFramework\Utility\Utility.Text.ITextHelper.cs" />
     <Compile Include="Assets\GameFramework\ObjectPool\IObjectPool.cs" />
     <Compile Include="Assets\GameFramework\Base\GameFrameworkFunc.cs" />
-    <Compile Include="Assets\GameFramework\DataNode\DataNodeManager.DataNode.cs" />
-    <Compile Include="Assets\GameFramework\Base\GameFrameworkAction.cs" />
-    <Compile Include="Assets\GameFramework\Base\GameFrameworkMultiDictionary.cs" />
     <Compile Include="Assets\GameFramework\Utility\Utility.Verifier.Crc32.cs" />
-    <Compile Include="Assets\GameFramework\Base\TaskPool\ITaskAgent.cs" />
-    <Compile Include="Assets\GameFramework\Base\TaskPool\TaskPool.cs" />
     <Compile Include="Assets\GameFramework\Utility\Utility.Path.cs" />
     <Compile Include="Assets\GameFramework\Debugger\DebuggerManager.cs" />
     <Compile Include="Assets\GameFramework\Utility\Utility.Random.cs" />
-    <Compile Include="Assets\GameFramework\DataNode\IDataNodeManager.cs" />
-    <Compile Include="Assets\GameFramework\ObjectPool\ObjectInfo.cs" />
-    <Compile Include="Assets\GameFramework\Base\GameFrameworkEventArgs.cs" />
-    <Compile Include="Assets\GameFramework\ObjectPool\ObjectPoolManager.cs" />
-    <Compile Include="Assets\GameFramework\Network\NetworkManager.HeartBeatState.cs" />
-    <Compile Include="Assets\GameFramework\Network\NetworkErrorEventArgs.cs" />
-    <Compile Include="Assets\GameFramework\Network\AddressFamily.cs" />
-    <Compile Include="Assets\GameFramework\Utility\Utility.Text.cs" />
-    <Compile Include="Assets\GameFramework\Network\INetworkChannel.cs" />
-    <Compile Include="Assets\GameFramework\Network\IPacketHeader.cs" />
-    <Compile Include="Assets\GameFramework\Network\IPacketHandler.cs" />
-    <Compile Include="Assets\GameFramework\Network\NetworkClosedEventArgs.cs" />
+    <Compile Include="Assets\GameFramework\ReferencePool\ReferencePool.ReferenceCollection.cs" />
+    <Compile Include="Assets\GameFramework\ReferencePool\ReferencePool.cs" />
     <Compile Include="Assets\GameFramework\Base\Log\GameFrameworkLog.ILogHelper.cs" />
     <Compile Include="Assets\GameFramework\Base\GameFrameworkSerializer.cs" />
     <Compile Include="Assets\GameFramework\Base\Version\Version.IVersionHelper.cs" />
     <Compile Include="Assets\GameFramework\Utility\Utility.Verifier.cs" />
-    <Compile Include="Assets\GameFramework\Network\INetworkChannelHelper.cs" />
-    <Compile Include="Assets\GameFramework\Network\ServiceType.cs" />
-    <Compile Include="Assets\GameFramework\Utility\Utility.Compression.cs" />
-    <Compile Include="Assets\GameFramework\Properties\AssemblyInfo.cs" />
-    <Compile Include="Assets\GameFramework\Fsm\Fsm.cs" />
-    <Compile Include="Assets\GameFramework\Network\NetworkManager.cs" />
-    <Compile Include="Assets\GameFramework\Utility\Utility.cs" />
-    <Compile Include="Assets\GameFramework\Utility\Utility.Marshal.cs" />
-    <Compile Include="Assets\GameFramework\Base\GameFrameworkException.cs" />
     <Compile Include="Assets\GameFramework\Utility\Utility.Json.cs" />
-    <Compile Include="Assets\GameFramework\Network\NetworkManager.TcpWithSyncReceiveNetworkChannel.cs" />
-    <Compile Include="Assets\GameFramework\Base\Variable\GenericVariable.cs" />
-    <Compile Include="Assets\GameFramework\Base\ReferencePool\IReference.cs" />
-    <Compile Include="Assets\GameFramework\ObjectPool\ObjectPoolManager.ObjectPool.cs" />
     <Compile Include="Assets\GameFramework\Debugger\DebuggerManager.DebuggerWindowGroup.cs" />
-    <Compile Include="Assets\GameFramework\Utility\Utility.Json.IJsonHelper.cs" />
-    <Compile Include="Assets\GameFramework\Base\EventPool\EventPoolMode.cs" />
     <Compile Include="Assets\GameFramework\ObjectPool\ObjectPoolBase.cs" />
     <Compile Include="Assets\GameFramework\ObjectPool\ReleaseObjectFilterCallback.cs" />
-    <Compile Include="Assets\GameFramework\Fsm\IFsm.cs" />
-    <Compile Include="Assets\GameFramework\Base\TaskPool\StartTaskStatus.cs" />
-    <Compile Include="Assets\GameFramework\Network\NetworkManager.TcpNetworkChannel.cs" />
-    <Compile Include="Assets\GameFramework\Base\TaskPool\TaskStatus.cs" />
-    <Compile Include="Assets\GameFramework\Fsm\FsmBase.cs" />
-    <Compile Include="Assets\GameFramework\Fsm\FsmState.cs" />
-    <Compile Include="Assets\GameFramework\DataNode\IDataNode.cs" />
-    <Compile Include="Assets\GameFramework\ObjectPool\ObjectPoolManager.Object.cs" />
-    <Compile Include="Assets\GameFramework\Network\INetworkManager.cs" />
     <Compile Include="Assets\GameFramework\Base\Log\GameFrameworkLogLevel.cs" />
-    <Compile Include="Assets\GameFramework\Base\DataStruct\TypeNamePair.cs" />
-    <Compile Include="Assets\GameFramework\Base\ReferencePool\ReferencePool.ReferenceCollection.cs" />
     <Compile Include="Assets\GameFramework\Debugger\IDebuggerWindow.cs" />
-    <Compile Include="Assets\GameFramework\Base\ReferencePool\ReferencePool.cs" />
-    <Compile Include="Assets\GameFramework\Utility\Utility.Converter.cs" />
-    <Compile Include="Assets\GameFramework\Debugger\IDebuggerWindowGroup.cs" />
-    <Compile Include="Assets\GameFramework\Base\EventPool\EventPool.cs" />
-    <Compile Include="Assets\GameFramework\Base\GameFrameworkEntry.cs" />
-    <Compile Include="Assets\GameFramework\Fsm\FsmManager.cs" />
     <Compile Include="Assets\GameFramework\Base\Variable\Variable.cs" />
-    <Compile Include="Assets\GameFramework\Network\NetworkMissHeartBeatEventArgs.cs" />
-    <Compile Include="Assets\GameFramework\Base\Log\GameFrameworkLog.cs" />
-    <Compile Include="Assets\GameFramework\Network\NetworkCustomErrorEventArgs.cs" />
-    <Compile Include="Assets\GameFramework\Base\TaskPool\TaskBase.cs" />
-    <Compile Include="Assets\GameFramework\Network\NetworkErrorCode.cs" />
-    <Compile Include="Assets\GameFramework\Base\EventPool\BaseEventArgs.cs" />
-    <Compile Include="Assets\GameFramework\Network\Packet.cs" />
-    <Compile Include="Assets\GameFramework\Network\NetworkManager.SendState.cs" />
     <Compile Include="Assets\GameFramework\Utility\Utility.Compression.ICompressionHelper.cs" />
     <Compile Include="Assets\GameFramework\Base\GameFrameworkLinkedListRange.cs" />
-    <Compile Include="Assets\GameFramework\Network\NetworkManager.ReceiveState.cs" />
-    <Compile Include="Assets\GameFramework\Base\ReferencePool\ReferencePoolInfo.cs" />
-    <Compile Include="Assets\GameFramework\Debugger\IDebuggerManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\GameFramework\GameFramework.asmdef" />
@@ -668,8 +623,12 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Cecil.Awesome">
+      <HintPath>Library\PackageCache\com.unity.entities@f6e02210e263\Unity.Entities.CodeGen\Unity.Cecil.Awesome.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
-      <HintPath>Library\PackageCache\com.unity.collections@d49facba0036\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="nunit.framework">
@@ -681,11 +640,15 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="System.IO.Hashing">
-      <HintPath>Library\PackageCache\com.unity.collections@d49facba0036\Unity.Collections.Tests\System.IO.Hashing\System.IO.Hashing.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.Tests\System.IO.Hashing\System.IO.Hashing.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="LZ4">
       <HintPath>Library\PackageCache\com.code-philosophy.hybridclr@01754c8fb47b\Plugins\LZ4.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@74deb55db2a0\Runtime\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mono.Cecil">
@@ -697,7 +660,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>Library\PackageCache\com.unity.collections@d49facba0036\Unity.Collections.Tests\System.Runtime.CompilerServices.Unsafe\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.Tests\System.Runtime.CompilerServices.Unsafe\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Android.Types">

@@ -11,7 +11,7 @@ using UnityEngine;
 using UnityEngine.Profiling;
 #endif
 
-namespace UnityGameFramework.Runtime
+namespace GameFramework.Runtime
 {
     public sealed partial class DebuggerComponent : GameFrameworkComponent
     {

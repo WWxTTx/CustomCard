@@ -9,7 +9,7 @@ using GameFramework;
 using System;
 using System.Text;
 
-namespace UnityGameFramework.Runtime
+namespace GameFramework.Runtime
 {
     /// <summary>
     /// 默认字符辅助器。

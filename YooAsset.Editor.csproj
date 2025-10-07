@@ -66,117 +66,58 @@
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\EditorSimulateBuildPipeline\BuildTasks\TaskUpdateBundleInfo_ESBP.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\Assembly\AssemblyInfo.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleReporter\VisualViewers\ReporterAssetListViewer.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetArtScanner\AssetArtCollector.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetArtReporter\ReportScanInfo.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleCollector\AssetBundleCollectorSetting.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleCollector\CollectAssetInfo.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\EditorSimulateBuildPipeline\EditorSimulateBuildParameters.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\RawFileBuildPipeline\BuildTasks\TaskPrepare_RFBP.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\UIElementsCursor.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildSystem\BuildLogger.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\ScriptableBuildPipeline\BuildTasks\TaskCreateCatalog_SBP.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\ScriptableBuildPipeline\BuildTasks\TaskCopyBuildinFiles_SBP.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleCollector\CollectCommand.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleCollector\DefaultRules\DefaultIgnoreRule.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\RawFileBuildPipeline\BuildTasks\TaskGetBuildMap_RFBP.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\BuiltinBuildPipeline\BuiltinBuildPipeline.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleReporter\ReportAssetInfo.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\TreeViewer\TreeViewer.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\SettingLoader.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\HomePage.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildSystem\BuildRunner.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleCollector\CollectRules\IPackRule.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\RawFileBuildPipeline\BuildTasks\TaskCreatePackage_RFBP.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildParametersContext.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleCollector\CollectRules\IActiveRule.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\ScriptableBuildPipeline\BuildTasks\TaskUpdateBundleInfo_SBP.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleCollector\DisplayNameAttribute.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleReporter\VisualViewers\ReporterSummaryViewer.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleCollector\DefaultRules\DefaultActiveRule.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\BaseTasks\TaskCreateReport.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\AssetBundleBuilderHelper.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\BuiltinBuildPipeline\BuildTasks\TaskCreateReport_BBP.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\VisualViewers\EditorSimulateBuildpipeline\EditorSimulateBuildPipelineViewer.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\UIElementsTools.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildSystem\BuildContext.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleCollector\DefaultRules\DefaultFilterRule.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\TableViewer\SearchSystem\DefaultSearchSystem.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\ScriptableBuildPipeline\SBPBuildTasks.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\ElementsDefine\ReorderableListView.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetArtReporter\ScanReportCombiner.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\AssetBundleBuilder.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleCollector\AssetBundleCollectorWindow.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleReporter\AssetBundleRecorder.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetArtScanner\AssetArtScanner.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\BuiltinBuildPipeline\BuiltinBuildParameters.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\BaseTasks\TaskCreateManifest.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\UxmlLoader.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleCollector\AssetDependencyDatabase.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildSystem\IBuildTask.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetArtReporter\ReportHeader.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleCollector\DefaultRules\DefaultAddressRule.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\TableViewer\DefaultCells\StringValueCell.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\ScriptableBuildPipeline\BuildTasks\TaskCreateReport_SBP.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\TableViewer\ITableCell.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\ElementsDefine\ToggleFoldout.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\BuiltinBuildPipeline\BuildTasks\TaskCreatePackage_BBP.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\TableViewer\DefaultTableData\DefaultTableData.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleReporter\AssetBundleInspector.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildMapContext.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\AssetBundleSimulateBuilder.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\UIElementsIcon.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\TableViewer\ColumnStyle.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\TableViewer\SearchSystem\SearchKeyword.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\TreeViewer\TreeNode.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleCollector\CollectResult.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\ScriptableBuildPipeline\ScriptableBuildParameters.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetArtReporter\ScanReport.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\BuiltinBuildPipeline\BuildTasks\TaskUpdateBundleInfo_BBP.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\EditorSimulateBuildPipeline\EditorSimulateBuildPipeline.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\ScriptableBuildPipeline\BuildTasks\TaskCreatePackage_SBP.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\EditorSimulateBuildPipeline\BuildTasks\TaskPrepare_ESBP.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\RawFileBuildPipeline\BuildTasks\TaskCopyBuildinFiles_RFBP.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\BuiltinBuildPipeline\BuildTasks\TaskVerifyBuildResult_BBP.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetArtReporter\ReportElement.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\RawFileBuildPipeline\BuildTasks\TaskCreateManifest_RFBP.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\ScriptableBuildPipeline\BuildTasks\TaskPrepare_SBP.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleCollector\AssetBundleCollectorGroup.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetArtReporter\AssetArtReporterWindow.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\UIElementsExtension.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\AssetBundleBuilderSetting.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetArtScanner\AssetArtScannerConfig.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\TableViewer\DefaultCells\AssetObjectCell.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\DefaultEncryptionServices.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\VisualViewers\BuildPipelineAttribute.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\RawFileBuildPipeline\RawFileBuildPipeline.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\AssetBundleBuilderWindow.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildAssetInfo.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\EditorSimulateBuildPipeline\BuildTasks\TaskGetBuildMap_ESBP.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleReporter\ReportSummary.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\BaseTasks\TaskUpdateBundleInfo.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleCollector\AssetBundleCollectorPackage.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\VisualViewers\BuiltinBuildPipeline\BuiltinBuildPipelineViewer.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleCollector\AssetBundleCollector.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\TableViewer\DefaultCells\SingleValueCell.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\BaseTasks\TaskCreateCatalog.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildSystem\BuildResult.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\ScriptableBuildPipeline\ScriptableBuildPipeline.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\ScriptableBuildPipeline\BuildTasks\TaskEncryption_SBP.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\Assembly\RspGenerator.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\ScriptableBuildPipeline\BuildTasks\TaskCreateManifest_SBP.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\VisualViewers\BuildPipelineViewerBase.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\EBuildPipeline.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetArtReporter\ScanReportConfig.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\EBuildinFileCopyOption.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\TableViewer\DefaultCells\AssetPathCell.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\BuiltinBuildPipeline\BuildTasks\TaskCreateCatalog_BBP.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\RawFileBuildPipeline\BuildTasks\TaskUpdateBundleInfo_RFBP.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetArtReporter\EHeaderType.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleReporter\BuildReport.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleCollector\CollectRules\IIgnoreRule.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\TableViewer\SearchSystem\SearchCompare.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\BuiltinBuildPipeline\BuildTasks\TaskCopyBuildinFiles_BBP.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\ElementsDefine\ToggleDisplay.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\HybridCLRPostprocessor.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\RawFileBuildPipeline\BuildTasks\TaskCreateReport_RFBP.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\BuiltinBuildPipeline\BuildTasks\TaskBuilding_BBP.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleCollector\CollectRules\IAddressRule.cs" />
@@ -186,46 +127,25 @@
     <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\TableViewer\TableColumn.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\VisualViewers\ScriptableBuildPipeline\ScriptableBuildPipelineViewer.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleCollector\RuleDisplayName.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\RawFileBuildPipeline\BuildTasks\TaskCreateCatalog_RFBP.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\VisualViewers\RawfileBuildpipeline\RawfileBuildPipelineViewer.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildSystem\IContextObject.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleCollector\DefaultRules\DefaultPackRule.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\ScriptableBuildPipeline\BuildTasks\TaskGetBuildMap_SBP.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\Assembly\MacroProcessor.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\Assembly\MacroDefine.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\ECompressOption.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\BuiltinBuildPipeline\BuildTasks\TaskGetBuildMap_BBP.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetArtScanner\AssetArtScannerSettingData.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\DefaultManifestServices.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\IBuildPipeline.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetArtScanner\ScannerDefine.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\RawFileBuildPipeline\BuildTasks\TaskBuilding_RFBP.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleReporter\ReportIndependAsset.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\BaseTasks\TaskGetBuildMap.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\ScriptableBuildPipeline\BuildTasks\TaskBuilding_SBP.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\Common\AssetInfo.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetArtScanner\ScannerSchema.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildSystem\ErrorCode.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleCollector\AssetBundleCollectorConfig.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\TableViewer\SearchSystem\ISearchCommand.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleReporter\AssetBundleReporterWindow.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\TableViewer\DefaultCells\IntegerValueCell.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\ScriptableBuildPipeline\BuildTasks\TaskVerifyBuildResult_SBP.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\RawFileBuildPipeline\RawFileBuildParameters.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\TableViewer\ITableData.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleReporter\VisualViewers\ReporterBundleListViewer.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetArtScanner\AssetArtScannerSetting.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleReporter\ReportBundleInfo.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleCollector\CollectRules\IFilterRule.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\BaseTasks\TaskCopyBuildinFiles.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleCollector\AssetDependencyCache.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\TableViewer\DefaultCells\ButtonCell.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\BaseTasks\TaskEncryption.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildParameters.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\ElementsDefine\ToggleRecord.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleCollector\AssetBundleCollectorSettingData.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\BuiltinBuildPipeline\BuildTasks\TaskEncryption_BBP.cs" />
-    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\RawFileBuildPipeline\BuildTasks\TaskEncryption_RFBP.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\TableViewer\DefaultCells\BooleanValueCell.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildBundleInfo.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetArtScanner\SchemaInspector.cs" />
@@ -234,6 +154,87 @@
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\BuiltinBuildPipeline\BuildTasks\TaskCreateManifest_BBP.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetArtScanner\AssetArtScannerWindow.cs" />
     <Compile Include="Assets\GameFrameworkRuntime\Editor\EditorDefine.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetArtScanner\AssetArtCollector.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleCollector\AssetBundleCollectorSetting.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleCollector\CollectAssetInfo.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\EditorSimulateBuildPipeline\EditorSimulateBuildParameters.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildSystem\BuildLogger.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\ScriptableBuildPipeline\BuildTasks\TaskCreateCatalog_SBP.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleCollector\CollectCommand.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\BuiltinBuildPipeline\BuiltinBuildPipeline.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleReporter\ReportAssetInfo.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\TreeViewer\TreeViewer.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\HomePage.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildSystem\BuildRunner.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleCollector\CollectRules\IPackRule.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildParametersContext.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleCollector\CollectRules\IActiveRule.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\ScriptableBuildPipeline\BuildTasks\TaskUpdateBundleInfo_SBP.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleCollector\DisplayNameAttribute.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleReporter\VisualViewers\ReporterSummaryViewer.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\BaseTasks\TaskCreateReport.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\VisualViewers\EditorSimulateBuildpipeline\EditorSimulateBuildPipelineViewer.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\UIElementsTools.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildSystem\BuildContext.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\TableViewer\SearchSystem\DefaultSearchSystem.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\ScriptableBuildPipeline\SBPBuildTasks.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\ElementsDefine\ReorderableListView.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetArtReporter\ScanReportCombiner.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleReporter\AssetBundleRecorder.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\BuiltinBuildPipeline\BuiltinBuildParameters.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetArtReporter\ReportHeader.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\ScriptableBuildPipeline\BuildTasks\TaskCreateReport_SBP.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\TableViewer\DefaultTableData\DefaultTableData.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\AssetBundleSimulateBuilder.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\UIElementsIcon.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\TreeViewer\TreeNode.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\EditorSimulateBuildPipeline\BuildTasks\TaskPrepare_ESBP.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\RawFileBuildPipeline\BuildTasks\TaskCopyBuildinFiles_RFBP.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\ScriptableBuildPipeline\BuildTasks\TaskPrepare_SBP.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleCollector\AssetBundleCollectorGroup.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetArtReporter\AssetArtReporterWindow.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetArtScanner\AssetArtScannerConfig.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\TableViewer\DefaultCells\AssetObjectCell.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\DefaultEncryptionServices.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\RawFileBuildPipeline\RawFileBuildPipeline.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildAssetInfo.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleReporter\ReportSummary.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleCollector\AssetBundleCollectorPackage.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\VisualViewers\BuiltinBuildPipeline\BuiltinBuildPipelineViewer.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleCollector\AssetBundleCollector.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\BaseTasks\TaskCreateCatalog.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\ScriptableBuildPipeline\ScriptableBuildPipeline.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\ScriptableBuildPipeline\BuildTasks\TaskCreateManifest_SBP.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\VisualViewers\BuildPipelineViewerBase.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\EBuildPipeline.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\EBuildinFileCopyOption.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\TableViewer\DefaultCells\AssetPathCell.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\BuiltinBuildPipeline\BuildTasks\TaskCreateCatalog_BBP.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleCollector\CollectRules\IIgnoreRule.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\TableViewer\SearchSystem\SearchCompare.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\BuiltinBuildPipeline\BuildTasks\TaskCopyBuildinFiles_BBP.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\ElementsDefine\ToggleDisplay.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\RawFileBuildPipeline\BuildTasks\TaskCreateCatalog_RFBP.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildSystem\IContextObject.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleCollector\DefaultRules\DefaultPackRule.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\BuiltinBuildPipeline\BuildTasks\TaskGetBuildMap_BBP.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\DefaultManifestServices.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetArtScanner\ScannerDefine.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\RawFileBuildPipeline\BuildTasks\TaskBuilding_RFBP.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleReporter\ReportIndependAsset.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\BaseTasks\TaskGetBuildMap.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\Common\AssetInfo.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetArtScanner\ScannerSchema.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\TableViewer\SearchSystem\ISearchCommand.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleReporter\AssetBundleReporterWindow.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\TableViewer\DefaultCells\IntegerValueCell.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\RawFileBuildPipeline\RawFileBuildParameters.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\UIElements\TableViewer\ITableData.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleReporter\ReportBundleInfo.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleCollector\CollectRules\IFilterRule.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\BaseTasks\TaskEncryption.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleCollector\AssetBundleCollectorSettingData.cs" />
+    <Compile Include="Assets\GameFrameworkRuntime\Editor\AssetBundleBuilder\BuildPipeline\RawFileBuildPipeline\BuildTasks\TaskEncryption_RFBP.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\GameFrameworkRuntime\Editor\AssetBundleReporter\AssetBundleReporterWindow.uxml" />
@@ -767,8 +768,12 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Cecil.Awesome">
+      <HintPath>Library\PackageCache\com.unity.entities@f6e02210e263\Unity.Entities.CodeGen\Unity.Cecil.Awesome.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
-      <HintPath>Library\PackageCache\com.unity.collections@d49facba0036\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="nunit.framework">
@@ -780,11 +785,15 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="System.IO.Hashing">
-      <HintPath>Library\PackageCache\com.unity.collections@d49facba0036\Unity.Collections.Tests\System.IO.Hashing\System.IO.Hashing.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.Tests\System.IO.Hashing\System.IO.Hashing.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="LZ4">
       <HintPath>Library\PackageCache\com.code-philosophy.hybridclr@01754c8fb47b\Plugins\LZ4.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@74deb55db2a0\Runtime\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mono.Cecil">
@@ -796,7 +805,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>Library\PackageCache\com.unity.collections@d49facba0036\Unity.Collections.Tests\System.Runtime.CompilerServices.Unsafe\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.Tests\System.Runtime.CompilerServices.Unsafe\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Android.Types">
@@ -1309,6 +1318,10 @@
     </Reference>
     <Reference Include="Unity.ScriptableBuildPipeline">
       <HintPath>Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="HybridCLR.Editor">
+      <HintPath>Library\ScriptAssemblies\HybridCLR.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.ScriptableBuildPipeline.Editor">

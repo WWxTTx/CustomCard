@@ -8,7 +8,7 @@
 using GameFramework;
 using System;
 
-namespace UnityGameFramework.Runtime
+namespace GameFramework.Runtime
 {
     /// <summary>
     /// System.DateTime 变量类。

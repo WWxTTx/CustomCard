@@ -10,13 +10,11 @@ using GameFramework.Debugger;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace UnityGameFramework.Runtime
+namespace GameFramework.Runtime
 {
     /// <summary>
     /// 调试器组件。
     /// </summary>
-    [DisallowMultipleComponent]
-    [AddComponentMenu("Game Framework/Debugger")]
     public sealed partial class DebuggerComponent : GameFrameworkComponent
     {
         /// <summary>
@@ -177,7 +175,7 @@ namespace UnityGameFramework.Runtime
             m_DebuggerManager = GameFrameworkEntry.GetModule<IDebuggerManager>();
             if (m_DebuggerManager == null)
             {
-                Log.Fatal("Debugger manager is invalid.");
+                Debug.Log("Debugger manager is invalid.");
                 return;
             }
 
