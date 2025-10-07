@@ -2,8 +2,10 @@
     "name": "HotUpdate",
     "rootNamespace": "",
     "references": [
-        "GUID:282a0a72b3151df4394127349e04dbbe",
-        "GUID:363c5eb08ff8e6a439b85e37b8c20d96"
+        "GUID:363c5eb08ff8e6a439b85e37b8c20d96",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:13ba8ce62aa80c74598530029cb2d649",
+        "GUID:2bafac87e7f4b9b418d9448d219b01ab"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

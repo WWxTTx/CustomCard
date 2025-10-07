@@ -6,6 +6,7 @@
 //------------------------------------------------------------
 
 using System;
+using UnityEngine;
 
 namespace GameFramework
 {
@@ -36,7 +37,7 @@ namespace GameFramework
             {
                 if (s_JsonHelper == null)
                 {
-                    throw new Exception("JSON helper is invalid.");
+                    Debug.Log("JSON helper is invalid.");
                 }
 
                 try
@@ -45,7 +46,8 @@ namespace GameFramework
                 }
                 catch (Exception exception)
                 {
-                    throw new Exception(Text.Format("Can not convert to JSON with exception '{0}'.", exception), exception);
+                    Debug.Log(Text.Format("Can not convert to JSON with exception '{0}'.", exception));
+                    throw;
                 }
             }
 
@@ -59,7 +61,7 @@ namespace GameFramework
             {
                 if (s_JsonHelper == null)
                 {
-                    throw new Exception("JSON helper is invalid.");
+                    Debug.Log("JSON helper is invalid.");
                 }
 
                 try
@@ -68,7 +70,8 @@ namespace GameFramework
                 }
                 catch (Exception exception)
                 {
-                    throw new Exception(Text.Format("Can not convert to object with exception '{0}'.", exception), exception);
+                    Debug.Log(Text.Format("Can not convert to object with exception '{0}'.", exception));
+                    throw;
                 }
             }
 
@@ -82,12 +85,12 @@ namespace GameFramework
             {
                 if (s_JsonHelper == null)
                 {
-                    throw new Exception("JSON helper is invalid.");
+                    Debug.Log("JSON helper is invalid.");
                 }
 
                 if (objectType == null)
                 {
-                    throw new Exception("Object type is invalid.");
+                    Debug.Log("Object type is invalid.");
                 }
 
                 try
@@ -96,7 +99,8 @@ namespace GameFramework
                 }
                 catch (Exception exception)
                 {
-                    throw new Exception(Text.Format("Can not convert to object with exception '{0}'.", exception), exception);
+                    Debug.Log(Text.Format("Can not convert to object with exception '{0}'.", exception));
+                    throw;
                 }
             }
         }

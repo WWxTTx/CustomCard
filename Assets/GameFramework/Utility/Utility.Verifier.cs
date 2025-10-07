@@ -7,6 +7,7 @@
 
 using System;
 using System.IO;
+using UnityEngine;
 
 namespace GameFramework
 {
@@ -30,7 +31,7 @@ namespace GameFramework
             {
                 if (bytes == null)
                 {
-                    throw new Exception("Bytes is invalid.");
+                    Debug.Log("Bytes is invalid.");
                 }
 
                 return GetCrc32(bytes, 0, bytes.Length);
@@ -47,12 +48,12 @@ namespace GameFramework
             {
                 if (bytes == null)
                 {
-                    throw new Exception("Bytes is invalid.");
+                    Debug.Log("Bytes is invalid.");
                 }
 
                 if (offset < 0 || length < 0 || offset + length > bytes.Length)
                 {
-                    throw new Exception("Offset or length is invalid.");
+                    Debug.Log("Offset or length is invalid.");
                 }
 
                 s_Algorithm.HashCore(bytes, offset, length);
@@ -70,7 +71,7 @@ namespace GameFramework
             {
                 if (stream == null)
                 {
-                    throw new Exception("Stream is invalid.");
+                    Debug.Log("Stream is invalid.");
                 }
 
                 while (true)
@@ -122,12 +123,12 @@ namespace GameFramework
             {
                 if (bytes == null)
                 {
-                    throw new Exception("Result is invalid.");
+                    Debug.Log("Result is invalid.");
                 }
 
                 if (offset < 0 || offset + 4 > bytes.Length)
                 {
-                    throw new Exception("Offset or length is invalid.");
+                    Debug.Log("Offset or length is invalid.");
                 }
 
                 bytes[offset] = (byte)((crc32 >> 24) & 0xff);
@@ -140,18 +141,18 @@ namespace GameFramework
             {
                 if (stream == null)
                 {
-                    throw new Exception("Stream is invalid.");
+                    Debug.Log("Stream is invalid.");
                 }
 
                 if (code == null)
                 {
-                    throw new Exception("Code is invalid.");
+                    Debug.Log("Code is invalid.");
                 }
 
                 int codeLength = code.Length;
                 if (codeLength <= 0)
                 {
-                    throw new Exception("Code length is invalid.");
+                    Debug.Log("Code length is invalid.");
                 }
 
                 int bytesLength = (int)stream.Length;

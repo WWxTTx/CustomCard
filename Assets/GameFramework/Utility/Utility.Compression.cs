@@ -7,6 +7,7 @@
 
 using System;
 using System.IO;
+using UnityEngine;
 
 namespace GameFramework
 {
@@ -37,7 +38,7 @@ namespace GameFramework
             {
                 if (bytes == null)
                 {
-                    throw new Exception("Bytes is invalid.");
+                   Debug.Log("Bytes is invalid.");
                 }
 
                 return Compress(bytes, 0, bytes.Length);
@@ -53,7 +54,7 @@ namespace GameFramework
             {
                 if (bytes == null)
                 {
-                    throw new Exception("Bytes is invalid.");
+                   Debug.Log("Bytes is invalid.");
                 }
 
                 return Compress(bytes, 0, bytes.Length, compressedStream);
@@ -93,22 +94,22 @@ namespace GameFramework
             {
                 if (s_CompressionHelper == null)
                 {
-                    throw new Exception("Compressed helper is invalid.");
+                   Debug.Log("Compressed helper is invalid.");
                 }
 
                 if (bytes == null)
                 {
-                    throw new Exception("Bytes is invalid.");
+                   Debug.Log("Bytes is invalid.");
                 }
 
                 if (offset < 0 || length < 0 || offset + length > bytes.Length)
                 {
-                    throw new Exception("Offset or length is invalid.");
+                   Debug.Log("Offset or length is invalid.");
                 }
 
                 if (compressedStream == null)
                 {
-                    throw new Exception("Compressed stream is invalid.");
+                   Debug.Log("Compressed stream is invalid.");
                 }
 
                 try
@@ -117,8 +118,9 @@ namespace GameFramework
                 }
                 catch (Exception exception)
                 {
-                    throw new Exception(Text.Format("Can not compress with exception '{0}'.", exception), exception);
+                   Debug.Log(Text.Format("Can not compress with exception '{0}'.", exception));
                 }
+                return false;
             }
 
             /// <summary>
@@ -151,17 +153,17 @@ namespace GameFramework
             {
                 if (s_CompressionHelper == null)
                 {
-                    throw new Exception("Compressed helper is invalid.");
+                   Debug.Log("Compressed helper is invalid.");
                 }
 
                 if (stream == null)
                 {
-                    throw new Exception("Stream is invalid.");
+                   Debug.Log("Stream is invalid.");
                 }
 
                 if (compressedStream == null)
                 {
-                    throw new Exception("Compressed stream is invalid.");
+                   Debug.Log("Compressed stream is invalid.");
                 }
 
                 try
@@ -170,8 +172,9 @@ namespace GameFramework
                 }
                 catch (Exception exception)
                 {
-                    throw new Exception(Text.Format("Can not compress with exception '{0}'.", exception), exception);
+                   Debug.Log(Text.Format("Can not compress with exception '{0}'.", exception));
                 }
+                return false;
             }
 
             /// <summary>
@@ -183,7 +186,7 @@ namespace GameFramework
             {
                 if (bytes == null)
                 {
-                    throw new Exception("Bytes is invalid.");
+                   Debug.Log("Bytes is invalid.");
                 }
 
                 return Decompress(bytes, 0, bytes.Length);
@@ -199,7 +202,7 @@ namespace GameFramework
             {
                 if (bytes == null)
                 {
-                    throw new Exception("Bytes is invalid.");
+                   Debug.Log("Bytes is invalid.");
                 }
 
                 return Decompress(bytes, 0, bytes.Length, decompressedStream);
@@ -239,22 +242,22 @@ namespace GameFramework
             {
                 if (s_CompressionHelper == null)
                 {
-                    throw new Exception("Compressed helper is invalid.");
+                   Debug.Log("Compressed helper is invalid.");
                 }
 
                 if (bytes == null)
                 {
-                    throw new Exception("Bytes is invalid.");
+                   Debug.Log("Bytes is invalid.");
                 }
 
                 if (offset < 0 || length < 0 || offset + length > bytes.Length)
                 {
-                    throw new Exception("Offset or length is invalid.");
+                   Debug.Log("Offset or length is invalid.");
                 }
 
                 if (decompressedStream == null)
                 {
-                    throw new Exception("Decompressed stream is invalid.");
+                   Debug.Log("Decompressed stream is invalid.");
                 }
 
                 try
@@ -263,8 +266,10 @@ namespace GameFramework
                 }
                 catch (Exception exception)
                 {
-                    throw new Exception(Text.Format("Can not decompress with exception '{0}'.", exception), exception);
+                   Debug.Log(Text.Format("Can not decompress with exception '{0}'.", exception));
                 }
+
+                return false;
             }
 
             /// <summary>
@@ -297,17 +302,17 @@ namespace GameFramework
             {
                 if (s_CompressionHelper == null)
                 {
-                    throw new Exception("Compressed helper is invalid.");
+                   Debug.Log("Compressed helper is invalid.");
                 }
 
                 if (stream == null)
                 {
-                    throw new Exception("Stream is invalid.");
+                   Debug.Log("Stream is invalid.");
                 }
 
                 if (decompressedStream == null)
                 {
-                    throw new Exception("Decompressed stream is invalid.");
+                   Debug.Log("Decompressed stream is invalid.");
                 }
 
                 try
@@ -316,8 +321,9 @@ namespace GameFramework
                 }
                 catch (Exception exception)
                 {
-                    throw new Exception(Text.Format("Can not decompress with exception '{0}'.", exception), exception);
+                   Debug.Log(Text.Format("Can not decompress with exception '{0}'.", exception));
                 }
+                return false;
             }
         }
     }

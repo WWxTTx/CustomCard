@@ -6,6 +6,7 @@
 //------------------------------------------------------------
 
 using System;
+using UnityEngine;
 
 namespace GameFramework
 {
@@ -39,7 +40,7 @@ namespace GameFramework
             {
                 if (ensureSize < 0)
                 {
-                    throw new Exception("Ensure size is invalid.");
+                    Debug.Log("Ensure size is invalid.");
                 }
 
                 if (s_CachedHGlobalPtr == IntPtr.Zero || s_CachedHGlobalSize < ensureSize)
@@ -86,7 +87,7 @@ namespace GameFramework
             {
                 if (structureSize < 0)
                 {
-                    throw new Exception("Structure size is invalid.");
+                    Debug.Log("Structure size is invalid.");
                 }
 
                 EnsureCachedHGlobalSize(structureSize);
@@ -143,22 +144,22 @@ namespace GameFramework
             {
                 if (structureSize < 0)
                 {
-                    throw new Exception("Structure size is invalid.");
+                    Debug.Log("Structure size is invalid.");
                 }
 
                 if (result == null)
                 {
-                    throw new Exception("Result is invalid.");
+                    Debug.Log("Result is invalid.");
                 }
 
                 if (startIndex < 0)
                 {
-                    throw new Exception("Start index is invalid.");
+                    Debug.Log("Start index is invalid.");
                 }
 
                 if (startIndex + structureSize > result.Length)
                 {
-                    throw new Exception("Result length is not enough.");
+                    Debug.Log("Result length is not enough.");
                 }
 
                 EnsureCachedHGlobalSize(structureSize);
@@ -213,22 +214,22 @@ namespace GameFramework
             {
                 if (structureSize < 0)
                 {
-                    throw new Exception("Structure size is invalid.");
+                    Debug.Log("Structure size is invalid.");
                 }
 
                 if (buffer == null)
                 {
-                    throw new Exception("Buffer is invalid.");
+                    Debug.Log("Buffer is invalid.");
                 }
 
                 if (startIndex < 0)
                 {
-                    throw new Exception("Start index is invalid.");
+                    Debug.Log("Start index is invalid.");
                 }
 
                 if (startIndex + structureSize > buffer.Length)
                 {
-                    throw new Exception("Buffer length is not enough.");
+                    Debug.Log("Buffer length is not enough.");
                 }
 
                 EnsureCachedHGlobalSize(structureSize);

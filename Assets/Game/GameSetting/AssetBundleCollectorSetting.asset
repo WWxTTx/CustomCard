@@ -164,9 +164,9 @@ MonoBehaviour:
       Collectors:
       - CollectPath: Assets/Game/Dlls
         CollectorGUID: 843c3d7949a213e44b612717b4b570e1
-        CollectorType: 1
+        CollectorType: 0
         AddressRuleName: AddressByFileName
-        PackRuleName: PackSeparately
-        FilterRuleName: CollectDlls
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectDll
         AssetTags: 
         UserData: 

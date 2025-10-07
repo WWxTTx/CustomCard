@@ -20,7 +20,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <NoWarn>0169;USG0001</NoWarn>
-    <DefineConstants>UNITY_6000_2_6;UNITY_6000_2;UNITY_6000;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;UNITY_2023_3_OR_NEWER;UNITY_6000_0_OR_NEWER;UNITY_6000_1_OR_NEWER;UNITY_6000_2_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_UNITY_CONSENT;ENABLE_UNITY_CLOUD_IDENTIFIERS;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_MARSHALLING_TESTS;ENABLE_VIDEO;ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_ACCESSIBILITY;TEXTCORE_1_0_OR_NEWER;EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLOUD_SERVICES_ENGINE_DIAGNOSTICS;ENABLE_FIREBASE_IDENTIFIERS;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;PLATFORM_EXTENDS_VULKAN_PIPELINE_CACHE;PLATFORM_SUPPORTS_SPLIT_GRAPHICS_JOBS;PLATFORM_HAS_ADDITIONAL_API_CHECKS;PLATFORM_HAS_GRAPHICS_JOBS_SUPPORT_CHECK_OVERRIDE;PLATFORM_IMPLEMENTS_INSIGHTS_ANR;PLATFORM_SUPPORTS_INSIGHTS_DEVICE_INFO;ENABLE_ANDROID_ADVERTISING_IDS;PLATFORM_HAS_BUGGY_MSAA_RESOLVE;ENABLE_ANDROID_APP_SET_ID;ENABLE_INSIGHTS_PLATFORM_SPECIFIC_RESOURCES;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER;AMPLIFY_SHADER_EDITOR;ENABLE_LOG;ENABLE_OBFUZ;ENABLE_HYBRIDCLR;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_EDITOR_ONLY_COMPILATION</DefineConstants>
+    <DefineConstants>UNITY_6000_2_6;UNITY_6000_2;UNITY_6000;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;UNITY_2023_3_OR_NEWER;UNITY_6000_0_OR_NEWER;UNITY_6000_1_OR_NEWER;UNITY_6000_2_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_UNITY_CONSENT;ENABLE_UNITY_CLOUD_IDENTIFIERS;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_MARSHALLING_TESTS;ENABLE_VIDEO;ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;TEXTCORE_1_0_OR_NEWER;EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_AMD;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLOUD_SERVICES_ENGINE_DIAGNOSTICS;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;PLATFORM_USES_EXPLICIT_MEMORY_MANAGER_INITIALIZER;PLATFORM_SUPPORTS_WAIT_FOR_PRESENTATION;PLATFORM_SUPPORTS_SPLIT_GRAPHICS_JOBS;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER;DOTWEEN;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_EDITOR_ONLY_COMPILATION</DefineConstants>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -51,7 +51,7 @@
     <UnityProjectGeneratorVersion>2.0.23</UnityProjectGeneratorVersion>
     <UnityProjectGeneratorStyle>Legacy</UnityProjectGeneratorStyle>
     <UnityProjectType>Editor:5</UnityProjectType>
-    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>6000.2.6f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
@@ -71,54 +71,14 @@
     <Analyzer Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.entities@f6e02210e263\Unity.Entities\SourceGenerators\Common.dll" />
     <Analyzer Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.entities@f6e02210e263\Unity.Entities\SourceGenerators\SystemGenerator.EntityQueryBulkOperations.dll" />
     <Analyzer Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.entities@f6e02210e263\Unity.Entities\SourceGenerators\Unity.Entities.Analyzer.CodeFixes.dll" />
-    <Analyzer Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\NetCodeSourceGenerator.dll" />
-    <Analyzer Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\NetCodeAnalyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueFloatUnquantized.NetCodeSourceGenerator.additionalfile" />
-    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueUInt.NetCodeSourceGenerator.additionalfile" />
-    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueDoubleUnquantized.NetCodeSourceGenerator.additionalfile" />
-    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueBool.NetCodeSourceGenerator.additionalfile" />
-    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueFloat2.NetCodeSourceGenerator.additionalfile" />
-    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\GhostComponentSerializer.NetCodeSourceGenerator.additionalfile" />
-    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueUShort.NetCodeSourceGenerator.additionalfile" />
-    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueFloat4Unquantized.NetCodeSourceGenerator.additionalfile" />
-    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\FixedList\GhostFixedListCommandHelper.NetCodeSourceGenerator.additionalfile" />
-    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueQuaternion.NetCodeSourceGenerator.additionalfile" />
-    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueFloat3.NetCodeSourceGenerator.additionalfile" />
-    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueFloat3Unquantized.NetCodeSourceGenerator.additionalfile" />
-    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueFloat2Unquantized.NetCodeSourceGenerator.additionalfile" />
-    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\FixedList\GhostFixedListContainer.NetCodeSourceGenerator.additionalfile" />
-    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\InputSynchronization.NetCodeSourceGenerator.additionalfile" />
-    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueFixedString64Bytes.NetCodeSourceGenerator.additionalfile" />
-    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueEntity.NetCodeSourceGenerator.additionalfile" />
-    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueFixedString4096Bytes.NetCodeSourceGenerator.additionalfile" />
-    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueSByte.NetCodeSourceGenerator.additionalfile" />
-    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueFixedString32Bytes.NetCodeSourceGenerator.additionalfile" />
-    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueDouble.NetCodeSourceGenerator.additionalfile" />
-    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\FixedList\GhostFixedListElement.NetCodeSourceGenerator.additionalfile" />
-    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\FixedList\GhostFixedListSnapshotHelpers.NetCodeSourceGenerator.additionalfile" />
-    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueFixedString512Bytes.NetCodeSourceGenerator.additionalfile" />
-    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueULong.NetCodeSourceGenerator.additionalfile" />
-    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\FixedList\GhostSnapshotFixedList.NetCodeSourceGenerator.additionalfile" />
-    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\CommandDataSerializer.NetCodeSourceGenerator.additionalfile" />
-    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueNetworkEndpoint.NetCodeSourceGenerator.additionalfile" />
-    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueShort.NetCodeSourceGenerator.additionalfile" />
-    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\GhostComponentSerializerRegistrationSystem.NetCodeSourceGenerator.additionalfile" />
-    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueByte.NetCodeSourceGenerator.additionalfile" />
-    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueLong.NetCodeSourceGenerator.additionalfile" />
-    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueQuaternionUnquantized.NetCodeSourceGenerator.additionalfile" />
-    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueInt.NetCodeSourceGenerator.additionalfile" />
-    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\RpcCommandSerializer.NetCodeSourceGenerator.additionalfile" />
-    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueFixedString128Bytes.NetCodeSourceGenerator.additionalfile" />
-    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueFloat.NetCodeSourceGenerator.additionalfile" />
-    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueNetworkTick.NetCodeSourceGenerator.additionalfile" />
-    <AdditionalFiles Include="C:\Users\Administrator\Desktop\UnityProject\CustomCard\Library\PackageCache\com.unity.netcode@2fb2edf0390f\Runtime\SourceGenerators\Templates\DefaultTypes\GhostSnapshotValueFloat4.NetCodeSourceGenerator.additionalfile" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Assets\Game\GameScript\Editor\SchemaTools.cs" />
-    <Compile Include="Assets\Game\GameScript\Editor\TextureTools.cs" />
-    <Compile Include="Assets\Game\GameScript\Editor\TextureSchema.cs" />
+    <Compile Include="Assets\GameFramework\Editor\EditorTools\Base\EditorToolMenuAttribute.cs" />
+    <Compile Include="Assets\GameFramework\Editor\EditorTools\StripLinkConfigTool.cs" />
+    <Compile Include="Assets\GameFramework\Editor\EditorTools\Base\EditorToolBase.cs" />
+    <Compile Include="Assets\GameFramework\Editor\EditorTools\EditorToolbarExtension.cs" />
+    <Compile Include="Assets\GameFramework\Editor\EditorTools\StripLinkConfigEditor.cs" />
+    <Compile Include="Assets\GameFramework\Editor\EditorTools\Base\UnityEditorToolbar.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -650,7 +610,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="dnlib">
-      <HintPath>Library\PackageCache\com.code-philosophy.obfuz@747ee88fd391\Plugins\dnlib.dll</HintPath>
+      <HintPath>Library\PackageCache\com.code-philosophy.hybridclr@01754c8fb47b\Plugins\dnlib.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.IO.Hashing">
@@ -1209,16 +1169,8 @@
       <HintPath>Library\ScriptAssemblies\Unity.Entities.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.NetCode.Editor.Drawers">
-      <HintPath>Library\ScriptAssemblies\Unity.NetCode.Editor.Drawers.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.NetCode">
-      <HintPath>Library\ScriptAssemblies\Unity.NetCode.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Entities.Graphics">
@@ -1237,12 +1189,8 @@
       <HintPath>Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Networking.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Networking.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Obfuz.Runtime">
-      <HintPath>Library\ScriptAssemblies\Obfuz.Runtime.dll</HintPath>
+    <Reference Include="Unity.Scenes.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Scenes.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Entities.Editor.Properties">
@@ -1255,10 +1203,6 @@
     </Reference>
     <Reference Include="PPv2URPConverters">
       <HintPath>Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Scenes.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Scenes.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Multiplayer.PlayMode.Scenarios.Editor">
@@ -1277,6 +1221,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.Shared.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Entities.Graphics.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Entities.Graphics.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.2D.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.2D.Runtime.dll</HintPath>
       <Private>False</Private>
@@ -1287,10 +1235,6 @@
     </Reference>
     <Reference Include="Unity.Searcher.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Entities.Graphics.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Entities.Graphics.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Burst.Editor">
@@ -1305,10 +1249,6 @@
       <HintPath>Library\ScriptAssemblies\Unity.Entities.UI.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Rendering.LightTransport.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Rendering.LightTransport.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Entities.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Entities.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1317,8 +1257,8 @@
       <HintPath>Library\ScriptAssemblies\Unity.Entities.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.NetCode.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.NetCode.Editor.dll</HintPath>
+    <Reference Include="Unity.Rendering.LightTransport.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rendering.LightTransport.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
@@ -1353,20 +1293,12 @@
       <HintPath>Library\ScriptAssemblies\Unity.Profiling.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Networking.Transport">
-      <HintPath>Library\ScriptAssemblies\Unity.Networking.Transport.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.RenderPipelines.GPUDriven.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.GPUDriven.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Mathematics">
       <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Obfuz.Editor">
-      <HintPath>Library\ScriptAssemblies\Obfuz.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Mathematics.Extensions.Hybrid">
@@ -1387,10 +1319,6 @@
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.NetCode.Authoring.Hybrid">
-      <HintPath>Library\ScriptAssemblies\Unity.NetCode.Authoring.Hybrid.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="HybridCLR.Runtime">
@@ -1445,16 +1373,12 @@
       <HintPath>Library\ScriptAssemblies\Unity.Serialization.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.NetCode.Hybrid">
-      <HintPath>Library\ScriptAssemblies\Unity.NetCode.Hybrid.dll</HintPath>
+    <Reference Include="Unity.ShaderGraph.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor.Shared">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.Shared.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.ShaderGraph.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.UI">
@@ -1467,10 +1391,6 @@
       <Project>{CA8D46DB-FA61-70B6-2EAF-6952A77CAD72}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
-    <ProjectReference Include="GameFramework.csproj">
-      <Project>{DE2F4901-E635-CE16-3850-209A2B6D3489}</Project>
-      <Name>GameFramework</Name>
-    </ProjectReference>
     <ProjectReference Include="UniTask.TextMeshPro.csproj">
       <Project>{64A6DE0C-CBE7-E055-1D75-C215AAD25F6D}</Project>
       <Name>UniTask.TextMeshPro</Name>
@@ -1479,45 +1399,41 @@
       <Project>{BC3EE3E7-53DC-46AF-01BE-245E76D30C86}</Project>
       <Name>HotUpdate</Name>
     </ProjectReference>
-    <ProjectReference Include="YooAsset.Editor.csproj">
-      <Project>{F1135DCA-B57D-0028-6D12-E324DFB46612}</Project>
-      <Name>YooAsset.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="UniTask.DOTween.csproj">
       <Project>{410A254F-568B-9DD8-7982-71D4F0B2D3AE}</Project>
       <Name>UniTask.DOTween</Name>
     </ProjectReference>
-    <ProjectReference Include="UniFramework.Machine.csproj">
-      <Project>{7FB3283F-0109-F561-932C-D78A43FB3390}</Project>
-      <Name>UniFramework.Machine</Name>
-    </ProjectReference>
-    <ProjectReference Include="GameFramework.Runtime.csproj">
-      <Project>{A2B118D7-E71F-F80F-581B-83BF12F5E873}</Project>
-      <Name>GameFramework.Runtime</Name>
+    <ProjectReference Include="YooAsset.csproj">
+      <Project>{9A36A97C-83BA-BE07-C259-157BD16F9A69}</Project>
+      <Name>YooAsset</Name>
     </ProjectReference>
     <ProjectReference Include="UniTask.Addressables.csproj">
       <Project>{86427439-9D86-5904-6E41-A274C5C1B329}</Project>
       <Name>UniTask.Addressables</Name>
     </ProjectReference>
-    <ProjectReference Include="UniFramework.Event.csproj">
-      <Project>{06090F42-5940-A396-2C48-F0D9329A761C}</Project>
-      <Name>UniFramework.Event</Name>
+    <ProjectReference Include="GameFramework.csproj">
+      <Project>{DE2F4901-E635-CE16-3850-209A2B6D3489}</Project>
+      <Name>GameFramework</Name>
     </ProjectReference>
     <ProjectReference Include="UniTask.Linq.csproj">
       <Project>{849968EC-90A4-82B7-8075-41BDEA4D5BA2}</Project>
       <Name>UniTask.Linq</Name>
     </ProjectReference>
+    <ProjectReference Include="IngameDebugConsole.Runtime.csproj">
+      <Project>{E7F1ADF2-3D09-471F-4AE6-D869C91979C8}</Project>
+      <Name>IngameDebugConsole.Runtime</Name>
+    </ProjectReference>
     <ProjectReference Include="UniTask.csproj">
       <Project>{22B8CC11-A136-3B29-28BF-0264B3AA2134}</Project>
       <Name>UniTask</Name>
     </ProjectReference>
-    <ProjectReference Include="UniFramework.Utility.csproj">
-      <Project>{A5AA45AD-0BED-F9DF-EAE3-84C9D0A78788}</Project>
-      <Name>UniFramework.Utility</Name>
+    <ProjectReference Include="IngameDebugConsole.Editor.csproj">
+      <Project>{98DC7E14-601D-D46C-3085-A6CD30334542}</Project>
+      <Name>IngameDebugConsole.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="YooAsset.csproj">
-      <Project>{9A36A97C-83BA-BE07-C259-157BD16F9A69}</Project>
-      <Name>YooAsset</Name>
+    <ProjectReference Include="YooAsset.Editor.csproj">
+      <Project>{F1135DCA-B57D-0028-6D12-E324DFB46612}</Project>
+      <Name>YooAsset.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,32 +1,33 @@
-﻿using GameFramework.Runtime;
-using UnityEngine;
+﻿using UnityEngine;
 using static GameFramework.Runtime.PlayerInputEventDefine;
 
-public class Test : MonoBehaviour
+namespace GameFramework.Runtime
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public class Test : MonoBehaviour
     {
-        EventManager.AddListener<CardSelected>(EventHander);
-        EventManager.AddListener<CardDrawn>(EventHander);
-    }
-    private void EventHander(CardDrawn t)
-    {
-        Debug.Log("玩家抽了一张牌");
-    }
-    private void EventHander(CardSelected t)
-    {
-        Debug.Log("玩家选中了一张牌");
-    }
-
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.A))
+        void Start()
         {
-            EventManager.PublishNow(new CardSelected
-            {
+            EventManager.AddListener<CardSelected>(EventHander);
+            EventManager.AddListener<CardDrawn>(EventHander);
+        }
+        private void EventHander(CardDrawn t)
+        {
+            Debug.Log("玩家抽了一张牌");
+        }
+        private void EventHander(CardSelected t)
+        {
+            Debug.Log("玩家选中了一张牌");
+        }
 
-            });
+        void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.A))
+            {
+                EventManager.PublishNow<CardSelected>(new CardSelected
+                {
+
+                });
+            }
         }
     }
 }

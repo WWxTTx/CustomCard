@@ -6,6 +6,7 @@
 //------------------------------------------------------------
 
 using System;
+using UnityEngine;
 
 namespace GameFramework
 {
@@ -108,18 +109,18 @@ namespace GameFramework
 
                 if (code == null)
                 {
-                    throw new Exception("Code is invalid.");
+                    Debug.Log("Code is invalid.");
                 }
 
                 int codeLength = code.Length;
                 if (codeLength <= 0)
                 {
-                    throw new Exception("Code length is invalid.");
+                    Debug.Log("Code length is invalid.");
                 }
 
                 if (startIndex < 0 || length < 0 || startIndex + length > bytes.Length)
                 {
-                    throw new Exception("Start index or length is invalid.");
+                    Debug.Log("Start index or length is invalid.");
                 }
 
                 int codeIndex = startIndex % codeLength;

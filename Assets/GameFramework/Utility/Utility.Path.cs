@@ -5,8 +5,8 @@
 // Feedback: mailto:ellan@gameframework.cn
 //------------------------------------------------------------
 
-using System;
 using System.IO;
+using UnityEngine;
 
 namespace GameFramework
 {
@@ -60,7 +60,7 @@ namespace GameFramework
             {
                 if (string.IsNullOrEmpty(directoryName))
                 {
-                    throw new Exception("Directory name is invalid.");
+                    Debug.Log("Directory name is invalid.");
                 }
 
                 try

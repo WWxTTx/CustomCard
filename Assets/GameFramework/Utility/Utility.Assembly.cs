@@ -7,6 +7,7 @@
 
 using System;
 using System.Collections.Generic;
+using UnityEngine;
 
 namespace GameFramework
 {
@@ -57,7 +58,7 @@ namespace GameFramework
             {
                 if (results == null)
                 {
-                    throw new Exception("Results is invalid.");
+                    Debug.Log("Results is invalid.");
                 }
 
                 results.Clear();
@@ -76,7 +77,7 @@ namespace GameFramework
             {
                 if (string.IsNullOrEmpty(typeName))
                 {
-                    throw new Exception("Type name is invalid.");
+                    Debug.Log("Type name is invalid.");
                 }
 
                 Type type = null;

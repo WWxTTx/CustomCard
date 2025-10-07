@@ -1,0 +1,5 @@
+﻿<linker>
+<!--GENERATE_TAG-->
+	<assembly fullname="Assembly-CSharp" preserve="all" />
+<!--GENERATE_TAG-->
+<!--GENERATE_TAG--></linker>

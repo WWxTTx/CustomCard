@@ -5,7 +5,7 @@
 // Feedback: mailto:ellan@gameframework.cn
 //------------------------------------------------------------
 
-using System;
+using UnityEngine;
 
 namespace GameFramework
 {
@@ -38,7 +38,7 @@ namespace GameFramework
             {
                 if (format == null)
                 {
-                    throw new Exception("Format is invalid.");
+                    Debug.Log("Format is invalid.");
                 }
 
                 if (s_TextHelper == null)
@@ -62,7 +62,7 @@ namespace GameFramework
             {
                 if (format == null)
                 {
-                    throw new Exception("Format is invalid.");
+                    Debug.Log("Format is invalid.");
                 }
 
                 if (s_TextHelper == null)
@@ -88,7 +88,7 @@ namespace GameFramework
             {
                 if (format == null)
                 {
-                    throw new Exception("Format is invalid.");
+                    Debug.Log("Format is invalid.");
                 }
 
                 if (s_TextHelper == null)
@@ -116,7 +116,7 @@ namespace GameFramework
             {
                 if (format == null)
                 {
-                    throw new Exception("Format is invalid.");
+                    Debug.Log("Format is invalid.");
                 }
 
                 if (s_TextHelper == null)
@@ -146,7 +146,7 @@ namespace GameFramework
             {
                 if (format == null)
                 {
-                    throw new Exception("Format is invalid.");
+                    Debug.Log("Format is invalid.");
                 }
 
                 if (s_TextHelper == null)
@@ -178,7 +178,7 @@ namespace GameFramework
             {
                 if (format == null)
                 {
-                    throw new Exception("Format is invalid.");
+                    Debug.Log("Format is invalid.");
                 }
 
                 if (s_TextHelper == null)
@@ -212,7 +212,7 @@ namespace GameFramework
             {
                 if (format == null)
                 {
-                    throw new Exception("Format is invalid.");
+                    Debug.Log("Format is invalid.");
                 }
 
                 if (s_TextHelper == null)
@@ -248,7 +248,7 @@ namespace GameFramework
             {
                 if (format == null)
                 {
-                    throw new Exception("Format is invalid.");
+                    Debug.Log("Format is invalid.");
                 }
 
                 if (s_TextHelper == null)
@@ -286,7 +286,7 @@ namespace GameFramework
             {
                 if (format == null)
                 {
-                    throw new Exception("Format is invalid.");
+                    Debug.Log("Format is invalid.");
                 }
 
                 if (s_TextHelper == null)
@@ -326,7 +326,7 @@ namespace GameFramework
             {
                 if (format == null)
                 {
-                    throw new Exception("Format is invalid.");
+                    Debug.Log("Format is invalid.");
                 }
 
                 if (s_TextHelper == null)
@@ -368,7 +368,7 @@ namespace GameFramework
             {
                 if (format == null)
                 {
-                    throw new Exception("Format is invalid.");
+                    Debug.Log("Format is invalid.");
                 }
 
                 if (s_TextHelper == null)
@@ -412,7 +412,7 @@ namespace GameFramework
             {
                 if (format == null)
                 {
-                    throw new Exception("Format is invalid.");
+                    Debug.Log("Format is invalid.");
                 }
 
                 if (s_TextHelper == null)
@@ -458,7 +458,7 @@ namespace GameFramework
             {
                 if (format == null)
                 {
-                    throw new Exception("Format is invalid.");
+                    Debug.Log("Format is invalid.");
                 }
 
                 if (s_TextHelper == null)
@@ -506,7 +506,7 @@ namespace GameFramework
             {
                 if (format == null)
                 {
-                    throw new Exception("Format is invalid.");
+                    Debug.Log("Format is invalid.");
                 }
 
                 if (s_TextHelper == null)
@@ -556,7 +556,7 @@ namespace GameFramework
             {
                 if (format == null)
                 {
-                    throw new Exception("Format is invalid.");
+                    Debug.Log("Format is invalid.");
                 }
 
                 if (s_TextHelper == null)
@@ -608,7 +608,7 @@ namespace GameFramework
             {
                 if (format == null)
                 {
-                    throw new Exception("Format is invalid.");
+                    Debug.Log("Format is invalid.");
                 }
 
                 if (s_TextHelper == null)

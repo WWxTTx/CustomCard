@@ -1,4 +1,5 @@
-﻿namespace GameFramework.Runtime
+﻿using GameFramework;
+namespace GameFramework.Runtime
 {
     /// <summary>
     /// 玩家输入事件定义

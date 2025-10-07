@@ -5,7 +5,7 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 	// {{ AOT assemblies
 	public static readonly IReadOnlyList<string> PatchedAOTAssemblyList = new List<string>
 	{
-		"GameFramework.Runtime.dll",
+		"UniTask.dll",
 		"mscorlib.dll",
 	};
 	// }}
@@ -14,7 +14,12 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 	// }} 
 
 	// {{ AOT generic types
-	// GameFramework.Runtime.EventManager.<>c__DisplayClass5_0<GameFramework.Runtime.PlayerInputEventDefine.CardSelected>
+	// Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoid.<>c<GameFramework.Runtime.EventManager.<PublishInBackground>d__10<object>>
+	// Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoid.<>c<GameFramework.Runtime.EventManager.<PublishInNextFrame>d__11<object>>
+	// Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoid<GameFramework.Runtime.EventManager.<PublishInBackground>d__10<object>>
+	// Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoid<GameFramework.Runtime.EventManager.<PublishInNextFrame>d__11<object>>
+	// Cysharp.Threading.Tasks.ITaskPoolNode<object>
+	// System.Action<GameFramework.Runtime.PlayerInputEventDefine.CardDrawn>
 	// System.Action<GameFramework.Runtime.PlayerInputEventDefine.CardSelected>
 	// System.Action<int>
 	// System.Action<object>
@@ -70,6 +75,7 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 	// System.Collections.ObjectModel.ReadOnlyCollection<object>
 	// System.Comparison<int>
 	// System.Comparison<object>
+	// System.Func<int>
 	// System.Func<object>
 	// System.Predicate<int>
 	// System.Predicate<object>
@@ -77,8 +83,10 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 
 	public void RefMethods()
 	{
-		// System.Void GameFramework.Runtime.EventManager.AddListener<GameFramework.Runtime.PlayerInputEventDefine.CardSelected>(System.Action<GameFramework.Runtime.PlayerInputEventDefine.CardSelected>,object)
-		// System.Collections.Generic.List<System.Action<GameFramework.Runtime.IEventData>> GameFramework.Runtime.EventManager.GetHandlers<GameFramework.Runtime.PlayerInputEventDefine.CardSelected>(GameFramework.Runtime.PlayerInputEventDefine.CardSelected)
-		// System.Void GameFramework.Runtime.EventManager.PublishNow<GameFramework.Runtime.PlayerInputEventDefine.CardSelected>(GameFramework.Runtime.PlayerInputEventDefine.CardSelected)
+		// System.Void Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder.AwaitUnsafeOnCompleted<Cysharp.Threading.Tasks.SwitchToMainThreadAwaitable.Awaiter,GameFramework.Runtime.EventManager.<PublishInNextFrame>d__11<object>>(Cysharp.Threading.Tasks.SwitchToMainThreadAwaitable.Awaiter&,GameFramework.Runtime.EventManager.<PublishInNextFrame>d__11<object>&)
+		// System.Void Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder.AwaitUnsafeOnCompleted<Cysharp.Threading.Tasks.SwitchToThreadPoolAwaitable.Awaiter,GameFramework.Runtime.EventManager.<PublishInBackground>d__10<object>>(Cysharp.Threading.Tasks.SwitchToThreadPoolAwaitable.Awaiter&,GameFramework.Runtime.EventManager.<PublishInBackground>d__10<object>&)
+		// System.Void Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder.AwaitUnsafeOnCompleted<Cysharp.Threading.Tasks.YieldAwaitable.Awaiter,GameFramework.Runtime.EventManager.<PublishInNextFrame>d__11<object>>(Cysharp.Threading.Tasks.YieldAwaitable.Awaiter&,GameFramework.Runtime.EventManager.<PublishInNextFrame>d__11<object>&)
+		// System.Void Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder.Start<GameFramework.Runtime.EventManager.<PublishInBackground>d__10<object>>(GameFramework.Runtime.EventManager.<PublishInBackground>d__10<object>&)
+		// System.Void Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder.Start<GameFramework.Runtime.EventManager.<PublishInNextFrame>d__11<object>>(GameFramework.Runtime.EventManager.<PublishInNextFrame>d__11<object>&)
 	}
 }
