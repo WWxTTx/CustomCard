@@ -1,0 +1,5 @@
+﻿#	默认游戏配置			
+#	ID	StringArr	EnumValue	
+#	int	string	int	
+	0	玩家初始金币数	0	
+	1	观战最大容纳人数	1	

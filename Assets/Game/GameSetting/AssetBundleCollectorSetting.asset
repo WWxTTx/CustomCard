@@ -25,6 +25,19 @@ MonoBehaviour:
     AutoCollectShaders: 1
     IgnoreRuleName: NormalIgnoreRule
     Groups:
+    - GroupName: tables
+      GroupDesc: "\u6570\u636E\u5305\u548C\u914D\u7F6E\u8868"
+      AssetTags: 
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/Game/Tables
+        CollectorGUID: c8af3b4cae4ac0b45920b18120610006
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
     - GroupName: battle
       GroupDesc: "\u6218\u6597"
       AssetTags: 
@@ -38,7 +51,7 @@ MonoBehaviour:
         FilterRuleName: CollectPrefab
         AssetTags: 
         UserData: 
-      - CollectPath: Assets/Game/GameRes/Entity
+      - CollectPath: Assets/Game/Entity
         CollectorGUID: 4d7c84745db8e884f8020a8c5356e67c
         CollectorType: 0
         AddressRuleName: AddressByFileName
@@ -96,7 +109,7 @@ MonoBehaviour:
       AssetTags: 
       ActiveRuleName: EnableGroup
       Collectors:
-      - CollectPath: Assets/Game/GameRes/Scene
+      - CollectPath: Assets/Game/Scene
         CollectorGUID: 6070eae1192f2994887f2983a177d503
         CollectorType: 0
         AddressRuleName: AddressByFileName
@@ -117,7 +130,7 @@ MonoBehaviour:
       AssetTags: 
       ActiveRuleName: EnableGroup
       Collectors:
-      - CollectPath: Assets/Game/GameRes/UIPanel
+      - CollectPath: Assets/Game/UIPanel
         CollectorGUID: 12d33f33f3a55224c9c747d7bffa1c68
         CollectorType: 0
         AddressRuleName: AddressByFileName
@@ -158,7 +171,7 @@ MonoBehaviour:
         AssetTags: 
         UserData: 
     - GroupName: dll
-      GroupDesc: 
+      GroupDesc: "\u70ED\u66F4\u6587\u4EF6"
       AssetTags: 
       ActiveRuleName: EnableGroup
       Collectors:
