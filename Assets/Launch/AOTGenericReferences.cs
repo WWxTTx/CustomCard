@@ -5,6 +5,7 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 	// {{ AOT assemblies
 	public static readonly IReadOnlyList<string> PatchedAOTAssemblyList = new List<string>
 	{
+		"Obfuz.Runtime.dll",
 		"UniTask.dll",
 		"mscorlib.dll",
 	};
@@ -14,13 +15,14 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 	// }} 
 
 	// {{ AOT generic types
-	// Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoid.<>c<GameFramework.Runtime.EventManager.<PublishInBackground>d__10<object>>
-	// Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoid.<>c<GameFramework.Runtime.EventManager.<PublishInNextFrame>d__11<object>>
-	// Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoid<GameFramework.Runtime.EventManager.<PublishInBackground>d__10<object>>
-	// Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoid<GameFramework.Runtime.EventManager.<PublishInNextFrame>d__11<object>>
+	// $b.$EA<$b.$eA>
+	// Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoid.<>c<$B.$EA.$SA<object>>
+	// Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoid.<>c<$B.$EA.$sA<object>>
+	// Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoid<$B.$EA.$SA<object>>
+	// Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoid<$B.$EA.$sA<object>>
 	// Cysharp.Threading.Tasks.ITaskPoolNode<object>
-	// System.Action<GameFramework.Runtime.PlayerInputEventDefine.CardDrawn>
-	// System.Action<GameFramework.Runtime.PlayerInputEventDefine.CardSelected>
+	// System.Action<$B.$uA.$UA>
+	// System.Action<$B.$uA.$VA>
 	// System.Action<int>
 	// System.Action<object>
 	// System.Collections.Generic.ArraySortHelper<int>
@@ -83,10 +85,10 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 
 	public void RefMethods()
 	{
-		// System.Void Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder.AwaitUnsafeOnCompleted<Cysharp.Threading.Tasks.SwitchToMainThreadAwaitable.Awaiter,GameFramework.Runtime.EventManager.<PublishInNextFrame>d__11<object>>(Cysharp.Threading.Tasks.SwitchToMainThreadAwaitable.Awaiter&,GameFramework.Runtime.EventManager.<PublishInNextFrame>d__11<object>&)
-		// System.Void Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder.AwaitUnsafeOnCompleted<Cysharp.Threading.Tasks.SwitchToThreadPoolAwaitable.Awaiter,GameFramework.Runtime.EventManager.<PublishInBackground>d__10<object>>(Cysharp.Threading.Tasks.SwitchToThreadPoolAwaitable.Awaiter&,GameFramework.Runtime.EventManager.<PublishInBackground>d__10<object>&)
-		// System.Void Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder.AwaitUnsafeOnCompleted<Cysharp.Threading.Tasks.YieldAwaitable.Awaiter,GameFramework.Runtime.EventManager.<PublishInNextFrame>d__11<object>>(Cysharp.Threading.Tasks.YieldAwaitable.Awaiter&,GameFramework.Runtime.EventManager.<PublishInNextFrame>d__11<object>&)
-		// System.Void Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder.Start<GameFramework.Runtime.EventManager.<PublishInBackground>d__10<object>>(GameFramework.Runtime.EventManager.<PublishInBackground>d__10<object>&)
-		// System.Void Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder.Start<GameFramework.Runtime.EventManager.<PublishInNextFrame>d__11<object>>(GameFramework.Runtime.EventManager.<PublishInNextFrame>d__11<object>&)
+		// System.Void Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder.AwaitUnsafeOnCompleted<Cysharp.Threading.Tasks.SwitchToMainThreadAwaitable.Awaiter,$B.$EA.$SA<object>>(Cysharp.Threading.Tasks.SwitchToMainThreadAwaitable.Awaiter&,$B.$EA.$SA<object>&)
+		// System.Void Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder.AwaitUnsafeOnCompleted<Cysharp.Threading.Tasks.SwitchToThreadPoolAwaitable.Awaiter,$B.$EA.$sA<object>>(Cysharp.Threading.Tasks.SwitchToThreadPoolAwaitable.Awaiter&,$B.$EA.$sA<object>&)
+		// System.Void Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder.AwaitUnsafeOnCompleted<Cysharp.Threading.Tasks.YieldAwaitable.Awaiter,$B.$EA.$SA<object>>(Cysharp.Threading.Tasks.YieldAwaitable.Awaiter&,$B.$EA.$SA<object>&)
+		// System.Void Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder.Start<$B.$EA.$SA<object>>($B.$EA.$SA<object>&)
+		// System.Void Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder.Start<$B.$EA.$sA<object>>($B.$EA.$sA<object>&)
 	}
 }

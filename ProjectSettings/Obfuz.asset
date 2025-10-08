@@ -21,8 +21,9 @@ MonoBehaviour:
   assemblySettings:
     assembliesToObfuscate:
     - HotUpdate
-    nonObfuscatedButReferencingObfuscatedAssemblies:
     - Assembly-CSharp
+    nonObfuscatedButReferencingObfuscatedAssemblies:
+    - Launch
     additionalAssemblySearchPaths: []
     obfuscateObfuzRuntime: 1
   obfuscationPassSettings:
@@ -31,22 +32,22 @@ MonoBehaviour:
   secretSettings:
     defaultStaticSecretKey: Code Philosophy-Static
     defaultDynamicSecretKey: Code Philosophy-Dynamic
-    staticSecretKeyOutputPath: Assets/Other/Obfuz/defaultStaticSecretKey.bytes
-    dynamicSecretKeyOutputPath: Assets/Other/Obfuz/defaultDynamicSecretKey.bytes
+    staticSecretKeyOutputPath: Assets/Game/Dlls/Obfuz.bytes
+    dynamicSecretKeyOutputPath: Assets/Launch/defaultDynamicSecretKey.bytes
     randomSeed: 0
     assembliesUsingDynamicSecretKeys: []
   encryptionVMSettings:
     codeGenerationSecretKey: Obfuz
     encryptionOpCodeCount: 256
-    codeOutputPath: Assets/Other/Obfuz/GeneratedEncryptionVirtualMachine.cs
+    codeOutputPath: Assets/Launch/GeneratedEncryptionVirtualMachine.cs
   symbolObfusSettings:
     debug: 0
     obfuscatedNamePrefix: $
     useConsistentNamespaceObfuscation: 1
     detectReflectionCompatibility: 1
     keepUnknownSymbolInSymbolMappingFile: 1
-    symbolMappingFile: Assets/Other/Obfuz/SymbolObfus/symbol-mapping.xml
-    debugSymbolMappingFile: Assets/Other/Obfuz/SymbolObfus/symbol-mapping-debug.xml
+    symbolMappingFile: Assets/Launch/SymbolObfus/symbol-mapping.xml
+    debugSymbolMappingFile: Assets/Launch/SymbolObfus/symbol-mapping-debug.xml
     ruleFiles: []
     customRenamePolicyTypes: []
   constEncryptSettings:

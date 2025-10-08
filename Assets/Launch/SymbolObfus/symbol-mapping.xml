@@ -1,0 +1,650 @@
+<mapping>
+  <assembly name="Assembly-CSharp">
+    <type fullName="$Obfuz$ConstFieldHolder$0" newFullName="$AA" status="Renamed">
+      <field signature="int $Obfuz$RVA_Value0" newName="$uA" />
+      <field signature="int $Obfuz$RVA_Value1" newName="$UA" />
+      <field signature="int $Obfuz$RVA_Value2" newName="$vA" />
+      <field signature="int $Obfuz$RVA_Value3" newName="$VA" />
+      <field signature="int $Obfuz$RVA_Value4" newName="$wA" />
+      <field signature="int $Obfuz$RVA_Value5" newName="$WA" />
+      <field signature="string $Obfuz$RVA_Value6" newName="$c" />
+      <field signature="int $Obfuz$RVA_Value7" newName="$XA" />
+      <field signature="int $Obfuz$RVA_Value8" newName="$C" />
+      <field signature="int $Obfuz$RVA_Value9" newName="$YA" />
+      <field signature="int $Obfuz$RVA_Value10" newName="$zA" />
+      <field signature="int $Obfuz$RVA_Value11" newName="$ZA" />
+      <field signature="int $Obfuz$RVA_Value12" newName="$ab" />
+      <field signature="int $Obfuz$RVA_Value13" newName="$Ab" />
+      <field signature="int $Obfuz$RVA_Value14" newName="$bb" />
+      <field signature="int $Obfuz$RVA_Value15" newName="$Bb" />
+    </type>
+    <type fullName="$Obfuz$ProxyCall" newFullName="$bA" status="Renamed">
+      <method signature="int $Obfuz$ProxyCall::@$Obfuz$Dispatch_46378_12091355(int, int, int)" newName="$cA" oldStackTraceSignature="$Obfuz$ProxyCall:$Obfuz$Dispatch_46378_12091355(Int32, Int32, Int32)" newStackTraceSignature="$bA:$cA(Int32, Int32, Int32)" />
+      <method signature="void $Obfuz$ProxyCall::@$Obfuz$Dispatch_11150_4780505(object, int)" newName="$iA" oldStackTraceSignature="$Obfuz$ProxyCall:$Obfuz$Dispatch_11150_4780505(Object, Int32)" newStackTraceSignature="$bA:$iA(Object, Int32)" />
+    </type>
+    <type fullName="$Obfuz$RVA$0" newFullName="$aA" status="Renamed">
+      <field signature="[Assembly-CSharp]$ObfuzRVA$DataHolder2048 $RVA_Data0" newName="$tA" />
+      <field signature="byte[] $RVA_Value0" newName="$TA" />
+    </type>
+    <type fullName="$ObfuzRVA$DataHolder2048" newFullName="$Z" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;" newFullName="$s" status="Renamed">
+      <field signature="[Assembly-CSharp]&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize36_3 $Obfuz$WatermarkDataHolderField3" newName="$mA" />
+      <field signature="[Assembly-CSharp]&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize36_13 $Obfuz$WatermarkDataHolderField13" newName="$MA" />
+      <field signature="[Assembly-CSharp]&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize36_10 $Obfuz$WatermarkDataHolderField10" newName="$nA" />
+      <field signature="[Assembly-CSharp]&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize32_12 $Obfuz$WatermarkDataHolderField12" newName="$NA" />
+      <field signature="[Assembly-CSharp]&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize48_9 $Obfuz$WatermarkDataHolderField9" newName="$oA" />
+      <field signature="[Assembly-CSharp]&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize28_7 $Obfuz$WatermarkDataHolderField7" newName="$OA" />
+      <field signature="[Assembly-CSharp]&lt;PrivateImplementationDetails&gt;/__StaticArrayInitTypeSize=57 A1ED3E900D108C2640CEF3FE17D259A88A5E0B6816C10599903D7EB328FDEBD7" newName="$a" />
+      <field signature="[Assembly-CSharp]&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize44_2 $Obfuz$WatermarkDataHolderField2" newName="$PA" />
+      <field signature="[Assembly-CSharp]&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize36_6 $Obfuz$WatermarkDataHolderField6" newName="$qA" />
+      <field signature="[Assembly-CSharp]&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize28_4 $Obfuz$WatermarkDataHolderField4" newName="$QA" />
+      <field signature="[Assembly-CSharp]&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize44_5 $Obfuz$WatermarkDataHolderField5" newName="$rA" />
+      <field signature="[Assembly-CSharp]&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize28_11 $Obfuz$WatermarkDataHolderField11" newName="$RA" />
+      <field signature="[Assembly-CSharp]&lt;PrivateImplementationDetails&gt;/__StaticArrayInitTypeSize=61 85BBC64311D2DDAF0C71181665A76CED4E3C5C2CB42AFDC000BC486262FFB79C" newName="$A" />
+      <field signature="[Assembly-CSharp]&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize36_8 $Obfuz$WatermarkDataHolderField8" newName="$SA" />
+    </type>
+    <type fullName="&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize28_11" newFullName="$s/$y" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize28_4" newFullName="$s/$U" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize28_7" newFullName="$s/$w" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize32_12" newFullName="$s/$Y" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize36_10" newFullName="$s/$X" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize36_13" newFullName="$s/$z" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize36_3" newFullName="$s/$u" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize36_6" newFullName="$s/$V" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize36_8" newFullName="$s/$W" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize44_2" newFullName="$s/$T" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize44_5" newFullName="$s/$v" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize48_9" newFullName="$s/$x" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/__StaticArrayInitTypeSize=1436" newFullName="$s/$t" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/__StaticArrayInitTypeSize=57" newFullName="$s/$a" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/__StaticArrayInitTypeSize=61" newFullName="$s/$A" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/__StaticArrayInitTypeSize=937" newFullName="$s/$S" status="Renamed" />
+    <type fullName="AOTGenericReferences" newFullName="" status="NotRenamed">
+      <field signature="System.Collections.Generic.IReadOnlyList`1&lt;string&gt; PatchedAOTAssemblyList" newName="$a" />
+      <method signature="void AOTGenericReferences::RefMethods([Assembly-CSharp]AOTGenericReferences)" newName="$a" oldStackTraceSignature="AOTGenericReferences:RefMethods()" newStackTraceSignature="AOTGenericReferences:$a()" />
+    </type>
+    <type fullName="ConstStrings" newFullName="$a" status="Renamed" />
+    <type fullName="GameFramework.FsmClearCacheBundle" newFullName="$A.$c" status="Renamed">
+      <field signature="[GameFramework]GameFramework.StateMachine _machine" newName="$c" />
+      <method signature="void GameFramework.FsmClearCacheBundle::GameFramework.IStateNode.OnCreate([Assembly-CSharp]GameFramework.FsmClearCacheBundle, [GameFramework]GameFramework.StateMachine)" newName="$Gc" oldStackTraceSignature="GameFramework.FsmClearCacheBundle:GameFramework.IStateNode.OnCreate(StateMachine)" newStackTraceSignature="$A.$c:$Gc(StateMachine)" />
+      <method signature="void GameFramework.FsmClearCacheBundle::GameFramework.IStateNode.OnEnter([Assembly-CSharp]GameFramework.FsmClearCacheBundle)" newName="$hc" oldStackTraceSignature="GameFramework.FsmClearCacheBundle:GameFramework.IStateNode.OnEnter()" newStackTraceSignature="$A.$c:$hc()" />
+      <method signature="void GameFramework.FsmClearCacheBundle::GameFramework.IStateNode.OnUpdate([Assembly-CSharp]GameFramework.FsmClearCacheBundle)" newName="$Hc" oldStackTraceSignature="GameFramework.FsmClearCacheBundle:GameFramework.IStateNode.OnUpdate()" newStackTraceSignature="$A.$c:$Hc()" />
+      <method signature="void GameFramework.FsmClearCacheBundle::GameFramework.IStateNode.OnExit([Assembly-CSharp]GameFramework.FsmClearCacheBundle)" newName="$ic" oldStackTraceSignature="GameFramework.FsmClearCacheBundle:GameFramework.IStateNode.OnExit()" newStackTraceSignature="$A.$c:$ic()" />
+      <method signature="void GameFramework.FsmClearCacheBundle::Operation_Completed([Assembly-CSharp]GameFramework.FsmClearCacheBundle, [YooAsset]YooAsset.AsyncOperationBase)" newName="$D" oldStackTraceSignature="GameFramework.FsmClearCacheBundle:Operation_Completed(AsyncOperationBase)" newStackTraceSignature="$A.$c:$D(AsyncOperationBase)" />
+    </type>
+    <type fullName="GameFramework.FsmCreateDownloader" newFullName="$A.$C" status="Renamed">
+      <field signature="[GameFramework]GameFramework.StateMachine _machine" newName="$C" />
+      <method signature="void GameFramework.FsmCreateDownloader::GameFramework.IStateNode.OnCreate([Assembly-CSharp]GameFramework.FsmCreateDownloader, [GameFramework]GameFramework.StateMachine)" newName="$Ic" oldStackTraceSignature="GameFramework.FsmCreateDownloader:GameFramework.IStateNode.OnCreate(StateMachine)" newStackTraceSignature="$A.$C:$Ic(StateMachine)" />
+      <method signature="void GameFramework.FsmCreateDownloader::GameFramework.IStateNode.OnEnter([Assembly-CSharp]GameFramework.FsmCreateDownloader)" newName="$jc" oldStackTraceSignature="GameFramework.FsmCreateDownloader:GameFramework.IStateNode.OnEnter()" newStackTraceSignature="$A.$C:$jc()" />
+      <method signature="void GameFramework.FsmCreateDownloader::GameFramework.IStateNode.OnUpdate([Assembly-CSharp]GameFramework.FsmCreateDownloader)" newName="$Jc" oldStackTraceSignature="GameFramework.FsmCreateDownloader:GameFramework.IStateNode.OnUpdate()" newStackTraceSignature="$A.$C:$Jc()" />
+      <method signature="void GameFramework.FsmCreateDownloader::GameFramework.IStateNode.OnExit([Assembly-CSharp]GameFramework.FsmCreateDownloader)" newName="$kc" oldStackTraceSignature="GameFramework.FsmCreateDownloader:GameFramework.IStateNode.OnExit()" newStackTraceSignature="$A.$C:$kc()" />
+      <method signature="void GameFramework.FsmCreateDownloader::CreateDownloader([Assembly-CSharp]GameFramework.FsmCreateDownloader)" newName="$e" oldStackTraceSignature="GameFramework.FsmCreateDownloader:CreateDownloader()" newStackTraceSignature="$A.$C:$e()" />
+    </type>
+    <type fullName="GameFramework.FsmDownloadPackageFiles" newFullName="$A.$d" status="Renamed">
+      <field signature="[GameFramework]GameFramework.StateMachine _machine" newName="$d" />
+      <method signature="void GameFramework.FsmDownloadPackageFiles::GameFramework.IStateNode.OnCreate([Assembly-CSharp]GameFramework.FsmDownloadPackageFiles, [GameFramework]GameFramework.StateMachine)" newName="$Kc" oldStackTraceSignature="GameFramework.FsmDownloadPackageFiles:GameFramework.IStateNode.OnCreate(StateMachine)" newStackTraceSignature="$A.$d:$Kc(StateMachine)" />
+      <method signature="void GameFramework.FsmDownloadPackageFiles::GameFramework.IStateNode.OnEnter([Assembly-CSharp]GameFramework.FsmDownloadPackageFiles)" newName="$lc" oldStackTraceSignature="GameFramework.FsmDownloadPackageFiles:GameFramework.IStateNode.OnEnter()" newStackTraceSignature="$A.$d:$lc()" />
+      <method signature="void GameFramework.FsmDownloadPackageFiles::GameFramework.IStateNode.OnUpdate([Assembly-CSharp]GameFramework.FsmDownloadPackageFiles)" newName="$Lc" oldStackTraceSignature="GameFramework.FsmDownloadPackageFiles:GameFramework.IStateNode.OnUpdate()" newStackTraceSignature="$A.$d:$Lc()" />
+      <method signature="void GameFramework.FsmDownloadPackageFiles::GameFramework.IStateNode.OnExit([Assembly-CSharp]GameFramework.FsmDownloadPackageFiles)" newName="$mc" oldStackTraceSignature="GameFramework.FsmDownloadPackageFiles:GameFramework.IStateNode.OnExit()" newStackTraceSignature="$A.$d:$mc()" />
+      <method signature="[UniTask]Cysharp.Threading.Tasks.UniTask GameFramework.FsmDownloadPackageFiles::BeginDownload([Assembly-CSharp]GameFramework.FsmDownloadPackageFiles)" newName="$E" oldStackTraceSignature="GameFramework.FsmDownloadPackageFiles:BeginDownload()" newStackTraceSignature="$A.$d:$E()" />
+      <method signature="void GameFramework.FsmDownloadPackageFiles::DownloadUpdateCallback([Assembly-CSharp]GameFramework.FsmDownloadPackageFiles, [YooAsset]YooAsset.DownloadUpdateData)" newName="$f" oldStackTraceSignature="GameFramework.FsmDownloadPackageFiles:DownloadUpdateCallback(DownloadUpdateData)" newStackTraceSignature="$A.$d:$f(DownloadUpdateData)" />
+      <method signature="void GameFramework.FsmDownloadPackageFiles::DownloadErrorCallback([Assembly-CSharp]GameFramework.FsmDownloadPackageFiles, [YooAsset]YooAsset.DownloadErrorData)" newName="$F" oldStackTraceSignature="GameFramework.FsmDownloadPackageFiles:DownloadErrorCallback(DownloadErrorData)" newStackTraceSignature="$A.$d:$F(DownloadErrorData)" />
+    </type>
+    <type fullName="GameFramework.FsmDownloadPackageFiles/&lt;BeginDownload&gt;d__5" newFullName="$A.$d/$D" status="Renamed">
+      <field signature="int &lt;&gt;1__state" newName="$D" />
+      <field signature="[UniTask]Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder &lt;&gt;t__builder" newName="$e" />
+      <field signature="[Assembly-CSharp]GameFramework.FsmDownloadPackageFiles &lt;&gt;4__this" newName="$E" />
+      <field signature="[YooAsset]YooAsset.ResourceDownloaderOperation &lt;downloader&gt;5__2" newName="$f" />
+      <field signature="[UniTask]Cysharp.Threading.Tasks.UniTask/Awaiter &lt;&gt;u__1" newName="$F" />
+    </type>
+    <type fullName="GameFramework.FsmDownloadPackageOver" newFullName="$A.$e" status="Renamed">
+      <field signature="[GameFramework]GameFramework.StateMachine _machine" newName="$g" />
+      <method signature="void GameFramework.FsmDownloadPackageOver::GameFramework.IStateNode.OnCreate([Assembly-CSharp]GameFramework.FsmDownloadPackageOver, [GameFramework]GameFramework.StateMachine)" newName="$Mc" oldStackTraceSignature="GameFramework.FsmDownloadPackageOver:GameFramework.IStateNode.OnCreate(StateMachine)" newStackTraceSignature="$A.$e:$Mc(StateMachine)" />
+      <method signature="void GameFramework.FsmDownloadPackageOver::GameFramework.IStateNode.OnEnter([Assembly-CSharp]GameFramework.FsmDownloadPackageOver)" newName="$nc" oldStackTraceSignature="GameFramework.FsmDownloadPackageOver:GameFramework.IStateNode.OnEnter()" newStackTraceSignature="$A.$e:$nc()" />
+      <method signature="void GameFramework.FsmDownloadPackageOver::GameFramework.IStateNode.OnUpdate([Assembly-CSharp]GameFramework.FsmDownloadPackageOver)" newName="$Nc" oldStackTraceSignature="GameFramework.FsmDownloadPackageOver:GameFramework.IStateNode.OnUpdate()" newStackTraceSignature="$A.$e:$Nc()" />
+      <method signature="void GameFramework.FsmDownloadPackageOver::GameFramework.IStateNode.OnExit([Assembly-CSharp]GameFramework.FsmDownloadPackageOver)" newName="$oc" oldStackTraceSignature="GameFramework.FsmDownloadPackageOver:GameFramework.IStateNode.OnExit()" newStackTraceSignature="$A.$e:$oc()" />
+    </type>
+    <type fullName="GameFramework.FsmInitializePackage" newFullName="$A.$E" status="Renamed">
+      <field signature="[GameFramework]GameFramework.StateMachine _machine" newName="$G" />
+      <method signature="void GameFramework.FsmInitializePackage::GameFramework.IStateNode.OnCreate([Assembly-CSharp]GameFramework.FsmInitializePackage, [GameFramework]GameFramework.StateMachine)" newName="$Oc" oldStackTraceSignature="GameFramework.FsmInitializePackage:GameFramework.IStateNode.OnCreate(StateMachine)" newStackTraceSignature="$A.$E:$Oc(StateMachine)" />
+      <method signature="void GameFramework.FsmInitializePackage::GameFramework.IStateNode.OnEnter([Assembly-CSharp]GameFramework.FsmInitializePackage)" newName="$pc" oldStackTraceSignature="GameFramework.FsmInitializePackage:GameFramework.IStateNode.OnEnter()" newStackTraceSignature="$A.$E:$pc()" />
+      <method signature="void GameFramework.FsmInitializePackage::GameFramework.IStateNode.OnUpdate([Assembly-CSharp]GameFramework.FsmInitializePackage)" newName="$Pc" oldStackTraceSignature="GameFramework.FsmInitializePackage:GameFramework.IStateNode.OnUpdate()" newStackTraceSignature="$A.$E:$Pc()" />
+      <method signature="void GameFramework.FsmInitializePackage::GameFramework.IStateNode.OnExit([Assembly-CSharp]GameFramework.FsmInitializePackage)" newName="$qc" oldStackTraceSignature="GameFramework.FsmInitializePackage:GameFramework.IStateNode.OnExit()" newStackTraceSignature="$A.$E:$qc()" />
+      <method signature="[UniTask]Cysharp.Threading.Tasks.UniTask GameFramework.FsmInitializePackage::InitPackage([Assembly-CSharp]GameFramework.FsmInitializePackage)" newName="$g" oldStackTraceSignature="GameFramework.FsmInitializePackage:InitPackage()" newStackTraceSignature="$A.$E:$g()" />
+      <method signature="string GameFramework.FsmInitializePackage::GetHostServerURL([Assembly-CSharp]GameFramework.FsmInitializePackage)" newName="$G" oldStackTraceSignature="GameFramework.FsmInitializePackage:GetHostServerURL()" newStackTraceSignature="$A.$E:$G()" />
+    </type>
+    <type fullName="GameFramework.FsmInitializePackage/&lt;InitPackage&gt;d__5" newFullName="$A.$E/$F" status="Renamed">
+      <field signature="int &lt;&gt;1__state" newName="$i" />
+      <field signature="[UniTask]Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder &lt;&gt;t__builder" newName="$I" />
+      <field signature="[Assembly-CSharp]GameFramework.FsmInitializePackage &lt;&gt;4__this" newName="$j" />
+      <field signature="[YooAsset]YooAsset.InitializationOperation &lt;initializationOperation&gt;5__2" newName="$J" />
+      <field signature="[UniTask]Cysharp.Threading.Tasks.UniTask/Awaiter &lt;&gt;u__1" newName="$k" />
+    </type>
+    <type fullName="GameFramework.FsmInitializePackage/RemoteServices" newFullName="$A.$E/$f" status="Renamed">
+      <field signature="string _defaultHostServer" newName="$h" />
+      <field signature="string _fallbackHostServer" newName="$H" />
+      <method signature="string GameFramework.FsmInitializePackage/RemoteServices::YooAsset.IRemoteServices.GetRemoteMainURL([Assembly-CSharp]GameFramework.FsmInitializePackage/RemoteServices, string)" newName="$Qc" oldStackTraceSignature="GameFramework.RemoteServices:YooAsset.IRemoteServices.GetRemoteMainURL(String)" newStackTraceSignature="$A.$f:$Qc(String)" />
+      <method signature="string GameFramework.FsmInitializePackage/RemoteServices::YooAsset.IRemoteServices.GetRemoteFallbackURL([Assembly-CSharp]GameFramework.FsmInitializePackage/RemoteServices, string)" newName="$rc" oldStackTraceSignature="GameFramework.RemoteServices:YooAsset.IRemoteServices.GetRemoteFallbackURL(String)" newStackTraceSignature="$A.$f:$rc(String)" />
+    </type>
+    <type fullName="GameFramework.FsmRequestPackageVersion" newFullName="$A.$g" status="Renamed">
+      <field signature="[GameFramework]GameFramework.StateMachine _machine" newName="$K" />
+      <method signature="void GameFramework.FsmRequestPackageVersion::GameFramework.IStateNode.OnCreate([Assembly-CSharp]GameFramework.FsmRequestPackageVersion, [GameFramework]GameFramework.StateMachine)" newName="$Rc" oldStackTraceSignature="GameFramework.FsmRequestPackageVersion:GameFramework.IStateNode.OnCreate(StateMachine)" newStackTraceSignature="$A.$g:$Rc(StateMachine)" />
+      <method signature="void GameFramework.FsmRequestPackageVersion::GameFramework.IStateNode.OnEnter([Assembly-CSharp]GameFramework.FsmRequestPackageVersion)" newName="$sc" oldStackTraceSignature="GameFramework.FsmRequestPackageVersion:GameFramework.IStateNode.OnEnter()" newStackTraceSignature="$A.$g:$sc()" />
+      <method signature="void GameFramework.FsmRequestPackageVersion::GameFramework.IStateNode.OnUpdate([Assembly-CSharp]GameFramework.FsmRequestPackageVersion)" newName="$Sc" oldStackTraceSignature="GameFramework.FsmRequestPackageVersion:GameFramework.IStateNode.OnUpdate()" newStackTraceSignature="$A.$g:$Sc()" />
+      <method signature="void GameFramework.FsmRequestPackageVersion::GameFramework.IStateNode.OnExit([Assembly-CSharp]GameFramework.FsmRequestPackageVersion)" newName="$tc" oldStackTraceSignature="GameFramework.FsmRequestPackageVersion:GameFramework.IStateNode.OnExit()" newStackTraceSignature="$A.$g:$tc()" />
+      <method signature="void GameFramework.FsmRequestPackageVersion::UpdatePackageVersion([Assembly-CSharp]GameFramework.FsmRequestPackageVersion)" newName="$h" oldStackTraceSignature="GameFramework.FsmRequestPackageVersion:UpdatePackageVersion()" newStackTraceSignature="$A.$g:$h()" />
+    </type>
+    <type fullName="GameFramework.FsmRequestPackageVersion/&lt;UpdatePackageVersion&gt;d__5" newFullName="$A.$g/$G" status="Renamed">
+      <field signature="int &lt;&gt;1__state" newName="$l" />
+      <field signature="System.Runtime.CompilerServices.AsyncVoidMethodBuilder &lt;&gt;t__builder" newName="$L" />
+      <field signature="[Assembly-CSharp]GameFramework.FsmRequestPackageVersion &lt;&gt;4__this" newName="$m" />
+      <field signature="[YooAsset]YooAsset.RequestPackageVersionOperation &lt;operation&gt;5__2" newName="$M" />
+      <field signature="[UniTask]Cysharp.Threading.Tasks.UniTask/Awaiter &lt;&gt;u__1" newName="$n" />
+    </type>
+    <type fullName="GameFramework.FsmUpdatePackageManifest" newFullName="$A.$h" status="Renamed">
+      <field signature="[GameFramework]GameFramework.StateMachine _machine" newName="$N" />
+      <method signature="void GameFramework.FsmUpdatePackageManifest::GameFramework.IStateNode.OnCreate([Assembly-CSharp]GameFramework.FsmUpdatePackageManifest, [GameFramework]GameFramework.StateMachine)" newName="$Tc" oldStackTraceSignature="GameFramework.FsmUpdatePackageManifest:GameFramework.IStateNode.OnCreate(StateMachine)" newStackTraceSignature="$A.$h:$Tc(StateMachine)" />
+      <method signature="void GameFramework.FsmUpdatePackageManifest::GameFramework.IStateNode.OnEnter([Assembly-CSharp]GameFramework.FsmUpdatePackageManifest)" newName="$uc" oldStackTraceSignature="GameFramework.FsmUpdatePackageManifest:GameFramework.IStateNode.OnEnter()" newStackTraceSignature="$A.$h:$uc()" />
+      <method signature="void GameFramework.FsmUpdatePackageManifest::GameFramework.IStateNode.OnUpdate([Assembly-CSharp]GameFramework.FsmUpdatePackageManifest)" newName="$Uc" oldStackTraceSignature="GameFramework.FsmUpdatePackageManifest:GameFramework.IStateNode.OnUpdate()" newStackTraceSignature="$A.$h:$Uc()" />
+      <method signature="void GameFramework.FsmUpdatePackageManifest::GameFramework.IStateNode.OnExit([Assembly-CSharp]GameFramework.FsmUpdatePackageManifest)" newName="$vc" oldStackTraceSignature="GameFramework.FsmUpdatePackageManifest:GameFramework.IStateNode.OnExit()" newStackTraceSignature="$A.$h:$vc()" />
+      <method signature="[UniTask]Cysharp.Threading.Tasks.UniTask GameFramework.FsmUpdatePackageManifest::UpdateManifest([Assembly-CSharp]GameFramework.FsmUpdatePackageManifest)" newName="$H" oldStackTraceSignature="GameFramework.FsmUpdatePackageManifest:UpdateManifest()" newStackTraceSignature="$A.$h:$H()" />
+    </type>
+    <type fullName="GameFramework.FsmUpdatePackageManifest/&lt;UpdateManifest&gt;d__5" newFullName="$A.$h/$H" status="Renamed">
+      <field signature="int &lt;&gt;1__state" newName="$o" />
+      <field signature="[UniTask]Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder &lt;&gt;t__builder" newName="$O" />
+      <field signature="[Assembly-CSharp]GameFramework.FsmUpdatePackageManifest &lt;&gt;4__this" newName="$p" />
+      <field signature="[YooAsset]YooAsset.UpdatePackageManifestOperation &lt;operation&gt;5__2" newName="$P" />
+      <field signature="[UniTask]Cysharp.Threading.Tasks.UniTask/Awaiter &lt;&gt;u__1" newName="$q" />
+    </type>
+    <type fullName="GameFramework.Launch" newFullName="" status="NotRenamed">
+      <field signature="float m_GameSpeed" newName="$Q" />
+      <field signature="int m_FrameRate" newName="$r" />
+      <field signature="bool m_RunInBackground" newName="$R" />
+      <field signature="bool m_NeverSleep" newName="$s" />
+      <method signature="void GameFramework.Launch::OnInitializeSucceed([Assembly-CSharp]GameFramework.Launch, [Assembly-CSharp]GameFramework.PatchEventDefine/InitializeSucceed)" newName="$i" oldStackTraceSignature="GameFramework.Launch:OnInitializeSucceed(InitializeSucceed)" newStackTraceSignature="GameFramework.Launch:$i($n)" />
+      <method signature="[UniTask]Cysharp.Threading.Tasks.UniTask GameFramework.Launch::LoadDll([Assembly-CSharp]GameFramework.Launch)" newName="$I" oldStackTraceSignature="GameFramework.Launch:LoadDll()" newStackTraceSignature="GameFramework.Launch:$I()" />
+      <method signature="void GameFramework.Launch::OnLowMemory([Assembly-CSharp]GameFramework.Launch)" newName="$j" oldStackTraceSignature="GameFramework.Launch:OnLowMemory()" newStackTraceSignature="GameFramework.Launch:$j()" />
+    </type>
+    <type fullName="GameFramework.Launch/&lt;LoadDll&gt;d__8" newFullName="GameFramework.Launch/$i" status="Renamed">
+      <field signature="int &lt;&gt;1__state" newName="$S" />
+      <field signature="[UniTask]Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder &lt;&gt;t__builder" newName="$t" />
+      <field signature="[Assembly-CSharp]GameFramework.Launch &lt;&gt;4__this" newName="$T" />
+      <field signature="[YooAsset]YooAsset.ResourcePackage &lt;gamePackage&gt;5__2" newName="$aB" />
+      <field signature="[YooAsset]YooAsset.AssetHandle &lt;keyhandle&gt;5__3" newName="$AB" />
+      <field signature="[YooAsset]YooAsset.AssetHandle &lt;dllhandle&gt;5__4" newName="$bB" />
+      <field signature="[UniTask]Cysharp.Threading.Tasks.UniTask/Awaiter &lt;&gt;u__1" newName="$U" />
+    </type>
+    <type fullName="GameFramework.Launch/&lt;Start&gt;d__6" newFullName="GameFramework.Launch/$I" status="Renamed">
+      <field signature="int &lt;&gt;1__state" newName="$v" />
+      <field signature="System.Runtime.CompilerServices.AsyncVoidMethodBuilder &lt;&gt;t__builder" newName="$V" />
+      <field signature="[Assembly-CSharp]GameFramework.Launch &lt;&gt;4__this" newName="$w" />
+      <field signature="[UniTask]Cysharp.Threading.Tasks.UniTask/Awaiter &lt;&gt;u__1" newName="$W" />
+    </type>
+    <type fullName="GameFramework.PatchEventDefine" newFullName="$A.$j" status="Renamed" />
+    <type fullName="GameFramework.PatchEventDefine/DownloadUpdate" newFullName="$A.$j/$l" status="Renamed">
+      <field signature="int TotalDownloadCount" newName="$Y" />
+      <field signature="int CurrentDownloadCount" newName="$z" />
+      <field signature="long TotalDownloadSizeBytes" newName="$Z" />
+      <field signature="long CurrentDownloadSizeBytes" newName="$aA" />
+    </type>
+    <type fullName="GameFramework.PatchEventDefine/FoundUpdateFiles" newFullName="$A.$j/$K" status="Renamed">
+      <field signature="int TotalCount" newName="$X" />
+      <field signature="long TotalSizeBytes" newName="$y" />
+    </type>
+    <type fullName="GameFramework.PatchEventDefine/InitializeFailed" newFullName="$A.$j/$J" status="Renamed" />
+    <type fullName="GameFramework.PatchEventDefine/InitializeSucceed" newFullName="$A.$j/$n" status="Renamed" />
+    <type fullName="GameFramework.PatchEventDefine/PackageManifestUpdateFailed" newFullName="$A.$j/$m" status="Renamed" />
+    <type fullName="GameFramework.PatchEventDefine/PackageVersionRequestFailed" newFullName="$A.$j/$L" status="Renamed" />
+    <type fullName="GameFramework.PatchEventDefine/PatchStepsChange" newFullName="$A.$j/$k" status="Renamed">
+      <field signature="string Tips" newName="$x" />
+    </type>
+    <type fullName="GameFramework.PatchEventDefine/WebFileDownloadFailed" newFullName="$A.$j/$M" status="Renamed">
+      <field signature="string FileName" newName="$AA" />
+      <field signature="string Error" newName="$bA" />
+    </type>
+    <type fullName="GameFramework.PatchOperation" newFullName="$A.$N" status="Renamed">
+      <field signature="[GameFramework]GameFramework.StateMachine _machine" newName="$BA" />
+      <field signature="string _packageName" newName="$cA" />
+      <field signature="[Assembly-CSharp]GameFramework.PatchOperation/ESteps _steps" newName="$CA" />
+      <method signature="void GameFramework.PatchOperation::SetFinish([Assembly-CSharp]GameFramework.PatchOperation)" newName="$J" oldStackTraceSignature="GameFramework.PatchOperation:SetFinish()" newStackTraceSignature="$A.$N:$J()" />
+      <method signature="void GameFramework.PatchOperation::OnHandleEventMessage([Assembly-CSharp]GameFramework.PatchOperation, [Assembly-CSharp]GameFramework.UserEventDefine/UserTryInitialize)" newName="$k" oldStackTraceSignature="GameFramework.PatchOperation:OnHandleEventMessage(UserTryInitialize)" newStackTraceSignature="$A.$N:$k($P)" />
+      <method signature="void GameFramework.PatchOperation::OnHandleEventMessage([Assembly-CSharp]GameFramework.PatchOperation, [Assembly-CSharp]GameFramework.UserEventDefine/UserBeginDownloadWebFiles)" newName="$K" oldStackTraceSignature="GameFramework.PatchOperation:OnHandleEventMessage(UserBeginDownloadWebFiles)" newStackTraceSignature="$A.$N:$K($q)" />
+      <method signature="void GameFramework.PatchOperation::OnHandleEventMessage([Assembly-CSharp]GameFramework.PatchOperation, [Assembly-CSharp]GameFramework.UserEventDefine/UserTryRequestPackageVersion)" newName="$l" oldStackTraceSignature="GameFramework.PatchOperation:OnHandleEventMessage(UserTryRequestPackageVersion)" newStackTraceSignature="$A.$N:$l($Q)" />
+      <method signature="void GameFramework.PatchOperation::OnHandleEventMessage([Assembly-CSharp]GameFramework.PatchOperation, [Assembly-CSharp]GameFramework.UserEventDefine/UserTryUpdatePackageManifest)" newName="$L" oldStackTraceSignature="GameFramework.PatchOperation:OnHandleEventMessage(UserTryUpdatePackageManifest)" newStackTraceSignature="$A.$N:$L($r)" />
+      <method signature="void GameFramework.PatchOperation::OnHandleEventMessage([Assembly-CSharp]GameFramework.PatchOperation, [Assembly-CSharp]GameFramework.UserEventDefine/UserTryDownloadWebFiles)" newName="$m" oldStackTraceSignature="GameFramework.PatchOperation:OnHandleEventMessage(UserTryDownloadWebFiles)" newStackTraceSignature="$A.$N:$m($R)" />
+    </type>
+    <type fullName="GameFramework.PatchOperation/ESteps" newFullName="$A.$N/$o" status="Renamed">
+      <field signature="[Assembly-CSharp]GameFramework.PatchOperation/ESteps None" newName="$dA" />
+      <field signature="[Assembly-CSharp]GameFramework.PatchOperation/ESteps Update" newName="$DA" />
+      <field signature="[Assembly-CSharp]GameFramework.PatchOperation/ESteps Done" newName="$eA" />
+    </type>
+    <type fullName="GameFramework.PatchWindow" newFullName="" status="NotRenamed">
+      <field signature="System.Collections.Generic.List`1&lt;[Assembly-CSharp]GameFramework.PatchWindow/MessageBox&gt; _msgBoxList" newName="$EA" />
+      <field signature="[UnityEngine.CoreModule]UnityEngine.GameObject _messageBoxObj" newName="$fA" />
+      <field signature="[UnityEngine.UI]UnityEngine.UI.Slider _slider" newName="$FA" />
+      <field signature="[UnityEngine.UI]UnityEngine.UI.Text _tips" newName="$gA" />
+      <method signature="void GameFramework.PatchWindow::OnHandleEventMessage([Assembly-CSharp]GameFramework.PatchWindow, [Assembly-CSharp]GameFramework.PatchEventDefine/InitializeFailed)" newName="$M" oldStackTraceSignature="GameFramework.PatchWindow:OnHandleEventMessage(InitializeFailed)" newStackTraceSignature="GameFramework.PatchWindow:$M($J)" />
+      <method signature="void GameFramework.PatchWindow::OnHandleEventMessage([Assembly-CSharp]GameFramework.PatchWindow, [Assembly-CSharp]GameFramework.PatchEventDefine/PatchStepsChange)" newName="$n" oldStackTraceSignature="GameFramework.PatchWindow:OnHandleEventMessage(PatchStepsChange)" newStackTraceSignature="GameFramework.PatchWindow:$n($k)" />
+      <method signature="void GameFramework.PatchWindow::OnHandleEventMessage([Assembly-CSharp]GameFramework.PatchWindow, [Assembly-CSharp]GameFramework.PatchEventDefine/FoundUpdateFiles)" newName="$N" oldStackTraceSignature="GameFramework.PatchWindow:OnHandleEventMessage(FoundUpdateFiles)" newStackTraceSignature="GameFramework.PatchWindow:$N($K)" />
+      <method signature="void GameFramework.PatchWindow::OnHandleEventMessage([Assembly-CSharp]GameFramework.PatchWindow, [Assembly-CSharp]GameFramework.PatchEventDefine/DownloadUpdate)" newName="$o" oldStackTraceSignature="GameFramework.PatchWindow:OnHandleEventMessage(DownloadUpdate)" newStackTraceSignature="GameFramework.PatchWindow:$o($l)" />
+      <method signature="void GameFramework.PatchWindow::OnHandleEventMessage([Assembly-CSharp]GameFramework.PatchWindow, [Assembly-CSharp]GameFramework.PatchEventDefine/PackageVersionRequestFailed)" newName="$O" oldStackTraceSignature="GameFramework.PatchWindow:OnHandleEventMessage(PackageVersionRequestFailed)" newStackTraceSignature="GameFramework.PatchWindow:$O($L)" />
+      <method signature="void GameFramework.PatchWindow::OnHandleEventMessage([Assembly-CSharp]GameFramework.PatchWindow, [Assembly-CSharp]GameFramework.PatchEventDefine/PackageManifestUpdateFailed)" newName="$p" oldStackTraceSignature="GameFramework.PatchWindow:OnHandleEventMessage(PackageManifestUpdateFailed)" newStackTraceSignature="GameFramework.PatchWindow:$p($m)" />
+      <method signature="void GameFramework.PatchWindow::OnHandleEventMessage([Assembly-CSharp]GameFramework.PatchWindow, [Assembly-CSharp]GameFramework.PatchEventDefine/WebFileDownloadFailed)" newName="$P" oldStackTraceSignature="GameFramework.PatchWindow:OnHandleEventMessage(WebFileDownloadFailed)" newStackTraceSignature="GameFramework.PatchWindow:$P($M)" />
+      <method signature="void GameFramework.PatchWindow::ShowMessageBox([Assembly-CSharp]GameFramework.PatchWindow, string, System.Action)" newName="$q" oldStackTraceSignature="GameFramework.PatchWindow:ShowMessageBox(String, Action)" newStackTraceSignature="GameFramework.PatchWindow:$q(String, Action)" />
+    </type>
+    <type fullName="GameFramework.PatchWindow/&lt;&gt;c" newFullName="" status="NotRenamed">
+      <field signature="[Assembly-CSharp]GameFramework.PatchWindow/&lt;&gt;c &lt;&gt;9" newName="$IA" />
+      <field signature="System.Action &lt;&gt;9__1_0" newName="$jA" />
+      <field signature="System.Action &lt;&gt;9__8_0" newName="$JA" />
+      <field signature="System.Action &lt;&gt;9__10_0" newName="$kA" />
+      <field signature="System.Action &lt;&gt;9__12_0" newName="$KA" />
+      <field signature="System.Action &lt;&gt;9__13_0" newName="$lA" />
+      <field signature="System.Action &lt;&gt;9__14_0" newName="$LA" />
+      <method signature="void GameFramework.PatchWindow/&lt;&gt;c::&lt;Update&gt;b__1_0([Assembly-CSharp]GameFramework.PatchWindow/&lt;&gt;c)" newName="$t" oldStackTraceSignature="GameFramework.&lt;&gt;c:&lt;Update&gt;b__1_0()" newStackTraceSignature="GameFramework.&lt;&gt;c:$t()" />
+      <method signature="void GameFramework.PatchWindow/&lt;&gt;c::&lt;OnHandleEventMessage&gt;b__8_0([Assembly-CSharp]GameFramework.PatchWindow/&lt;&gt;c)" newName="$T" oldStackTraceSignature="GameFramework.&lt;&gt;c:&lt;OnHandleEventMessage&gt;b__8_0()" newStackTraceSignature="GameFramework.&lt;&gt;c:$T()" />
+      <method signature="void GameFramework.PatchWindow/&lt;&gt;c::&lt;OnHandleEventMessage&gt;b__10_0([Assembly-CSharp]GameFramework.PatchWindow/&lt;&gt;c)" newName="$u" oldStackTraceSignature="GameFramework.&lt;&gt;c:&lt;OnHandleEventMessage&gt;b__10_0()" newStackTraceSignature="GameFramework.&lt;&gt;c:$u()" />
+      <method signature="void GameFramework.PatchWindow/&lt;&gt;c::&lt;OnHandleEventMessage&gt;b__12_0([Assembly-CSharp]GameFramework.PatchWindow/&lt;&gt;c)" newName="$U" oldStackTraceSignature="GameFramework.&lt;&gt;c:&lt;OnHandleEventMessage&gt;b__12_0()" newStackTraceSignature="GameFramework.&lt;&gt;c:$U()" />
+      <method signature="void GameFramework.PatchWindow/&lt;&gt;c::&lt;OnHandleEventMessage&gt;b__13_0([Assembly-CSharp]GameFramework.PatchWindow/&lt;&gt;c)" newName="$v" oldStackTraceSignature="GameFramework.&lt;&gt;c:&lt;OnHandleEventMessage&gt;b__13_0()" newStackTraceSignature="GameFramework.&lt;&gt;c:$v()" />
+      <method signature="void GameFramework.PatchWindow/&lt;&gt;c::&lt;OnHandleEventMessage&gt;b__14_0([Assembly-CSharp]GameFramework.PatchWindow/&lt;&gt;c)" newName="$V" oldStackTraceSignature="GameFramework.&lt;&gt;c:&lt;OnHandleEventMessage&gt;b__14_0()" newStackTraceSignature="GameFramework.&lt;&gt;c:$V()" />
+    </type>
+    <type fullName="GameFramework.PatchWindow/MessageBox" newFullName="GameFramework.PatchWindow/$O" status="Renamed">
+      <field signature="[UnityEngine.CoreModule]UnityEngine.GameObject _cloneObject" newName="$GA" />
+      <field signature="[UnityEngine.UI]UnityEngine.UI.Text _content" newName="$hA" />
+      <field signature="[UnityEngine.UI]UnityEngine.UI.Button _btnOK" newName="$HA" />
+      <field signature="System.Action _clickOK" newName="$iA" />
+      <property signature="bool ActiveSelf" newName="$a" />
+      <method signature="bool GameFramework.PatchWindow/MessageBox::get_ActiveSelf([Assembly-CSharp]GameFramework.PatchWindow/MessageBox)" newName="$Q" oldStackTraceSignature="GameFramework.MessageBox:get_ActiveSelf()" newStackTraceSignature="GameFramework.$O:$Q()" />
+      <method signature="void GameFramework.PatchWindow/MessageBox::Create([Assembly-CSharp]GameFramework.PatchWindow/MessageBox, [UnityEngine.CoreModule]UnityEngine.GameObject)" newName="$r" oldStackTraceSignature="GameFramework.MessageBox:Create(GameObject)" newStackTraceSignature="GameFramework.$O:$r(GameObject)" />
+      <method signature="void GameFramework.PatchWindow/MessageBox::Show([Assembly-CSharp]GameFramework.PatchWindow/MessageBox, string, System.Action)" newName="$R" oldStackTraceSignature="GameFramework.MessageBox:Show(String, Action)" newStackTraceSignature="GameFramework.$O:$R(String, Action)" />
+      <method signature="void GameFramework.PatchWindow/MessageBox::Hide([Assembly-CSharp]GameFramework.PatchWindow/MessageBox)" newName="$s" oldStackTraceSignature="GameFramework.MessageBox:Hide()" newStackTraceSignature="GameFramework.$O:$s()" />
+      <method signature="void GameFramework.PatchWindow/MessageBox::OnClickYes([Assembly-CSharp]GameFramework.PatchWindow/MessageBox)" newName="$S" oldStackTraceSignature="GameFramework.MessageBox:OnClickYes()" newStackTraceSignature="GameFramework.$O:$S()" />
+    </type>
+    <type fullName="GameFramework.UserEventDefine" newFullName="$A.$p" status="Renamed" />
+    <type fullName="GameFramework.UserEventDefine/UserBeginDownloadWebFiles" newFullName="$A.$p/$q" status="Renamed" />
+    <type fullName="GameFramework.UserEventDefine/UserTryDownloadWebFiles" newFullName="$A.$p/$R" status="Renamed" />
+    <type fullName="GameFramework.UserEventDefine/UserTryInitialize" newFullName="$A.$p/$P" status="Renamed" />
+    <type fullName="GameFramework.UserEventDefine/UserTryRequestPackageVersion" newFullName="$A.$p/$Q" status="Renamed" />
+    <type fullName="GameFramework.UserEventDefine/UserTryUpdatePackageManifest" newFullName="$A.$p/$r" status="Renamed" />
+    <type fullName="GameFramework.Utility" newFullName="$A.$b" status="Renamed" />
+    <type fullName="GameFramework.Utility/Assembly" newFullName="$A.$b/$B" status="Renamed">
+      <field signature="System.Reflection.Assembly[] s_Assemblies" newName="$b" />
+      <field signature="System.Collections.Generic.Dictionary`2&lt;string,System.Type&gt; s_CachedTypes" newName="$B" />
+      <method signature="System.Reflection.Assembly[] GameFramework.Utility/Assembly::@GetAssemblies()" newName="$B" oldStackTraceSignature="GameFramework.Assembly:GetAssemblies()" newStackTraceSignature="$A.$B:$B()" />
+      <method signature="System.Type[] GameFramework.Utility/Assembly::@GetTypes()" newName="$c" oldStackTraceSignature="GameFramework.Assembly:GetTypes()" newStackTraceSignature="$A.$B:$c()" />
+      <method signature="void GameFramework.Utility/Assembly::@GetTypes(System.Collections.Generic.List`1&lt;System.Type&gt;)" newName="$C" oldStackTraceSignature="GameFramework.Assembly:GetTypes(List`1)" newStackTraceSignature="$A.$B:$C(List`1)" />
+      <method signature="System.Type GameFramework.Utility/Assembly::@GetType(string)" newName="$d" oldStackTraceSignature="GameFramework.Assembly:GetType(String)" newStackTraceSignature="$A.$B:$d(String)" />
+    </type>
+    <type fullName="Obfuz.EncryptionVM.GeneratedEncryptionVirtualMachine" newFullName="$a.$A" status="Renamed">
+      <field signature="int[] _secretKey" newName="$A" />
+      <property signature="int OpCodeCount" newName="$a" />
+      <method signature="int Obfuz.EncryptionVM.GeneratedEncryptionVirtualMachine::get_OpCodeCount([Assembly-CSharp]Obfuz.EncryptionVM.GeneratedEncryptionVirtualMachine)" newName="$fc" oldStackTraceSignature="Obfuz.EncryptionVM.GeneratedEncryptionVirtualMachine:get_OpCodeCount()" newStackTraceSignature="$a.$A:$fc()" />
+      <method signature="int Obfuz.EncryptionVM.GeneratedEncryptionVirtualMachine::Encrypt([Assembly-CSharp]Obfuz.EncryptionVM.GeneratedEncryptionVirtualMachine, int, int, int)" newName="$Fc" oldStackTraceSignature="Obfuz.EncryptionVM.GeneratedEncryptionVirtualMachine:Encrypt(Int32, Int32, Int32)" newStackTraceSignature="$a.$A:$Fc(Int32, Int32, Int32)" />
+      <method signature="int Obfuz.EncryptionVM.GeneratedEncryptionVirtualMachine::Decrypt([Assembly-CSharp]Obfuz.EncryptionVM.GeneratedEncryptionVirtualMachine, int, int, int)" newName="$gc" oldStackTraceSignature="Obfuz.EncryptionVM.GeneratedEncryptionVirtualMachine:Decrypt(Int32, Int32, Int32)" newStackTraceSignature="$a.$A:$gc(Int32, Int32, Int32)" />
+      <method signature="int Obfuz.EncryptionVM.GeneratedEncryptionVirtualMachine::ExecuteEncrypt([Assembly-CSharp]Obfuz.EncryptionVM.GeneratedEncryptionVirtualMachine, int, int, int)" newName="$A" oldStackTraceSignature="Obfuz.EncryptionVM.GeneratedEncryptionVirtualMachine:ExecuteEncrypt(Int32, Int32, Int32)" newStackTraceSignature="$a.$A:$A(Int32, Int32, Int32)" />
+      <method signature="int Obfuz.EncryptionVM.GeneratedEncryptionVirtualMachine::ExecuteDecrypt([Assembly-CSharp]Obfuz.EncryptionVM.GeneratedEncryptionVirtualMachine, int, int, int)" newName="$b" oldStackTraceSignature="Obfuz.EncryptionVM.GeneratedEncryptionVirtualMachine:ExecuteDecrypt(Int32, Int32, Int32)" newStackTraceSignature="$a.$A:$b(Int32, Int32, Int32)" />
+    </type>
+  </assembly>
+  <assembly name="HotUpdate">
+    <type fullName="$Obfuz$ConstFieldHolder$0" newFullName="$Db" status="Renamed">
+      <field signature="int $Obfuz$RVA_Value0" newName="$VB" />
+      <field signature="int $Obfuz$RVA_Value1" newName="$wB" />
+      <field signature="int $Obfuz$RVA_Value2" newName="$WB" />
+      <field signature="int $Obfuz$RVA_Value3" newName="$xB" />
+      <field signature="int $Obfuz$RVA_Value4" newName="$XB" />
+      <field signature="int $Obfuz$RVA_Value5" newName="$yB" />
+      <field signature="int $Obfuz$RVA_Value6" newName="$YB" />
+      <field signature="int $Obfuz$RVA_Value7" newName="$zB" />
+      <field signature="int $Obfuz$RVA_Value8" newName="$ZB" />
+      <field signature="int $Obfuz$RVA_Value9" newName="$ac" />
+      <field signature="int $Obfuz$RVA_Value10" newName="$Ac" />
+      <field signature="int $Obfuz$RVA_Value11" newName="$bc" />
+      <field signature="int $Obfuz$RVA_Value12" newName="$Bc" />
+      <field signature="int $Obfuz$RVA_Value13" newName="$cc" />
+    </type>
+    <type fullName="$Obfuz$ProxyCall" newFullName="$fb" status="Renamed">
+      <method signature="[UniTask]Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder $Obfuz$ProxyCall::@$Obfuz$Dispatch_22824_7259852(int)" newName="$MC" oldStackTraceSignature="$Obfuz$ProxyCall:$Obfuz$Dispatch_22824_7259852(Int32)" newStackTraceSignature="$fb:$MC(Int32)" />
+      <method signature="[UniTask]Cysharp.Threading.Tasks.SwitchToMainThreadAwaitable $Obfuz$ProxyCall::@$Obfuz$Dispatch_22075_11448108(System.Threading.CancellationToken, int)" newName="$nC" oldStackTraceSignature="$Obfuz$ProxyCall:$Obfuz$Dispatch_22075_11448108(CancellationToken, Int32)" newStackTraceSignature="$fb:$nC(CancellationToken, Int32)" />
+      <method signature="[UniTask]Cysharp.Threading.Tasks.SwitchToMainThreadAwaitable/Awaiter $Obfuz$ProxyCall::@$Obfuz$Dispatch_2966_1576731$2(nint, int)" newName="$NC" oldStackTraceSignature="$Obfuz$ProxyCall:$Obfuz$Dispatch_2966_1576731$2(IntPtr, Int32)" newStackTraceSignature="$fb:$NC(IntPtr, Int32)" />
+      <method signature="[UniTask]Cysharp.Threading.Tasks.SwitchToThreadPoolAwaitable $Obfuz$ProxyCall::@$Obfuz$Dispatch_22824_12786315(int)" newName="$oC" oldStackTraceSignature="$Obfuz$ProxyCall:$Obfuz$Dispatch_22824_12786315(Int32)" newStackTraceSignature="$fb:$oC(Int32)" />
+      <method signature="[UniTask]Cysharp.Threading.Tasks.SwitchToThreadPoolAwaitable/Awaiter $Obfuz$ProxyCall::@$Obfuz$Dispatch_2966_1576731(nint, int)" newName="$OC" oldStackTraceSignature="$Obfuz$ProxyCall:$Obfuz$Dispatch_2966_1576731(IntPtr, Int32)" newStackTraceSignature="$fb:$OC(IntPtr, Int32)" />
+      <method signature="[UniTask]Cysharp.Threading.Tasks.UniTaskVoid $Obfuz$ProxyCall::@$Obfuz$Dispatch_2966_13443783(nint, int)" newName="$pC" oldStackTraceSignature="$Obfuz$ProxyCall:$Obfuz$Dispatch_2966_13443783(IntPtr, Int32)" newStackTraceSignature="$fb:$pC(IntPtr, Int32)" />
+      <method signature="[UniTask]Cysharp.Threading.Tasks.YieldAwaitable $Obfuz$ProxyCall::@$Obfuz$Dispatch_22824_13389309(int)" newName="$PC" oldStackTraceSignature="$Obfuz$ProxyCall:$Obfuz$Dispatch_22824_13389309(Int32)" newStackTraceSignature="$fb:$PC(Int32)" />
+      <method signature="[UniTask]Cysharp.Threading.Tasks.YieldAwaitable/Awaiter $Obfuz$ProxyCall::@$Obfuz$Dispatch_2966_1576731$1(nint, int)" newName="$qC" oldStackTraceSignature="$Obfuz$ProxyCall:$Obfuz$Dispatch_2966_1576731$1(IntPtr, Int32)" newStackTraceSignature="$fb:$qC(IntPtr, Int32)" />
+      <method signature="bool $Obfuz$ProxyCall::@$Obfuz$Dispatch_22824_12616511(int)" newName="$QC" oldStackTraceSignature="$Obfuz$ProxyCall:$Obfuz$Dispatch_22824_12616511(Int32)" newStackTraceSignature="$fb:$QC(Int32)" />
+      <method signature="bool $Obfuz$ProxyCall::@$Obfuz$Dispatch_25763_12616511(int, int)" newName="$rC" oldStackTraceSignature="$Obfuz$ProxyCall:$Obfuz$Dispatch_25763_12616511(Int32, Int32)" newStackTraceSignature="$fb:$rC(Int32, Int32)" />
+      <method signature="bool $Obfuz$ProxyCall::@$Obfuz$Dispatch_2966_12616511(nint, int)" newName="$RC" oldStackTraceSignature="$Obfuz$ProxyCall:$Obfuz$Dispatch_2966_12616511(IntPtr, Int32)" newStackTraceSignature="$fb:$RC(IntPtr, Int32)" />
+      <method signature="System.Collections.Generic.List`1&lt;System.Action`1&lt;[HotUpdate]GameFramework.Runtime.IEventData&gt;&gt; $Obfuz$ProxyCall::@$Obfuz$Dispatch_11150_5491259(object, int)" newName="$sC" oldStackTraceSignature="$Obfuz$ProxyCall:$Obfuz$Dispatch_11150_5491259(Object, Int32)" newStackTraceSignature="$fb:$sC(Object, Int32)" />
+      <method signature="int $Obfuz$ProxyCall::@$Obfuz$Dispatch_46378_12091355(int, int, int)" newName="$SC" oldStackTraceSignature="$Obfuz$ProxyCall:$Obfuz$Dispatch_46378_12091355(Int32, Int32, Int32)" newStackTraceSignature="$fb:$SC(Int32, Int32, Int32)" />
+      <method signature="void $Obfuz$ProxyCall::@$Obfuz$Dispatch_11150_4780505(object, int)" newName="$tC" oldStackTraceSignature="$Obfuz$ProxyCall:$Obfuz$Dispatch_11150_4780505(Object, Int32)" newStackTraceSignature="$fb:$tC(Object, Int32)" />
+      <method signature="void $Obfuz$ProxyCall::@$Obfuz$Dispatch_19188_4780505(nint, object, int)" newName="$TC" oldStackTraceSignature="$Obfuz$ProxyCall:$Obfuz$Dispatch_19188_4780505(IntPtr, Object, Int32)" newStackTraceSignature="$fb:$TC(IntPtr, Object, Int32)" />
+      <method signature="void $Obfuz$ProxyCall::@$Obfuz$Dispatch_2966_4780505(nint, int)" newName="$uC" oldStackTraceSignature="$Obfuz$ProxyCall:$Obfuz$Dispatch_2966_4780505(IntPtr, Int32)" newStackTraceSignature="$fb:$uC(IntPtr, Int32)" />
+      <method signature="void $Obfuz$ProxyCall::@$Obfuz$Dispatch_36812_4780505(object, object, int)" newName="$UC" oldStackTraceSignature="$Obfuz$ProxyCall:$Obfuz$Dispatch_36812_4780505(Object, Object, Int32)" newStackTraceSignature="$fb:$UC(Object, Object, Int32)" />
+      <method signature="void $Obfuz$ProxyCall::@$Obfuz$Dispatch_45111_4780505([HotUpdate]GameFramework.Runtime.PlayerInputEventDefine/CardSelected, int)" newName="$vC" oldStackTraceSignature="$Obfuz$ProxyCall:$Obfuz$Dispatch_45111_4780505(CardSelected, Int32)" newStackTraceSignature="$fb:$vC($UA, Int32)" />
+      <method signature="void $Obfuz$ProxyCall::@$Obfuz$Dispatch_51425_4780505(object, int, int)" newName="$VC" oldStackTraceSignature="$Obfuz$ProxyCall:$Obfuz$Dispatch_51425_4780505(Object, Int32, Int32)" newStackTraceSignature="$fb:$VC(Object, Int32, Int32)" />
+    </type>
+    <type fullName="$Obfuz$RVA$0" newFullName="$Eb" status="Renamed">
+      <field signature="[HotUpdate]$ObfuzRVA$DataHolder2048 $RVA_Data0" newName="$Cc" />
+      <field signature="byte[] $RVA_Value0" newName="$dc" />
+    </type>
+    <type fullName="$ObfuzRVA$DataHolder2048" newFullName="$eb" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;" newFullName="$wA" status="Renamed">
+      <field signature="[HotUpdate]&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize36_3 $Obfuz$WatermarkDataHolderField3" newName="$OB" />
+      <field signature="[HotUpdate]&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize36_13 $Obfuz$WatermarkDataHolderField13" newName="$pB" />
+      <field signature="[HotUpdate]&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize36_10 $Obfuz$WatermarkDataHolderField10" newName="$PB" />
+      <field signature="[HotUpdate]&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize32_12 $Obfuz$WatermarkDataHolderField12" newName="$qB" />
+      <field signature="[HotUpdate]&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize48_9 $Obfuz$WatermarkDataHolderField9" newName="$QB" />
+      <field signature="[HotUpdate]&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize28_7 $Obfuz$WatermarkDataHolderField7" newName="$rB" />
+      <field signature="[HotUpdate]&lt;PrivateImplementationDetails&gt;/__StaticArrayInitTypeSize=225 C974260082758CD86267D99000BCC08A2C574AA6C06272F0A8C7B529033ACAD7" newName="$RB" />
+      <field signature="[HotUpdate]&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize44_2 $Obfuz$WatermarkDataHolderField2" newName="$sB" />
+      <field signature="[HotUpdate]&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize36_6 $Obfuz$WatermarkDataHolderField6" newName="$SB" />
+      <field signature="[HotUpdate]&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize28_4 $Obfuz$WatermarkDataHolderField4" newName="$tB" />
+      <field signature="[HotUpdate]&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize44_5 $Obfuz$WatermarkDataHolderField5" newName="$TB" />
+      <field signature="[HotUpdate]&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize28_11 $Obfuz$WatermarkDataHolderField11" newName="$uB" />
+      <field signature="[HotUpdate]&lt;PrivateImplementationDetails&gt;/__StaticArrayInitTypeSize=456 11A9653B3E77A6C3CC30CDDDE3FA5296DC8C8C06E53AC0DA9A2ED50A4E4B57D9" newName="$UB" />
+      <field signature="[HotUpdate]&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize36_8 $Obfuz$WatermarkDataHolderField8" newName="$vB" />
+    </type>
+    <type fullName="&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize28_11" newFullName="$wA/$cb" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize28_4" newFullName="$wA/$YA" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize28_7" newFullName="$wA/$ab" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize32_12" newFullName="$wA/$Cb" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize36_10" newFullName="$wA/$Bb" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize36_13" newFullName="$wA/$db" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize36_3" newFullName="$wA/$yA" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize36_6" newFullName="$wA/$ZA" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize36_8" newFullName="$wA/$Ab" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize44_2" newFullName="$wA/$XA" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize44_5" newFullName="$wA/$zA" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize48_9" newFullName="$wA/$bb" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/__StaticArrayInitTypeSize=225" newFullName="$wA/$WA" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/__StaticArrayInitTypeSize=456" newFullName="$wA/$xA" status="Renamed" />
+    <type fullName="GameFramework.Runtime.EventManager" newFullName="$B.$EA" status="Renamed">
+      <field signature="System.Collections.Generic.Dictionary`2&lt;int,System.Collections.Generic.List`1&lt;[HotUpdate]GameFramework.Runtime.EventManager/EventHandler&gt;&gt; _handlers" newName="$aB" />
+      <field signature="System.Collections.Generic.Dictionary`2&lt;object,System.Collections.Generic.List`1&lt;int&gt;&gt; _owners" newName="$AB" />
+      <field signature="object _lock" newName="$bB" />
+      <field signature="[HotUpdate]GameFramework.Runtime.ObjectPool`1&lt;System.Collections.Generic.List`1&lt;System.Action`1&lt;[HotUpdate]GameFramework.Runtime.IEventData&gt;&gt;&gt; _listPool" newName="$BB" />
+      <method signature="void GameFramework.Runtime.EventManager::@AddListener`1(System.Action`1&lt;!!0&gt;, object)" newName="$cC" oldStackTraceSignature="GameFramework.Runtime.EventManager:AddListener(Action`1, Object)" newStackTraceSignature="$B.$EA:$cC(Action`1, Object)" />
+      <method signature="void GameFramework.Runtime.EventManager::@RemoveListener`1(System.Action`1&lt;!!0&gt;)" newName="$CC" oldStackTraceSignature="GameFramework.Runtime.EventManager:RemoveListener(Action`1)" newStackTraceSignature="$B.$EA:$CC(Action`1)" />
+      <method signature="void GameFramework.Runtime.EventManager::@RemoveAllListeners`1()" newName="$dC" oldStackTraceSignature="GameFramework.Runtime.EventManager:RemoveAllListeners()" newStackTraceSignature="$B.$EA:$dC()" />
+      <method signature="void GameFramework.Runtime.EventManager::@RemoveOwnerListeners(object)" newName="$DC" oldStackTraceSignature="GameFramework.Runtime.EventManager:RemoveOwnerListeners(Object)" newStackTraceSignature="$B.$EA:$DC(Object)" />
+      <method signature="void GameFramework.Runtime.EventManager::@PublishNow`1(!!0)" newName="$eC" oldStackTraceSignature="GameFramework.Runtime.EventManager:PublishNow(T)" newStackTraceSignature="$B.$EA:$eC(T)" />
+      <method signature="[UniTask]Cysharp.Threading.Tasks.UniTaskVoid GameFramework.Runtime.EventManager::@PublishInBackground`1(!!0)" newName="$EC" oldStackTraceSignature="GameFramework.Runtime.EventManager:PublishInBackground(T)" newStackTraceSignature="$B.$EA:$EC(T)" />
+      <method signature="[UniTask]Cysharp.Threading.Tasks.UniTaskVoid GameFramework.Runtime.EventManager::@PublishInNextFrame`1(!!0)" newName="$fC" oldStackTraceSignature="GameFramework.Runtime.EventManager:PublishInNextFrame(T)" newStackTraceSignature="$B.$EA:$fC(T)" />
+      <method signature="System.Collections.Generic.List`1&lt;System.Action`1&lt;[HotUpdate]GameFramework.Runtime.IEventData&gt;&gt; GameFramework.Runtime.EventManager::@GetHandlers`1(!!0)" newName="$FC" oldStackTraceSignature="GameFramework.Runtime.EventManager:GetHandlers(T)" newStackTraceSignature="$B.$EA:$FC(T)" />
+      <method signature="void GameFramework.Runtime.EventManager::@HandleException(System.Exception, string)" newName="$gC" oldStackTraceSignature="GameFramework.Runtime.EventManager:HandleException(Exception, String)" newStackTraceSignature="$B.$EA:$gC(Exception, String)" />
+      <method signature="void GameFramework.Runtime.EventManager::@HandleBackgroundException(System.Exception)" newName="$GC" oldStackTraceSignature="GameFramework.Runtime.EventManager:HandleBackgroundException(Exception)" newStackTraceSignature="$B.$EA:$GC(Exception)" />
+    </type>
+    <type fullName="GameFramework.Runtime.EventManager/&lt;&gt;c" newFullName="" status="NotRenamed">
+      <field signature="[HotUpdate]GameFramework.Runtime.EventManager/&lt;&gt;c &lt;&gt;9" newName="$dB" />
+      <method signature="System.Collections.Generic.List`1&lt;System.Action`1&lt;[HotUpdate]GameFramework.Runtime.IEventData&gt;&gt; GameFramework.Runtime.EventManager/&lt;&gt;c::&lt;.cctor&gt;b__15_0([HotUpdate]GameFramework.Runtime.EventManager/&lt;&gt;c)" newName="$hC" oldStackTraceSignature="GameFramework.Runtime.&lt;&gt;c:&lt;.cctor&gt;b__15_0()" newStackTraceSignature="$B.&lt;&gt;c:$hC()" />
+      <method signature="void GameFramework.Runtime.EventManager/&lt;&gt;c::&lt;.cctor&gt;b__15_1([HotUpdate]GameFramework.Runtime.EventManager/&lt;&gt;c, System.Collections.Generic.List`1&lt;System.Action`1&lt;[HotUpdate]GameFramework.Runtime.IEventData&gt;&gt;)" newName="$HC" oldStackTraceSignature="GameFramework.Runtime.&lt;&gt;c:&lt;.cctor&gt;b__15_1(List`1)" newStackTraceSignature="$B.&lt;&gt;c:$HC(List`1)" />
+    </type>
+    <type fullName="GameFramework.Runtime.EventManager/&lt;&gt;c__DisplayClass13_0" newFullName="$B.$EA/$qA" status="Renamed">
+      <field signature="string message" newName="$DB" />
+      <field signature="System.Exception e" newName="$eB" />
+      <method signature="void GameFramework.Runtime.EventManager/&lt;&gt;c__DisplayClass13_0::&lt;HandleException&gt;b__0([HotUpdate]GameFramework.Runtime.EventManager/&lt;&gt;c__DisplayClass13_0)" newName="$iC" oldStackTraceSignature="GameFramework.Runtime.&lt;&gt;c__DisplayClass13_0:&lt;HandleException&gt;b__0()" newStackTraceSignature="$B.$qA:$iC()" />
+    </type>
+    <type fullName="GameFramework.Runtime.EventManager/&lt;&gt;c__DisplayClass14_0" newFullName="$B.$EA/$QA" status="Renamed">
+      <field signature="System.Exception e" newName="$EB" />
+      <method signature="void GameFramework.Runtime.EventManager/&lt;&gt;c__DisplayClass14_0::&lt;HandleBackgroundException&gt;b__0([HotUpdate]GameFramework.Runtime.EventManager/&lt;&gt;c__DisplayClass14_0)" newName="$IC" oldStackTraceSignature="GameFramework.Runtime.&lt;&gt;c__DisplayClass14_0:&lt;HandleBackgroundException&gt;b__0()" newStackTraceSignature="$B.$QA:$IC()" />
+    </type>
+    <type fullName="GameFramework.Runtime.EventManager/&lt;&gt;c__DisplayClass5_0`1" newFullName="$B.$EA/$rA`1" status="Renamed">
+      <field signature="System.Action`1&lt;!0&gt; handler" newName="$fB" />
+      <method signature="void GameFramework.Runtime.EventManager/&lt;&gt;c__DisplayClass5_0`1::&lt;AddListener&gt;b__0([HotUpdate]GameFramework.Runtime.EventManager/&lt;&gt;c__DisplayClass5_0`1&lt;!0&gt;, [HotUpdate]GameFramework.Runtime.IEventData)" newName="$jC" oldStackTraceSignature="GameFramework.Runtime.&lt;&gt;c__DisplayClass5_0`1:&lt;AddListener&gt;b__0(IEventData)" newStackTraceSignature="$B.$rA`1:$jC($TA)" />
+    </type>
+    <type fullName="GameFramework.Runtime.EventManager/&lt;&gt;c__DisplayClass8_0" newFullName="$B.$EA/$RA" status="Renamed">
+      <field signature="object owner" newName="$FB" />
+      <field signature="System.Predicate`1&lt;[HotUpdate]GameFramework.Runtime.EventManager/EventHandler&gt; &lt;&gt;9__0" newName="$gB" />
+      <method signature="bool GameFramework.Runtime.EventManager/&lt;&gt;c__DisplayClass8_0::&lt;RemoveOwnerListeners&gt;b__0([HotUpdate]GameFramework.Runtime.EventManager/&lt;&gt;c__DisplayClass8_0, [HotUpdate]GameFramework.Runtime.EventManager/EventHandler)" newName="$JC" oldStackTraceSignature="GameFramework.Runtime.&lt;&gt;c__DisplayClass8_0:&lt;RemoveOwnerListeners&gt;b__0(EventHandler)" newStackTraceSignature="$B.$RA:$JC($PA)" />
+    </type>
+    <type fullName="GameFramework.Runtime.EventManager/&lt;PublishInBackground&gt;d__10`1" newFullName="$B.$EA/$sA`1" status="Renamed">
+      <field signature="int &lt;&gt;1__state" newName="$GB" />
+      <field signature="[UniTask]Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder &lt;&gt;t__builder" newName="$hB" />
+      <field signature="!0 message" newName="$HB" />
+      <field signature="System.Collections.Generic.List`1&lt;System.Action`1&lt;[HotUpdate]GameFramework.Runtime.IEventData&gt;&gt; &lt;handlersToInvoke&gt;5__2" newName="$iB" />
+      <field signature="[UniTask]Cysharp.Threading.Tasks.SwitchToThreadPoolAwaitable/Awaiter &lt;&gt;u__1" newName="$IB" />
+    </type>
+    <type fullName="GameFramework.Runtime.EventManager/&lt;PublishInNextFrame&gt;d__11`1" newFullName="$B.$EA/$SA`1" status="Renamed">
+      <field signature="int &lt;&gt;1__state" newName="$jB" />
+      <field signature="[UniTask]Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder &lt;&gt;t__builder" newName="$JB" />
+      <field signature="!0 message" newName="$kB" />
+      <field signature="System.Collections.Generic.List`1&lt;System.Action`1&lt;[HotUpdate]GameFramework.Runtime.IEventData&gt;&gt; &lt;handlersToInvoke&gt;5__2" newName="$KB" />
+      <field signature="[UniTask]Cysharp.Threading.Tasks.YieldAwaitable/Awaiter &lt;&gt;u__1" newName="$lB" />
+      <field signature="[UniTask]Cysharp.Threading.Tasks.SwitchToMainThreadAwaitable/Awaiter &lt;&gt;u__2" newName="$LB" />
+    </type>
+    <type fullName="GameFramework.Runtime.EventManager/EventHandler" newFullName="$B.$EA/$PA" status="Renamed">
+      <field signature="System.Action`1&lt;[HotUpdate]GameFramework.Runtime.IEventData&gt; handler" newName="$cB" />
+      <field signature="object owner" newName="$CB" />
+    </type>
+    <type fullName="GameFramework.Runtime.IEventData" newFullName="$B.$TA" status="Renamed" />
+    <type fullName="GameFramework.Runtime.ObjectPool`1" newFullName="$B.$tA`1" status="Renamed">
+      <field signature="System.Collections.Generic.Stack`1&lt;!0&gt; _stack" newName="$mB" />
+      <field signature="System.Func`1&lt;!0&gt; _createFunc" newName="$MB" />
+      <field signature="System.Action`1&lt;!0&gt; _resetAction" newName="$nB" />
+      <method signature="!0 GameFramework.Runtime.ObjectPool`1::Get([HotUpdate]GameFramework.Runtime.ObjectPool`1&lt;!0&gt;)" newName="$kC" oldStackTraceSignature="GameFramework.Runtime.ObjectPool`1:Get()" newStackTraceSignature="$B.$tA`1:$kC()" />
+      <method signature="void GameFramework.Runtime.ObjectPool`1::Release([HotUpdate]GameFramework.Runtime.ObjectPool`1&lt;!0&gt;, !0)" newName="$KC" oldStackTraceSignature="GameFramework.Runtime.ObjectPool`1:Release(T)" newStackTraceSignature="$B.$tA`1:$KC(T)" />
+    </type>
+    <type fullName="GameFramework.Runtime.PlayerInputEventDefine" newFullName="$B.$uA" status="Renamed" />
+    <type fullName="GameFramework.Runtime.PlayerInputEventDefine/CardDrawn" newFullName="$B.$uA/$VA" status="Renamed" />
+    <type fullName="GameFramework.Runtime.PlayerInputEventDefine/CardSelected" newFullName="$B.$uA/$UA" status="Renamed">
+      <field signature="int CardIndex" newName="$NB" />
+    </type>
+    <type fullName="GameFramework.Runtime.PlayerInputEventDefine/CardUsed" newFullName="$B.$uA/$vA" status="Renamed">
+      <field signature="int CardIndex" newName="$oB" />
+    </type>
+    <type fullName="GameFramework.Runtime.Test" newFullName="" status="NotRenamed">
+      <method signature="void GameFramework.Runtime.Test::EventHander([HotUpdate]GameFramework.Runtime.Test, [HotUpdate]GameFramework.Runtime.PlayerInputEventDefine/CardDrawn)" newName="$lC" oldStackTraceSignature="GameFramework.Runtime.Test:EventHander(CardDrawn)" newStackTraceSignature="GameFramework.Runtime.Test:$lC($VA)" />
+      <method signature="void GameFramework.Runtime.Test::EventHander([HotUpdate]GameFramework.Runtime.Test, [HotUpdate]GameFramework.Runtime.PlayerInputEventDefine/CardSelected)" newName="$LC" oldStackTraceSignature="GameFramework.Runtime.Test:EventHander(CardSelected)" newStackTraceSignature="GameFramework.Runtime.Test:$LC($UA)" />
+    </type>
+    <type fullName="GameFramework.Runtime.Test1" newFullName="" status="NotRenamed">
+      <method signature="void GameFramework.Runtime.Test1::OnPlayerInput([HotUpdate]GameFramework.Runtime.Test1)" newName="$mC" oldStackTraceSignature="GameFramework.Runtime.Test1:OnPlayerInput()" newStackTraceSignature="GameFramework.Runtime.Test1:$mC()" />
+    </type>
+  </assembly>
+  <assembly name="Obfuz.Runtime">
+    <type fullName="&lt;PrivateImplementationDetails&gt;" newFullName="$iA" status="Renamed">
+      <field signature="[Obfuz.Runtime]&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize36_3 $Obfuz$WatermarkDataHolderField3" newName="$tb" />
+      <field signature="[Obfuz.Runtime]&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize36_13 $Obfuz$WatermarkDataHolderField13" newName="$Tb" />
+      <field signature="[Obfuz.Runtime]&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize36_10 $Obfuz$WatermarkDataHolderField10" newName="$ub" />
+      <field signature="[Obfuz.Runtime]&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize32_12 $Obfuz$WatermarkDataHolderField12" newName="$Ub" />
+      <field signature="[Obfuz.Runtime]&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize48_9 $Obfuz$WatermarkDataHolderField9" newName="$vb" />
+      <field signature="[Obfuz.Runtime]&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize28_7 $Obfuz$WatermarkDataHolderField7" newName="$Vb" />
+      <field signature="[Obfuz.Runtime]&lt;PrivateImplementationDetails&gt;/__StaticArrayInitTypeSize=428 7DC72EACF4C52A1729F6C06DF08DBBB25CECF769449A70A0D97F6EADE43D51F3" newName="$wb" />
+      <field signature="[Obfuz.Runtime]&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize44_2 $Obfuz$WatermarkDataHolderField2" newName="$Wb" />
+      <field signature="[Obfuz.Runtime]&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize36_6 $Obfuz$WatermarkDataHolderField6" newName="$xb" />
+      <field signature="[Obfuz.Runtime]&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize28_4 $Obfuz$WatermarkDataHolderField4" newName="$Xb" />
+      <field signature="[Obfuz.Runtime]&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize44_5 $Obfuz$WatermarkDataHolderField5" newName="$yb" />
+      <field signature="[Obfuz.Runtime]&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize28_11 $Obfuz$WatermarkDataHolderField11" newName="$Yb" />
+      <field signature="[Obfuz.Runtime]&lt;PrivateImplementationDetails&gt;/__StaticArrayInitTypeSize=1146 52C15CFFB922FC7109D9AD03F61D639904043FF97E2C3B73BFB8295FAF3F8C94" newName="$zb" />
+      <field signature="[Obfuz.Runtime]&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize36_8 $Obfuz$WatermarkDataHolderField8" newName="$Zb" />
+    </type>
+    <type fullName="&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize28_11" newFullName="$iA/$oA" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize28_4" newFullName="$iA/$KA" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize28_7" newFullName="$iA/$mA" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize32_12" newFullName="$iA/$OA" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize36_10" newFullName="$iA/$NA" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize36_13" newFullName="$iA/$pA" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize36_3" newFullName="$iA/$kA" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize36_6" newFullName="$iA/$LA" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize36_8" newFullName="$iA/$MA" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize44_2" newFullName="$iA/$JA" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize44_5" newFullName="$iA/$lA" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/$Obfuz$WatermarkDataHolderSize48_9" newFullName="$iA/$nA" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/__StaticArrayInitTypeSize=1146" newFullName="$iA/$jA" status="Renamed" />
+    <type fullName="&lt;PrivateImplementationDetails&gt;/__StaticArrayInitTypeSize=428" newFullName="$iA/$IA" status="Renamed" />
+    <type fullName="Obfuz.AssertUtility" newFullName="$b.$BA" status="Renamed">
+      <method signature="void Obfuz.AssertUtility::@VerifySecretKey(int, int)" newName="$ib" oldStackTraceSignature="Obfuz.AssertUtility:VerifySecretKey(Int32, Int32)" newStackTraceSignature="$b.$BA:$ib(Int32, Int32)" />
+    </type>
+    <type fullName="Obfuz.ConstUtility" newFullName="$b.$cA" status="Renamed">
+      <method signature="int Obfuz.ConstUtility::@GetInt(byte[], int)" newName="$Ib" oldStackTraceSignature="Obfuz.ConstUtility:GetInt(Byte[], Int32)" newStackTraceSignature="$b.$cA:$Ib(Byte[], Int32)" />
+      <method signature="long Obfuz.ConstUtility::@GetLong(byte[], int)" newName="$jb" oldStackTraceSignature="Obfuz.ConstUtility:GetLong(Byte[], Int32)" newStackTraceSignature="$b.$cA:$jb(Byte[], Int32)" />
+      <method signature="float Obfuz.ConstUtility::@GetFloat(byte[], int)" newName="$Jb" oldStackTraceSignature="Obfuz.ConstUtility:GetFloat(Byte[], Int32)" newStackTraceSignature="$b.$cA:$Jb(Byte[], Int32)" />
+      <method signature="double Obfuz.ConstUtility::@GetDouble(byte[], int)" newName="$kb" oldStackTraceSignature="Obfuz.ConstUtility:GetDouble(Byte[], Int32)" newStackTraceSignature="$b.$cA:$kb(Byte[], Int32)" />
+      <method signature="string Obfuz.ConstUtility::@GetString(byte[], int, int)" newName="$Kb" oldStackTraceSignature="Obfuz.ConstUtility:GetString(Byte[], Int32, Int32)" newStackTraceSignature="$b.$cA:$Kb(Byte[], Int32, Int32)" />
+      <method signature="byte[] Obfuz.ConstUtility::@GetBytes(byte[], int, int)" newName="$lb" oldStackTraceSignature="Obfuz.ConstUtility:GetBytes(Byte[], Int32, Int32)" newStackTraceSignature="$b.$cA:$lb(Byte[], Int32, Int32)" />
+      <method signature="int[] Obfuz.ConstUtility::@GetInts(byte[], int, int)" newName="$Lb" oldStackTraceSignature="Obfuz.ConstUtility:GetInts(Byte[], Int32, Int32)" newStackTraceSignature="$b.$cA:$Lb(Byte[], Int32, Int32)" />
+      <method signature="void Obfuz.ConstUtility::@InitializeArray(System.Array, byte[], int, int)" newName="$mb" oldStackTraceSignature="Obfuz.ConstUtility:InitializeArray(Array, Byte[], Int32, Int32)" newStackTraceSignature="$b.$cA:$mb(Array, Byte[], Int32, Int32)" />
+      <method signature="int Obfuz.ConstUtility::@CastFloatAsInt(float)" newName="$Mb" oldStackTraceSignature="Obfuz.ConstUtility:CastFloatAsInt(Single)" newStackTraceSignature="$b.$cA:$Mb(Single)" />
+      <method signature="float Obfuz.ConstUtility::@CastIntAsFloat(int)" newName="$nb" oldStackTraceSignature="Obfuz.ConstUtility:CastIntAsFloat(Int32)" newStackTraceSignature="$b.$cA:$nb(Int32)" />
+      <method signature="long Obfuz.ConstUtility::@CastDoubleAsLong(double)" newName="$Nb" oldStackTraceSignature="Obfuz.ConstUtility:CastDoubleAsLong(Double)" newStackTraceSignature="$b.$cA:$Nb(Double)" />
+      <method signature="double Obfuz.ConstUtility::@CastLongAsDouble(long)" newName="$ob" oldStackTraceSignature="Obfuz.ConstUtility:CastLongAsDouble(Int64)" newStackTraceSignature="$b.$cA:$ob(Int64)" />
+    </type>
+    <type fullName="Obfuz.DefaultDynamicEncryptionScope" newFullName="$b.$DA" status="Renamed">
+      <method signature="void Obfuz.DefaultDynamicEncryptionScope::ForcePreserveAOT([Obfuz.Runtime]Obfuz.DefaultDynamicEncryptionScope&amp;)" newName="$pb" oldStackTraceSignature="Obfuz.DefaultDynamicEncryptionScope:ForcePreserveAOT()" newStackTraceSignature="$b.$DA:$pb()" />
+    </type>
+    <type fullName="Obfuz.DefaultStaticEncryptionScope" newFullName="$b.$eA" status="Renamed">
+      <method signature="void Obfuz.DefaultStaticEncryptionScope::ForcePreserveAOT([Obfuz.Runtime]Obfuz.DefaultStaticEncryptionScope&amp;)" newName="$Pb" oldStackTraceSignature="Obfuz.DefaultStaticEncryptionScope:ForcePreserveAOT()" newStackTraceSignature="$b.$eA:$Pb()" />
+    </type>
+    <type fullName="Obfuz.EncryptionScopeBase" newFullName="$b.$dA" status="Renamed">
+      <method signature="void Obfuz.EncryptionScopeBase::ForcePreserveAOT([Obfuz.Runtime]Obfuz.EncryptionScopeBase)" newName="$Ob" oldStackTraceSignature="Obfuz.EncryptionScopeBase:ForcePreserveAOT()" newStackTraceSignature="$b.$dA:$Ob()" />
+    </type>
+    <type fullName="Obfuz.EncryptionService`1" newFullName="$b.$EA`1" status="Renamed">
+      <field signature="[Obfuz.Runtime]Obfuz.IEncryptor _encryptor" newName="$rb" />
+      <property signature="[Obfuz.Runtime]Obfuz.IEncryptor Encryptor" newName="$a" />
+      <method signature="[Obfuz.Runtime]Obfuz.IEncryptor Obfuz.EncryptionService`1::@get_Encryptor()" newName="$qb" oldStackTraceSignature="Obfuz.EncryptionService`1:get_Encryptor()" newStackTraceSignature="$b.$EA`1:$qb()" />
+      <method signature="void Obfuz.EncryptionService`1::@set_Encryptor([Obfuz.Runtime]Obfuz.IEncryptor)" newName="$Qb" oldStackTraceSignature="Obfuz.EncryptionService`1:set_Encryptor(IEncryptor)" newStackTraceSignature="$b.$EA`1:$Qb($gA)" />
+      <method signature="void Obfuz.EncryptionService`1::@EncryptBlock(byte[], int, int)" newName="$rb" oldStackTraceSignature="Obfuz.EncryptionService`1:EncryptBlock(Byte[], Int32, Int32)" newStackTraceSignature="$b.$EA`1:$rb(Byte[], Int32, Int32)" />
+      <method signature="void Obfuz.EncryptionService`1::@DecryptBlock(byte[], int, int)" newName="$Rb" oldStackTraceSignature="Obfuz.EncryptionService`1:DecryptBlock(Byte[], Int32, Int32)" newStackTraceSignature="$b.$EA`1:$Rb(Byte[], Int32, Int32)" />
+      <method signature="int Obfuz.EncryptionService`1::@Encrypt(int, int, int)" newName="$sb" oldStackTraceSignature="Obfuz.EncryptionService`1:Encrypt(Int32, Int32, Int32)" newStackTraceSignature="$b.$EA`1:$sb(Int32, Int32, Int32)" />
+      <method signature="int Obfuz.EncryptionService`1::@Decrypt(int, int, int)" newName="$Sb" oldStackTraceSignature="Obfuz.EncryptionService`1:Decrypt(Int32, Int32, Int32)" newStackTraceSignature="$b.$EA`1:$Sb(Int32, Int32, Int32)" />
+      <method signature="long Obfuz.EncryptionService`1::@Encrypt(long, int, int)" newName="$tb" oldStackTraceSignature="Obfuz.EncryptionService`1:Encrypt(Int64, Int32, Int32)" newStackTraceSignature="$b.$EA`1:$tb(Int64, Int32, Int32)" />
+      <method signature="long Obfuz.EncryptionService`1::@Decrypt(long, int, int)" newName="$Tb" oldStackTraceSignature="Obfuz.EncryptionService`1:Decrypt(Int64, Int32, Int32)" newStackTraceSignature="$b.$EA`1:$Tb(Int64, Int32, Int32)" />
+      <method signature="float Obfuz.EncryptionService`1::@Encrypt(float, int, int)" newName="$ub" oldStackTraceSignature="Obfuz.EncryptionService`1:Encrypt(Single, Int32, Int32)" newStackTraceSignature="$b.$EA`1:$ub(Single, Int32, Int32)" />
+      <method signature="float Obfuz.EncryptionService`1::@Decrypt(float, int, int)" newName="$Ub" oldStackTraceSignature="Obfuz.EncryptionService`1:Decrypt(Single, Int32, Int32)" newStackTraceSignature="$b.$EA`1:$Ub(Single, Int32, Int32)" />
+      <method signature="double Obfuz.EncryptionService`1::@Encrypt(double, int, int)" newName="$vb" oldStackTraceSignature="Obfuz.EncryptionService`1:Encrypt(Double, Int32, Int32)" newStackTraceSignature="$b.$EA`1:$vb(Double, Int32, Int32)" />
+      <method signature="double Obfuz.EncryptionService`1::@Decrypt(double, int, int)" newName="$Vb" oldStackTraceSignature="Obfuz.EncryptionService`1:Decrypt(Double, Int32, Int32)" newStackTraceSignature="$b.$EA`1:$Vb(Double, Int32, Int32)" />
+      <method signature="byte[] Obfuz.EncryptionService`1::@Encrypt(byte[], int, int, int, int)" newName="$wb" oldStackTraceSignature="Obfuz.EncryptionService`1:Encrypt(Byte[], Int32, Int32, Int32, Int32)" newStackTraceSignature="$b.$EA`1:$wb(Byte[], Int32, Int32, Int32, Int32)" />
+      <method signature="byte[] Obfuz.EncryptionService`1::@Decrypt(byte[], int, int, int, int)" newName="$Wb" oldStackTraceSignature="Obfuz.EncryptionService`1:Decrypt(Byte[], Int32, Int32, Int32, Int32)" newStackTraceSignature="$b.$EA`1:$Wb(Byte[], Int32, Int32, Int32, Int32)" />
+      <method signature="byte[] Obfuz.EncryptionService`1::@Encrypt(string, int, int)" newName="$xb" oldStackTraceSignature="Obfuz.EncryptionService`1:Encrypt(String, Int32, Int32)" newStackTraceSignature="$b.$EA`1:$xb(String, Int32, Int32)" />
+      <method signature="string Obfuz.EncryptionService`1::@DecryptString(byte[], int, int, int, int)" newName="$Xb" oldStackTraceSignature="Obfuz.EncryptionService`1:DecryptString(Byte[], Int32, Int32, Int32, Int32)" newStackTraceSignature="$b.$EA`1:$Xb(Byte[], Int32, Int32, Int32, Int32)" />
+      <method signature="int Obfuz.EncryptionService`1::@DecryptFromRvaInt(byte[], int, int, int)" newName="$yb" oldStackTraceSignature="Obfuz.EncryptionService`1:DecryptFromRvaInt(Byte[], Int32, Int32, Int32)" newStackTraceSignature="$b.$EA`1:$yb(Byte[], Int32, Int32, Int32)" />
+      <method signature="long Obfuz.EncryptionService`1::@DecryptFromRvaLong(byte[], int, int, int)" newName="$Yb" oldStackTraceSignature="Obfuz.EncryptionService`1:DecryptFromRvaLong(Byte[], Int32, Int32, Int32)" newStackTraceSignature="$b.$EA`1:$Yb(Byte[], Int32, Int32, Int32)" />
+      <method signature="float Obfuz.EncryptionService`1::@DecryptFromRvaFloat(byte[], int, int, int)" newName="$zb" oldStackTraceSignature="Obfuz.EncryptionService`1:DecryptFromRvaFloat(Byte[], Int32, Int32, Int32)" newStackTraceSignature="$b.$EA`1:$zb(Byte[], Int32, Int32, Int32)" />
+      <method signature="double Obfuz.EncryptionService`1::@DecryptFromRvaDouble(byte[], int, int, int)" newName="$Zb" oldStackTraceSignature="Obfuz.EncryptionService`1:DecryptFromRvaDouble(Byte[], Int32, Int32, Int32)" newStackTraceSignature="$b.$EA`1:$Zb(Byte[], Int32, Int32, Int32)" />
+      <method signature="string Obfuz.EncryptionService`1::@DecryptFromRvaString(byte[], int, int, int, int)" newName="$aB" oldStackTraceSignature="Obfuz.EncryptionService`1:DecryptFromRvaString(Byte[], Int32, Int32, Int32, Int32)" newStackTraceSignature="$b.$EA`1:$aB(Byte[], Int32, Int32, Int32, Int32)" />
+      <method signature="byte[] Obfuz.EncryptionService`1::@DecryptFromRvaBytes(byte[], int, int, int, int)" newName="$AB" oldStackTraceSignature="Obfuz.EncryptionService`1:DecryptFromRvaBytes(Byte[], Int32, Int32, Int32, Int32)" newStackTraceSignature="$b.$EA`1:$AB(Byte[], Int32, Int32, Int32, Int32)" />
+      <method signature="void Obfuz.EncryptionService`1::@DecryptInitializeArray(System.Array, System.RuntimeFieldHandle, int, int, int)" newName="$bB" oldStackTraceSignature="Obfuz.EncryptionService`1:DecryptInitializeArray(Array, RuntimeFieldHandle, Int32, Int32, Int32)" newStackTraceSignature="$b.$EA`1:$bB(Array, RuntimeFieldHandle, Int32, Int32, Int32)" />
+    </type>
+    <type fullName="Obfuz.EncryptorBase" newFullName="$b.$fA" status="Renamed">
+      <property signature="int OpCodeCount" newName="$a" />
+      <method signature="int Obfuz.EncryptorBase::get_OpCodeCount([Obfuz.Runtime]Obfuz.EncryptorBase)" newName="$fc" oldStackTraceSignature="Obfuz.EncryptorBase:get_OpCodeCount()" newStackTraceSignature="$b.$fA:$fc()" />
+      <method signature="int[] Obfuz.EncryptorBase::@ConvertToIntKey(byte[])" newName="$BB" oldStackTraceSignature="Obfuz.EncryptorBase:ConvertToIntKey(Byte[])" newStackTraceSignature="$b.$fA:$BB(Byte[])" />
+      <method signature="int Obfuz.EncryptorBase::Encrypt([Obfuz.Runtime]Obfuz.EncryptorBase, int, int, int)" newName="$Fc" oldStackTraceSignature="Obfuz.EncryptorBase:Encrypt(Int32, Int32, Int32)" newStackTraceSignature="$b.$fA:$Fc(Int32, Int32, Int32)" />
+      <method signature="int Obfuz.EncryptorBase::Decrypt([Obfuz.Runtime]Obfuz.EncryptorBase, int, int, int)" newName="$gc" oldStackTraceSignature="Obfuz.EncryptorBase:Decrypt(Int32, Int32, Int32)" newStackTraceSignature="$b.$fA:$gc(Int32, Int32, Int32)" />
+      <method signature="long Obfuz.EncryptorBase::Encrypt([Obfuz.Runtime]Obfuz.EncryptorBase, long, int, int)" newName="$Vc" oldStackTraceSignature="Obfuz.EncryptorBase:Encrypt(Int64, Int32, Int32)" newStackTraceSignature="$b.$fA:$Vc(Int64, Int32, Int32)" />
+      <method signature="long Obfuz.EncryptorBase::Decrypt([Obfuz.Runtime]Obfuz.EncryptorBase, long, int, int)" newName="$wc" oldStackTraceSignature="Obfuz.EncryptorBase:Decrypt(Int64, Int32, Int32)" newStackTraceSignature="$b.$fA:$wc(Int64, Int32, Int32)" />
+      <method signature="float Obfuz.EncryptorBase::Encrypt([Obfuz.Runtime]Obfuz.EncryptorBase, float, int, int)" newName="$Wc" oldStackTraceSignature="Obfuz.EncryptorBase:Encrypt(Single, Int32, Int32)" newStackTraceSignature="$b.$fA:$Wc(Single, Int32, Int32)" />
+      <method signature="float Obfuz.EncryptorBase::Decrypt([Obfuz.Runtime]Obfuz.EncryptorBase, float, int, int)" newName="$xc" oldStackTraceSignature="Obfuz.EncryptorBase:Decrypt(Single, Int32, Int32)" newStackTraceSignature="$b.$fA:$xc(Single, Int32, Int32)" />
+      <method signature="double Obfuz.EncryptorBase::Encrypt([Obfuz.Runtime]Obfuz.EncryptorBase, double, int, int)" newName="$Xc" oldStackTraceSignature="Obfuz.EncryptorBase:Encrypt(Double, Int32, Int32)" newStackTraceSignature="$b.$fA:$Xc(Double, Int32, Int32)" />
+      <method signature="double Obfuz.EncryptorBase::Decrypt([Obfuz.Runtime]Obfuz.EncryptorBase, double, int, int)" newName="$yc" oldStackTraceSignature="Obfuz.EncryptorBase:Decrypt(Double, Int32, Int32)" newStackTraceSignature="$b.$fA:$yc(Double, Int32, Int32)" />
+      <method signature="byte[] Obfuz.EncryptorBase::Encrypt([Obfuz.Runtime]Obfuz.EncryptorBase, byte[], int, int, int, int)" newName="$Yc" oldStackTraceSignature="Obfuz.EncryptorBase:Encrypt(Byte[], Int32, Int32, Int32, Int32)" newStackTraceSignature="$b.$fA:$Yc(Byte[], Int32, Int32, Int32, Int32)" />
+      <method signature="byte[] Obfuz.EncryptorBase::Decrypt([Obfuz.Runtime]Obfuz.EncryptorBase, byte[], int, int, int, int)" newName="$zc" oldStackTraceSignature="Obfuz.EncryptorBase:Decrypt(Byte[], Int32, Int32, Int32, Int32)" newStackTraceSignature="$b.$fA:$zc(Byte[], Int32, Int32, Int32, Int32)" />
+      <method signature="byte[] Obfuz.EncryptorBase::Encrypt([Obfuz.Runtime]Obfuz.EncryptorBase, string, int, int)" newName="$Zc" oldStackTraceSignature="Obfuz.EncryptorBase:Encrypt(String, Int32, Int32)" newStackTraceSignature="$b.$fA:$Zc(String, Int32, Int32)" />
+      <method signature="string Obfuz.EncryptorBase::DecryptString([Obfuz.Runtime]Obfuz.EncryptorBase, byte[], int, int, int, int)" newName="$aC" oldStackTraceSignature="Obfuz.EncryptorBase:DecryptString(Byte[], Int32, Int32, Int32, Int32)" newStackTraceSignature="$b.$fA:$aC(Byte[], Int32, Int32, Int32, Int32)" />
+      <method signature="void Obfuz.EncryptorBase::EncryptBlock([Obfuz.Runtime]Obfuz.EncryptorBase, byte[], int, int)" newName="$AC" oldStackTraceSignature="Obfuz.EncryptorBase:EncryptBlock(Byte[], Int32, Int32)" newStackTraceSignature="$b.$fA:$AC(Byte[], Int32, Int32)" />
+      <method signature="void Obfuz.EncryptorBase::DecryptBlock([Obfuz.Runtime]Obfuz.EncryptorBase, byte[], int, int)" newName="$bC" oldStackTraceSignature="Obfuz.EncryptorBase:DecryptBlock(Byte[], Int32, Int32)" newStackTraceSignature="$b.$fA:$bC(Byte[], Int32, Int32)" />
+      <method signature="void Obfuz.EncryptorBase::DecryptBlock([Obfuz.Runtime]Obfuz.EncryptorBase, byte*, int, int, int)" newName="$cB" oldStackTraceSignature="Obfuz.EncryptorBase:DecryptBlock(Byte*, Int32, Int32, Int32)" newStackTraceSignature="$b.$fA:$cB(Byte*, Int32, Int32, Int32)" />
+      <method signature="void Obfuz.EncryptorBase::DecryptInitializeArray([Obfuz.Runtime]Obfuz.EncryptorBase, System.Array, System.RuntimeFieldHandle, int, int, int)" newName="$BC" oldStackTraceSignature="Obfuz.EncryptorBase:DecryptInitializeArray(Array, RuntimeFieldHandle, Int32, Int32, Int32)" newStackTraceSignature="$b.$fA:$BC(Array, RuntimeFieldHandle, Int32, Int32, Int32)" />
+    </type>
+    <type fullName="Obfuz.ExprUtility" newFullName="$b.$FA" status="Renamed">
+      <method signature="int Obfuz.ExprUtility::@Add(int, int)" newName="$CB" oldStackTraceSignature="Obfuz.ExprUtility:Add(Int32, Int32)" newStackTraceSignature="$b.$FA:$CB(Int32, Int32)" />
+      <method signature="long Obfuz.ExprUtility::@Add(long, long)" newName="$dB" oldStackTraceSignature="Obfuz.ExprUtility:Add(Int64, Int64)" newStackTraceSignature="$b.$FA:$dB(Int64, Int64)" />
+      <method signature="float Obfuz.ExprUtility::@Add(float, float)" newName="$DB" oldStackTraceSignature="Obfuz.ExprUtility:Add(Single, Single)" newStackTraceSignature="$b.$FA:$DB(Single, Single)" />
+      <method signature="double Obfuz.ExprUtility::@Add(double, double)" newName="$eB" oldStackTraceSignature="Obfuz.ExprUtility:Add(Double, Double)" newStackTraceSignature="$b.$FA:$eB(Double, Double)" />
+      <method signature="nint Obfuz.ExprUtility::@Add(nint, nint)" newName="$EB" oldStackTraceSignature="Obfuz.ExprUtility:Add(IntPtr, IntPtr)" newStackTraceSignature="$b.$FA:$EB(IntPtr, IntPtr)" />
+      <method signature="nint Obfuz.ExprUtility::@Add(nint, int)" newName="$fB" oldStackTraceSignature="Obfuz.ExprUtility:Add(IntPtr, Int32)" newStackTraceSignature="$b.$FA:$fB(IntPtr, Int32)" />
+      <method signature="int Obfuz.ExprUtility::@Subtract(int, int)" newName="$FB" oldStackTraceSignature="Obfuz.ExprUtility:Subtract(Int32, Int32)" newStackTraceSignature="$b.$FA:$FB(Int32, Int32)" />
+      <method signature="long Obfuz.ExprUtility::@Subtract(long, long)" newName="$gB" oldStackTraceSignature="Obfuz.ExprUtility:Subtract(Int64, Int64)" newStackTraceSignature="$b.$FA:$gB(Int64, Int64)" />
+      <method signature="float Obfuz.ExprUtility::@Subtract(float, float)" newName="$GB" oldStackTraceSignature="Obfuz.ExprUtility:Subtract(Single, Single)" newStackTraceSignature="$b.$FA:$GB(Single, Single)" />
+      <method signature="double Obfuz.ExprUtility::@Subtract(double, double)" newName="$hB" oldStackTraceSignature="Obfuz.ExprUtility:Subtract(Double, Double)" newStackTraceSignature="$b.$FA:$hB(Double, Double)" />
+      <method signature="nint Obfuz.ExprUtility::@Subtract(nint, nint)" newName="$HB" oldStackTraceSignature="Obfuz.ExprUtility:Subtract(IntPtr, IntPtr)" newStackTraceSignature="$b.$FA:$HB(IntPtr, IntPtr)" />
+      <method signature="nint Obfuz.ExprUtility::@Subtract(nint, int)" newName="$iB" oldStackTraceSignature="Obfuz.ExprUtility:Subtract(IntPtr, Int32)" newStackTraceSignature="$b.$FA:$iB(IntPtr, Int32)" />
+      <method signature="int Obfuz.ExprUtility::@Multiply(int, int)" newName="$IB" oldStackTraceSignature="Obfuz.ExprUtility:Multiply(Int32, Int32)" newStackTraceSignature="$b.$FA:$IB(Int32, Int32)" />
+      <method signature="long Obfuz.ExprUtility::@Multiply(long, long)" newName="$jB" oldStackTraceSignature="Obfuz.ExprUtility:Multiply(Int64, Int64)" newStackTraceSignature="$b.$FA:$jB(Int64, Int64)" />
+      <method signature="float Obfuz.ExprUtility::@Multiply(float, float)" newName="$JB" oldStackTraceSignature="Obfuz.ExprUtility:Multiply(Single, Single)" newStackTraceSignature="$b.$FA:$JB(Single, Single)" />
+      <method signature="double Obfuz.ExprUtility::@Multiply(double, double)" newName="$kB" oldStackTraceSignature="Obfuz.ExprUtility:Multiply(Double, Double)" newStackTraceSignature="$b.$FA:$kB(Double, Double)" />
+      <method signature="nint Obfuz.ExprUtility::@Multiply(nint, nint)" newName="$KB" oldStackTraceSignature="Obfuz.ExprUtility:Multiply(IntPtr, IntPtr)" newStackTraceSignature="$b.$FA:$KB(IntPtr, IntPtr)" />
+      <method signature="nint Obfuz.ExprUtility::@Multiply(nint, int)" newName="$lB" oldStackTraceSignature="Obfuz.ExprUtility:Multiply(IntPtr, Int32)" newStackTraceSignature="$b.$FA:$lB(IntPtr, Int32)" />
+      <method signature="int Obfuz.ExprUtility::@Divide(int, int)" newName="$LB" oldStackTraceSignature="Obfuz.ExprUtility:Divide(Int32, Int32)" newStackTraceSignature="$b.$FA:$LB(Int32, Int32)" />
+      <method signature="long Obfuz.ExprUtility::@Divide(long, long)" newName="$mB" oldStackTraceSignature="Obfuz.ExprUtility:Divide(Int64, Int64)" newStackTraceSignature="$b.$FA:$mB(Int64, Int64)" />
+      <method signature="float Obfuz.ExprUtility::@Divide(float, float)" newName="$MB" oldStackTraceSignature="Obfuz.ExprUtility:Divide(Single, Single)" newStackTraceSignature="$b.$FA:$MB(Single, Single)" />
+      <method signature="double Obfuz.ExprUtility::@Divide(double, double)" newName="$nB" oldStackTraceSignature="Obfuz.ExprUtility:Divide(Double, Double)" newStackTraceSignature="$b.$FA:$nB(Double, Double)" />
+      <method signature="int Obfuz.ExprUtility::@DivideUn(int, int)" newName="$NB" oldStackTraceSignature="Obfuz.ExprUtility:DivideUn(Int32, Int32)" newStackTraceSignature="$b.$FA:$NB(Int32, Int32)" />
+      <method signature="long Obfuz.ExprUtility::@DivideUn(long, long)" newName="$oB" oldStackTraceSignature="Obfuz.ExprUtility:DivideUn(Int64, Int64)" newStackTraceSignature="$b.$FA:$oB(Int64, Int64)" />
+      <method signature="int Obfuz.ExprUtility::@Rem(int, int)" newName="$OB" oldStackTraceSignature="Obfuz.ExprUtility:Rem(Int32, Int32)" newStackTraceSignature="$b.$FA:$OB(Int32, Int32)" />
+      <method signature="long Obfuz.ExprUtility::@Rem(long, long)" newName="$pB" oldStackTraceSignature="Obfuz.ExprUtility:Rem(Int64, Int64)" newStackTraceSignature="$b.$FA:$pB(Int64, Int64)" />
+      <method signature="float Obfuz.ExprUtility::@Rem(float, float)" newName="$PB" oldStackTraceSignature="Obfuz.ExprUtility:Rem(Single, Single)" newStackTraceSignature="$b.$FA:$PB(Single, Single)" />
+      <method signature="double Obfuz.ExprUtility::@Rem(double, double)" newName="$qB" oldStackTraceSignature="Obfuz.ExprUtility:Rem(Double, Double)" newStackTraceSignature="$b.$FA:$qB(Double, Double)" />
+      <method signature="int Obfuz.ExprUtility::@RemUn(int, int)" newName="$QB" oldStackTraceSignature="Obfuz.ExprUtility:RemUn(Int32, Int32)" newStackTraceSignature="$b.$FA:$QB(Int32, Int32)" />
+      <method signature="long Obfuz.ExprUtility::@RemUn(long, long)" newName="$rB" oldStackTraceSignature="Obfuz.ExprUtility:RemUn(Int64, Int64)" newStackTraceSignature="$b.$FA:$rB(Int64, Int64)" />
+      <method signature="int Obfuz.ExprUtility::@Negate(int)" newName="$RB" oldStackTraceSignature="Obfuz.ExprUtility:Negate(Int32)" newStackTraceSignature="$b.$FA:$RB(Int32)" />
+      <method signature="long Obfuz.ExprUtility::@Negate(long)" newName="$sB" oldStackTraceSignature="Obfuz.ExprUtility:Negate(Int64)" newStackTraceSignature="$b.$FA:$sB(Int64)" />
+      <method signature="float Obfuz.ExprUtility::@Negate(float)" newName="$SB" oldStackTraceSignature="Obfuz.ExprUtility:Negate(Single)" newStackTraceSignature="$b.$FA:$SB(Single)" />
+      <method signature="double Obfuz.ExprUtility::@Negate(double)" newName="$tB" oldStackTraceSignature="Obfuz.ExprUtility:Negate(Double)" newStackTraceSignature="$b.$FA:$tB(Double)" />
+      <method signature="int Obfuz.ExprUtility::@And(int, int)" newName="$TB" oldStackTraceSignature="Obfuz.ExprUtility:And(Int32, Int32)" newStackTraceSignature="$b.$FA:$TB(Int32, Int32)" />
+      <method signature="long Obfuz.ExprUtility::@And(long, long)" newName="$uB" oldStackTraceSignature="Obfuz.ExprUtility:And(Int64, Int64)" newStackTraceSignature="$b.$FA:$uB(Int64, Int64)" />
+      <method signature="int Obfuz.ExprUtility::@Or(int, int)" newName="$UB" oldStackTraceSignature="Obfuz.ExprUtility:Or(Int32, Int32)" newStackTraceSignature="$b.$FA:$UB(Int32, Int32)" />
+      <method signature="long Obfuz.ExprUtility::@Or(long, long)" newName="$vB" oldStackTraceSignature="Obfuz.ExprUtility:Or(Int64, Int64)" newStackTraceSignature="$b.$FA:$vB(Int64, Int64)" />
+      <method signature="int Obfuz.ExprUtility::@Xor(int, int)" newName="$VB" oldStackTraceSignature="Obfuz.ExprUtility:Xor(Int32, Int32)" newStackTraceSignature="$b.$FA:$VB(Int32, Int32)" />
+      <method signature="long Obfuz.ExprUtility::@Xor(long, long)" newName="$wB" oldStackTraceSignature="Obfuz.ExprUtility:Xor(Int64, Int64)" newStackTraceSignature="$b.$FA:$wB(Int64, Int64)" />
+      <method signature="int Obfuz.ExprUtility::@Not(int)" newName="$WB" oldStackTraceSignature="Obfuz.ExprUtility:Not(Int32)" newStackTraceSignature="$b.$FA:$WB(Int32)" />
+      <method signature="long Obfuz.ExprUtility::@Not(long)" newName="$xB" oldStackTraceSignature="Obfuz.ExprUtility:Not(Int64)" newStackTraceSignature="$b.$FA:$xB(Int64)" />
+      <method signature="int Obfuz.ExprUtility::@ShiftLeft(int, int)" newName="$XB" oldStackTraceSignature="Obfuz.ExprUtility:ShiftLeft(Int32, Int32)" newStackTraceSignature="$b.$FA:$XB(Int32, Int32)" />
+      <method signature="long Obfuz.ExprUtility::@ShiftLeft(long, int)" newName="$yB" oldStackTraceSignature="Obfuz.ExprUtility:ShiftLeft(Int64, Int32)" newStackTraceSignature="$b.$FA:$yB(Int64, Int32)" />
+      <method signature="int Obfuz.ExprUtility::@ShiftRight(int, int)" newName="$YB" oldStackTraceSignature="Obfuz.ExprUtility:ShiftRight(Int32, Int32)" newStackTraceSignature="$b.$FA:$YB(Int32, Int32)" />
+      <method signature="long Obfuz.ExprUtility::@ShiftRight(long, int)" newName="$zB" oldStackTraceSignature="Obfuz.ExprUtility:ShiftRight(Int64, Int32)" newStackTraceSignature="$b.$FA:$zB(Int64, Int32)" />
+      <method signature="int Obfuz.ExprUtility::@ShiftRightUn(int, int)" newName="$ZB" oldStackTraceSignature="Obfuz.ExprUtility:ShiftRightUn(Int32, Int32)" newStackTraceSignature="$b.$FA:$ZB(Int32, Int32)" />
+      <method signature="long Obfuz.ExprUtility::@ShiftRightUn(long, int)" newName="$ac" oldStackTraceSignature="Obfuz.ExprUtility:ShiftRightUn(Int64, Int32)" newStackTraceSignature="$b.$FA:$ac(Int64, Int32)" />
+    </type>
+    <type fullName="Obfuz.IEncryptionScope" newFullName="$b.$CA" status="Renamed" />
+    <type fullName="Obfuz.IEncryptor" newFullName="$b.$gA" status="Renamed">
+      <property signature="int OpCodeCount" newName="$a" />
+      <method signature="int Obfuz.IEncryptor::get_OpCodeCount([Obfuz.Runtime]Obfuz.IEncryptor)" newName="$fc" oldStackTraceSignature="Obfuz.IEncryptor:get_OpCodeCount()" newStackTraceSignature="$b.$gA:$fc()" />
+      <method signature="void Obfuz.IEncryptor::EncryptBlock([Obfuz.Runtime]Obfuz.IEncryptor, byte[], int, int)" newName="$AC" oldStackTraceSignature="Obfuz.IEncryptor:EncryptBlock(Byte[], Int32, Int32)" newStackTraceSignature="$b.$gA:$AC(Byte[], Int32, Int32)" />
+      <method signature="void Obfuz.IEncryptor::DecryptBlock([Obfuz.Runtime]Obfuz.IEncryptor, byte[], int, int)" newName="$bC" oldStackTraceSignature="Obfuz.IEncryptor:DecryptBlock(Byte[], Int32, Int32)" newStackTraceSignature="$b.$gA:$bC(Byte[], Int32, Int32)" />
+      <method signature="int Obfuz.IEncryptor::Encrypt([Obfuz.Runtime]Obfuz.IEncryptor, int, int, int)" newName="$Fc" oldStackTraceSignature="Obfuz.IEncryptor:Encrypt(Int32, Int32, Int32)" newStackTraceSignature="$b.$gA:$Fc(Int32, Int32, Int32)" />
+      <method signature="int Obfuz.IEncryptor::Decrypt([Obfuz.Runtime]Obfuz.IEncryptor, int, int, int)" newName="$gc" oldStackTraceSignature="Obfuz.IEncryptor:Decrypt(Int32, Int32, Int32)" newStackTraceSignature="$b.$gA:$gc(Int32, Int32, Int32)" />
+      <method signature="long Obfuz.IEncryptor::Encrypt([Obfuz.Runtime]Obfuz.IEncryptor, long, int, int)" newName="$Vc" oldStackTraceSignature="Obfuz.IEncryptor:Encrypt(Int64, Int32, Int32)" newStackTraceSignature="$b.$gA:$Vc(Int64, Int32, Int32)" />
+      <method signature="long Obfuz.IEncryptor::Decrypt([Obfuz.Runtime]Obfuz.IEncryptor, long, int, int)" newName="$wc" oldStackTraceSignature="Obfuz.IEncryptor:Decrypt(Int64, Int32, Int32)" newStackTraceSignature="$b.$gA:$wc(Int64, Int32, Int32)" />
+      <method signature="float Obfuz.IEncryptor::Encrypt([Obfuz.Runtime]Obfuz.IEncryptor, float, int, int)" newName="$Wc" oldStackTraceSignature="Obfuz.IEncryptor:Encrypt(Single, Int32, Int32)" newStackTraceSignature="$b.$gA:$Wc(Single, Int32, Int32)" />
+      <method signature="float Obfuz.IEncryptor::Decrypt([Obfuz.Runtime]Obfuz.IEncryptor, float, int, int)" newName="$xc" oldStackTraceSignature="Obfuz.IEncryptor:Decrypt(Single, Int32, Int32)" newStackTraceSignature="$b.$gA:$xc(Single, Int32, Int32)" />
+      <method signature="double Obfuz.IEncryptor::Encrypt([Obfuz.Runtime]Obfuz.IEncryptor, double, int, int)" newName="$Xc" oldStackTraceSignature="Obfuz.IEncryptor:Encrypt(Double, Int32, Int32)" newStackTraceSignature="$b.$gA:$Xc(Double, Int32, Int32)" />
+      <method signature="double Obfuz.IEncryptor::Decrypt([Obfuz.Runtime]Obfuz.IEncryptor, double, int, int)" newName="$yc" oldStackTraceSignature="Obfuz.IEncryptor:Decrypt(Double, Int32, Int32)" newStackTraceSignature="$b.$gA:$yc(Double, Int32, Int32)" />
+      <method signature="byte[] Obfuz.IEncryptor::Encrypt([Obfuz.Runtime]Obfuz.IEncryptor, byte[], int, int, int, int)" newName="$Yc" oldStackTraceSignature="Obfuz.IEncryptor:Encrypt(Byte[], Int32, Int32, Int32, Int32)" newStackTraceSignature="$b.$gA:$Yc(Byte[], Int32, Int32, Int32, Int32)" />
+      <method signature="byte[] Obfuz.IEncryptor::Decrypt([Obfuz.Runtime]Obfuz.IEncryptor, byte[], int, int, int, int)" newName="$zc" oldStackTraceSignature="Obfuz.IEncryptor:Decrypt(Byte[], Int32, Int32, Int32, Int32)" newStackTraceSignature="$b.$gA:$zc(Byte[], Int32, Int32, Int32, Int32)" />
+      <method signature="byte[] Obfuz.IEncryptor::Encrypt([Obfuz.Runtime]Obfuz.IEncryptor, string, int, int)" newName="$Zc" oldStackTraceSignature="Obfuz.IEncryptor:Encrypt(String, Int32, Int32)" newStackTraceSignature="$b.$gA:$Zc(String, Int32, Int32)" />
+      <method signature="string Obfuz.IEncryptor::DecryptString([Obfuz.Runtime]Obfuz.IEncryptor, byte[], int, int, int, int)" newName="$aC" oldStackTraceSignature="Obfuz.IEncryptor:DecryptString(Byte[], Int32, Int32, Int32, Int32)" newStackTraceSignature="$b.$gA:$aC(Byte[], Int32, Int32, Int32, Int32)" />
+      <method signature="void Obfuz.IEncryptor::DecryptInitializeArray([Obfuz.Runtime]Obfuz.IEncryptor, System.Array, System.RuntimeFieldHandle, int, int, int)" newName="$BC" oldStackTraceSignature="Obfuz.IEncryptor:DecryptInitializeArray(Array, RuntimeFieldHandle, Int32, Int32, Int32)" newStackTraceSignature="$b.$gA:$BC(Array, RuntimeFieldHandle, Int32, Int32, Int32)" />
+    </type>
+    <type fullName="Obfuz.NullEncryptor" newFullName="$b.$GA" status="Renamed">
+      <field signature="byte[] _key" newName="$Rb" />
+      <property signature="int OpCodeCount" newName="$a" />
+      <method signature="int Obfuz.NullEncryptor::get_OpCodeCount([Obfuz.Runtime]Obfuz.NullEncryptor)" newName="$fc" oldStackTraceSignature="Obfuz.NullEncryptor:get_OpCodeCount()" newStackTraceSignature="$b.$GA:$fc()" />
+      <method signature="int Obfuz.NullEncryptor::Encrypt([Obfuz.Runtime]Obfuz.NullEncryptor, int, int, int)" newName="$Fc" oldStackTraceSignature="Obfuz.NullEncryptor:Encrypt(Int32, Int32, Int32)" newStackTraceSignature="$b.$GA:$Fc(Int32, Int32, Int32)" />
+      <method signature="int Obfuz.NullEncryptor::Decrypt([Obfuz.Runtime]Obfuz.NullEncryptor, int, int, int)" newName="$gc" oldStackTraceSignature="Obfuz.NullEncryptor:Decrypt(Int32, Int32, Int32)" newStackTraceSignature="$b.$GA:$gc(Int32, Int32, Int32)" />
+      <method signature="long Obfuz.NullEncryptor::Encrypt([Obfuz.Runtime]Obfuz.NullEncryptor, long, int, int)" newName="$Vc" oldStackTraceSignature="Obfuz.NullEncryptor:Encrypt(Int64, Int32, Int32)" newStackTraceSignature="$b.$GA:$Vc(Int64, Int32, Int32)" />
+      <method signature="long Obfuz.NullEncryptor::Decrypt([Obfuz.Runtime]Obfuz.NullEncryptor, long, int, int)" newName="$wc" oldStackTraceSignature="Obfuz.NullEncryptor:Decrypt(Int64, Int32, Int32)" newStackTraceSignature="$b.$GA:$wc(Int64, Int32, Int32)" />
+      <method signature="float Obfuz.NullEncryptor::Encrypt([Obfuz.Runtime]Obfuz.NullEncryptor, float, int, int)" newName="$Wc" oldStackTraceSignature="Obfuz.NullEncryptor:Encrypt(Single, Int32, Int32)" newStackTraceSignature="$b.$GA:$Wc(Single, Int32, Int32)" />
+      <method signature="float Obfuz.NullEncryptor::Decrypt([Obfuz.Runtime]Obfuz.NullEncryptor, float, int, int)" newName="$xc" oldStackTraceSignature="Obfuz.NullEncryptor:Decrypt(Single, Int32, Int32)" newStackTraceSignature="$b.$GA:$xc(Single, Int32, Int32)" />
+      <method signature="double Obfuz.NullEncryptor::Encrypt([Obfuz.Runtime]Obfuz.NullEncryptor, double, int, int)" newName="$Xc" oldStackTraceSignature="Obfuz.NullEncryptor:Encrypt(Double, Int32, Int32)" newStackTraceSignature="$b.$GA:$Xc(Double, Int32, Int32)" />
+      <method signature="double Obfuz.NullEncryptor::Decrypt([Obfuz.Runtime]Obfuz.NullEncryptor, double, int, int)" newName="$yc" oldStackTraceSignature="Obfuz.NullEncryptor:Decrypt(Double, Int32, Int32)" newStackTraceSignature="$b.$GA:$yc(Double, Int32, Int32)" />
+      <method signature="byte[] Obfuz.NullEncryptor::Encrypt([Obfuz.Runtime]Obfuz.NullEncryptor, byte[], int, int, int, int)" newName="$Yc" oldStackTraceSignature="Obfuz.NullEncryptor:Encrypt(Byte[], Int32, Int32, Int32, Int32)" newStackTraceSignature="$b.$GA:$Yc(Byte[], Int32, Int32, Int32, Int32)" />
+      <method signature="byte[] Obfuz.NullEncryptor::Decrypt([Obfuz.Runtime]Obfuz.NullEncryptor, byte[], int, int, int, int)" newName="$zc" oldStackTraceSignature="Obfuz.NullEncryptor:Decrypt(Byte[], Int32, Int32, Int32, Int32)" newStackTraceSignature="$b.$GA:$zc(Byte[], Int32, Int32, Int32, Int32)" />
+      <method signature="byte[] Obfuz.NullEncryptor::Encrypt([Obfuz.Runtime]Obfuz.NullEncryptor, string, int, int)" newName="$Zc" oldStackTraceSignature="Obfuz.NullEncryptor:Encrypt(String, Int32, Int32)" newStackTraceSignature="$b.$GA:$Zc(String, Int32, Int32)" />
+      <method signature="string Obfuz.NullEncryptor::DecryptString([Obfuz.Runtime]Obfuz.NullEncryptor, byte[], int, int, int, int)" newName="$aC" oldStackTraceSignature="Obfuz.NullEncryptor:DecryptString(Byte[], Int32, Int32, Int32, Int32)" newStackTraceSignature="$b.$GA:$aC(Byte[], Int32, Int32, Int32, Int32)" />
+    </type>
+    <type fullName="Obfuz.ObfuscationInstincts" newFullName="$b.$hA" status="Renamed">
+      <method signature="string Obfuz.ObfuscationInstincts::@FullNameOf`1()" newName="$Ac" oldStackTraceSignature="Obfuz.ObfuscationInstincts:FullNameOf()" newStackTraceSignature="$b.$hA:$Ac()" />
+      <method signature="string Obfuz.ObfuscationInstincts::@NameOf`1()" newName="$bc" oldStackTraceSignature="Obfuz.ObfuscationInstincts:NameOf()" newStackTraceSignature="$b.$hA:$bc()" />
+      <method signature="void Obfuz.ObfuscationInstincts::@RegisterReflectionType`1()" newName="$Bc" oldStackTraceSignature="Obfuz.ObfuscationInstincts:RegisterReflectionType()" newStackTraceSignature="$b.$hA:$Bc()" />
+    </type>
+    <type fullName="Obfuz.ObfuscationTypeMapper" newFullName="$b.$HA" status="Renamed">
+      <field signature="System.Collections.Generic.Dictionary`2&lt;System.Type,string&gt; _type2OriginalFullName" newName="$sb" />
+      <field signature="System.Collections.Generic.Dictionary`2&lt;System.Reflection.Assembly,System.Collections.Generic.Dictionary`2&lt;string,System.Type&gt;&gt; _originalFullName2Types" newName="$Sb" />
+      <method signature="void Obfuz.ObfuscationTypeMapper::@RegisterType`1(string)" newName="$cc" oldStackTraceSignature="Obfuz.ObfuscationTypeMapper:RegisterType(String)" newStackTraceSignature="$b.$HA:$cc(String)" />
+      <method signature="void Obfuz.ObfuscationTypeMapper::@RegisterType(System.Type, string)" newName="$Cc" oldStackTraceSignature="Obfuz.ObfuscationTypeMapper:RegisterType(Type, String)" newStackTraceSignature="$b.$HA:$Cc(Type, String)" />
+      <method signature="string Obfuz.ObfuscationTypeMapper::@GetOriginalTypeFullName(System.Type)" newName="$dc" oldStackTraceSignature="Obfuz.ObfuscationTypeMapper:GetOriginalTypeFullName(Type)" newStackTraceSignature="$b.$HA:$dc(Type)" />
+      <method signature="string Obfuz.ObfuscationTypeMapper::@GetOriginalTypeFullNameOrCurrent(System.Type)" newName="$Dc" oldStackTraceSignature="Obfuz.ObfuscationTypeMapper:GetOriginalTypeFullNameOrCurrent(Type)" newStackTraceSignature="$b.$HA:$Dc(Type)" />
+      <method signature="System.Type Obfuz.ObfuscationTypeMapper::@GetTypeByOriginalFullName(System.Reflection.Assembly, string)" newName="$ec" oldStackTraceSignature="Obfuz.ObfuscationTypeMapper:GetTypeByOriginalFullName(Assembly, String)" newStackTraceSignature="$b.$HA:$ec(Assembly, String)" />
+      <method signature="void Obfuz.ObfuscationTypeMapper::@Clear()" newName="$Ec" oldStackTraceSignature="Obfuz.ObfuscationTypeMapper:Clear()" newStackTraceSignature="$b.$HA:$Ec()" />
+    </type>
+  </assembly>
+</mapping>

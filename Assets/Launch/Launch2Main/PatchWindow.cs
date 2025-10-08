@@ -52,6 +52,19 @@ namespace GameFramework
             }
         }
 
+
+        void Update()
+        {
+            // 检测返回键输入
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                ShowMessageBox($"确定退出游戏吗？", () =>
+                {
+                    Application.Quit();
+                });
+            }
+        }
+
         private readonly List<MessageBox> _msgBoxList = new List<MessageBox>();
 
         // UGUI相关

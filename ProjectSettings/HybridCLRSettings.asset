@@ -25,6 +25,6 @@ MonoBehaviour:
   strippedAOTDllOutputRootDir: HybridCLRData/AOT
   patchAOTAssemblies: []
   outputLinkFile: Game/GameSetting/link.xml
-  outputAOTGenericReferenceFile: Other/AOTGenericReferences.cs
+  outputAOTGenericReferenceFile: Launch/AOTGenericReferences.cs
   maxGenericReferenceIteration: 10
   maxMethodBridgeGenericIteration: 10

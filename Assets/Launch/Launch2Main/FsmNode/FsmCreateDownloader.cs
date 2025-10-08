@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using YooAsset;
-using Cysharp.Threading.Tasks;
 using static GameFramework.PatchEventDefine;
 namespace GameFramework
 {
@@ -39,9 +38,7 @@ namespace GameFramework
             if (downloader.TotalDownloadCount == 0)
             {
                 Debug.Log("Not found any download files !");
-                EventManager.PublishNow(new InitializeSucceed
-                {
-                });
+                EventManager.PublishNow(new InitializeSucceed { });
             }
             else
             {

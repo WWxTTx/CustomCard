@@ -1,5 +1,7 @@
 ﻿using Cysharp.Threading.Tasks;
 using HybridCLR;
+using Obfuz;
+using Obfuz.EncryptionVM;
 using System.Reflection;
 using UnityEngine;
 using YooAsset;
@@ -9,8 +11,6 @@ namespace GameFramework
 {
     /// <summary>
     /// 框架启动组件
-    /// 功能实现放在GameFramework中 unity工具包装放在GameFrameworkRuntime  游戏具体逻辑放在Game
-    /// GameFramework不能反过来引用GameFrameworkRuntime GameFrameworkRuntime不能反过来引用Game 
     /// </summary>
     public sealed class Launch : MonoBehaviour
     {    
@@ -50,18 +50,13 @@ namespace GameFramework
         }
 
         /// <summary>
-        /// 备注：泛型类必须在主包中
-        /// 需要使用Burst编译器的代码必须在主包中
-        /// 场景启动 yoo自动加载依赖资源 Unity通过vtable调用生命周期 避免混淆改变了类名 反射无法访问
+        /// 备注：泛型类 不要 在主包中创建，热更包中新增
+        /// 需要使用Burst编译器的代码必须在主包中 这类情况可以接受泛型补充
         /// </summary>
         private async void Start()
         {
             // 初始化资源系统
             YooAssets.Initialize();
-
-            // 加载更新页面
-            var go = Resources.Load<GameObject>("PatchWindow");
-            Instantiate(go);
 
             // 开始更新流程
             var operation = new PatchOperation("DefaultPackage", PlayMode);
@@ -72,40 +67,42 @@ namespace GameFramework
 
         /// <summary>
         /// 下载清理完成 或没有资源需要更新
-        /// 泛型补充 热更代码加载
         /// </summary>
         /// <param name="completed"></param>
-        public async void OnInitializeSucceed(InitializeSucceed completed)
+        public void OnInitializeSucceed(InitializeSucceed completed)
+        {
+            LoadDll().Forget();
+        }
+
+        /// <summary>
+        /// 泛型补充 热更代码加载
+        /// </summary>
+        /// <returns></returns>
+        public async UniTask LoadDll()
         {
             // 设置默认的资源包
             var gamePackage = YooAssets.GetPackage("DefaultPackage");
             YooAssets.SetDefaultPackage(gamePackage);
 
+#if !UNITY_EDITOR
+            //获取密码
+            AssetHandle keyhandle = gamePackage.LoadAssetAsync<TextAsset>("Obfuz");
+            await keyhandle;
+            TextAsset key = (TextAsset)keyhandle.AssetObject;
+            EncryptionService<DefaultStaticEncryptionScope>.Encryptor = new GeneratedEncryptionVirtualMachine(key.bytes);
+
+            //获取热更程序集 加载
             AssetHandle dllhandle = gamePackage.LoadAssetAsync<TextAsset>("HotUpdate.dll");
             await dllhandle;
             TextAsset dllAsset = (TextAsset)dllhandle.AssetObject;
-            byte[] dllBytes = dllAsset.bytes;
-            RuntimeApi.LoadMetadataForAOTAssembly(dllBytes, HomologousImageMode.SuperSet);
-            Assembly hotUpdateAssembly = Assembly.Load(dllBytes);
+            RuntimeApi.LoadMetadataForAOTAssembly(dllAsset.bytes, HomologousImageMode.SuperSet);
+            Assembly hotUpdateAssembly = Assembly.Load(dllAsset.bytes);
             Debug.Log($"热更代码加载完成：{PlayMode}");
-            ChangeScence().Forget();
-        }
+#endif
 
-        public async UniTask ChangeScence()
-        {
-            await UniTask.Delay(3);
+            await UniTask.Delay(1000);
             await YooAssets.LoadSceneAsync(ConstStrings.MainHotUpdateScence);
             Debug.Log($"初始化完成！");
-        }
-
-        void Update()
-        {
-            // 检测返回键输入
-            if (Input.GetKeyDown(KeyCode.Escape))
-            {
-                Debug.Log("返回键被按下，开始退出应用 ...");
-                Application.Quit();
-            }
         }
 
         private void OnApplicationQuit()

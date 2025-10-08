@@ -7,6 +7,20 @@
       "dependencies": {},
       "hash": "01754c8fb47bd49697b3428993109e7a972a7968"
     },
+    "com.code-philosophy.obfuz": {
+      "version": "https://gitee.com/focus-creative-games/obfuz.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "747ee88fd391441f9471992ffc294c36d1b35b09"
+    },
+    "com.code-philosophy.obfuz4hybridclr": {
+      "version": "https://github.com/focus-creative-games/obfuz4hybridclr.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "59804e17a0d1562ca0f847db986ed93b25825b6d"
+    },
     "com.unity.burst": {
       "version": "1.8.24",
       "depth": 1,
