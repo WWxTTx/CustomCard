@@ -66,12 +66,18 @@
     <Compile Include="Assets\GameFramework\Runtime\Utility\Utility.Converter.cs" />
     <Compile Include="Assets\GameFramework\Runtime\Utility\UtilityBuiltin.cs" />
     <Compile Include="Assets\GameFramework\Runtime\Utility\Utility.Text.ITextHelper.cs" />
+    <Compile Include="Assets\GameFramework\Runtime\FindWay\HexFlowField\HexFlowField.cs" />
     <Compile Include="Assets\GameFramework\Runtime\FSM\IStateNode.cs" />
+    <Compile Include="Assets\GameFramework\Runtime\FindWay\NavMesh\Triangle.cs" />
     <Compile Include="Assets\GameFramework\Runtime\Utility\Utility.Path.cs" />
     <Compile Include="Assets\GameFramework\Runtime\Utility\Utility.Assembly.cs" />
+    <Compile Include="Assets\GameFramework\Runtime\FindWay\HexFlowField\HexCell.cs" />
     <Compile Include="Assets\GameFramework\Runtime\Event\IEventData.cs" />
     <Compile Include="Assets\GameFramework\Runtime\Utility\DontDestroyOnLoad.cs" />
+    <Compile Include="Assets\GameFramework\Runtime\FindWay\NavMesh\NavMeshGenerator.cs" />
+    <Compile Include="Assets\GameFramework\Runtime\FindWay\NavMesh\Delaunator.cs" />
     <Compile Include="Assets\GameFramework\Runtime\FSM\StateMachine.cs" />
+    <Compile Include="Assets\GameFramework\Runtime\FindWay\NavMesh\FunnelAlgorithm.cs" />
     <Compile Include="Assets\GameFramework\Runtime\Event\EventManager.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -1180,6 +1186,10 @@
     </Reference>
     <Reference Include="Unity.Mathematics">
       <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.UI">
