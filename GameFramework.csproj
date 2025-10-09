@@ -61,24 +61,42 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.2.6f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\GameFramework\Runtime\FindWay\RVO\src\Vector2.cs" />
     <Compile Include="Assets\GameFramework\Runtime\Utility\Utility.Text.cs" />
     <Compile Include="Assets\GameFramework\Runtime\Utility\Utility.Encryption.cs" />
+    <Compile Include="Assets\GameFramework\Runtime\FindWay\RVO\examples\Circle.cs" />
+    <Compile Include="Assets\GameFramework\Runtime\FindWay\ObstacleCollect.cs" />
+    <Compile Include="Assets\GameFramework\Runtime\FindWay\RVO\examples\Blocks.cs" />
+    <Compile Include="Assets\GameFramework\Runtime\FindWay\GameMainManager.cs" />
     <Compile Include="Assets\GameFramework\Runtime\Utility\Utility.Converter.cs" />
+    <Compile Include="Assets\GameFramework\Runtime\FindWay\RVO\src\Obstacle.cs" />
     <Compile Include="Assets\GameFramework\Runtime\Utility\UtilityBuiltin.cs" />
     <Compile Include="Assets\GameFramework\Runtime\Utility\Utility.Text.ITextHelper.cs" />
+    <Compile Include="Assets\GameFramework\Runtime\FindWay\LeanPool\Scripts\LeanClassPool.cs" />
+    <Compile Include="Assets\GameFramework\Runtime\FindWay\RVO\src\RVOMath.cs" />
     <Compile Include="Assets\GameFramework\Runtime\FindWay\HexFlowField\HexFlowField.cs" />
     <Compile Include="Assets\GameFramework\Runtime\FSM\IStateNode.cs" />
+    <Compile Include="Assets\GameFramework\Runtime\FindWay\GameAgent.cs" />
     <Compile Include="Assets\GameFramework\Runtime\FindWay\NavMesh\Triangle.cs" />
+    <Compile Include="Assets\GameFramework\Runtime\FindWay\RVO\src\Line.cs" />
     <Compile Include="Assets\GameFramework\Runtime\Utility\Utility.Path.cs" />
+    <Compile Include="Assets\GameFramework\Runtime\FindWay\RVO\src\KdTree.cs" />
     <Compile Include="Assets\GameFramework\Runtime\Utility\Utility.Assembly.cs" />
     <Compile Include="Assets\GameFramework\Runtime\FindWay\HexFlowField\HexCell.cs" />
     <Compile Include="Assets\GameFramework\Runtime\Event\IEventData.cs" />
     <Compile Include="Assets\GameFramework\Runtime\Utility\DontDestroyOnLoad.cs" />
     <Compile Include="Assets\GameFramework\Runtime\FindWay\NavMesh\NavMeshGenerator.cs" />
+    <Compile Include="Assets\GameFramework\Runtime\FindWay\RVO\src\Simulator.cs" />
+    <Compile Include="Assets\GameFramework\Runtime\FindWay\RVO\src\Agent.cs" />
+    <Compile Include="Assets\GameFramework\Runtime\FindWay\LeanPool\Scripts\LeanPool.cs" />
     <Compile Include="Assets\GameFramework\Runtime\FindWay\NavMesh\Delaunator.cs" />
     <Compile Include="Assets\GameFramework\Runtime\FSM\StateMachine.cs" />
+    <Compile Include="Assets\GameFramework\Runtime\FindWay\LeanPool\Editor\LeanPool_Editor.cs" />
     <Compile Include="Assets\GameFramework\Runtime\FindWay\NavMesh\FunnelAlgorithm.cs" />
+    <Compile Include="Assets\GameFramework\Runtime\FindWay\LeanPool\Scripts\LeanPooledRigidbody2D.cs" />
+    <Compile Include="Assets\GameFramework\Runtime\FindWay\Singleton.cs" />
     <Compile Include="Assets\GameFramework\Runtime\Event\EventManager.cs" />
+    <Compile Include="Assets\GameFramework\Runtime\FindWay\LeanPool\Scripts\LeanPooledRigidbody.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\GameFramework\Runtime\GameFramework.asmdef" />
